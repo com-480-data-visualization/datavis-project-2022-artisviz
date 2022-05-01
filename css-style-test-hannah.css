@@ -1,0 +1,760 @@
+:root{
+    --primary: #6ad15e;
+    --primary-light: #b0ffa6;
+    --primary-dark: #349e28;
+    --second: #5ed1b5;
+    --second-light: #a6ffe9;
+    --second-dark: #289e80;
+    --third: #cacaca;
+    --third-light: #ffffff;
+    --third-dark: #959595;
+    --black: #262626;
+    --white: #ffffff;
+}
+
+/*================================================POLICES================================================*/
+
+@font-face {
+    font-family: Arual;
+    src: url("../font/arual.woff2");
+}
+
+@font-face {
+    font-family: creato;
+    src: url("../font/creato.otf");
+}
+
+@font-face {
+    font-family: creato_bold;
+    src: url("../font/creato_bold.otf");
+}
+
+@font-face {
+    font-family: Lugati;
+    src: url("../font/lugati.otf");
+}
+
+@font-face {
+    font-family: NextFont;
+    src: url("../font/TheNextFont.ttf");
+}
+
+@font-face {
+    font-family: Outward;
+    src: url("../font/outward-block.ttf");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("../font/quicksand-regular.woff2");
+}
+
+/*================================================GLOBAL================================================*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    transition: all 0.1s;
+    transition: background-position 0s;
+    font-family: creato, Quicksand, Arial, sans-serif;
+}
+
+h1{
+    font-family: NextFont, Arual, Arial, sans-serif;
+    font-size : 80px;
+    text-align: center;
+}
+
+h2{
+    font-family: Lugati, Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    color : #0775D6;
+    display: inline-block;
+    font-size: 37px;
+}
+.onlyMobile{
+    display:none;
+}
+
+/*================================================HEADER================================================*/
+
+header{
+    background-image: url("../images/engagements.jpg");
+    background-size: auto 100%;
+    text-align:center;
+    /*height: 100vh;*/
+    border-bottom: 3px solid black;
+}
+
+header img{
+    position: relative;
+    top: -150px;
+    width: 90vw;
+    max-width: 750px;
+}
+
+.mainTitle{
+    font-family : NextFont, Lugati, Arual, Arial, sans-serif;
+    font-size : 250px;
+    /* color : #D64F35; */
+    color : white;
+    text-shadow: 4px 4px 0px black;
+    position: relative;
+    top: 60px;
+    z-index:10;
+}
+
+
+.subMainTitle{
+    position: relative;
+    top: -555px;
+    font-size: 65px;
+    font-family: NextFont, Arual, Arial, sans-serif;
+    color : white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+
+/*================================================MENU================================================*/
+
+nav{
+    font-size: 24px;
+    position: relative;
+    top: -230px;
+    background-color: rgba(255,255,255,0.96);
+    padding:20px;
+    margin-bottom: -200px;
+    border-top : 1px solid black;
+    border-bottom : 1px solid black;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: NextFont, Arual, Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: border-color 0.5s;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+nav a:hover{
+    border-color : rgba(0,0,0,1);
+}
+
+section div{
+    padding-bottom: 30px;
+}
+
+
+/*================================================INFOS================================================*/
+
+.infos{
+    text-align:center;
+}
+.infos div, .utile div{
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.infos div{
+    width : 32vw;
+}
+
+.infos p{
+    font-family: creato, Lugati;
+}
+
+.infos .gras{
+    font-family: creato_bold;
+    font-weight: bolder;
+}
+
+.infos iframe{
+    width:90vw;
+    height:300px;
+    border:1px solid black;
+}
+
+.polymetro {
+    width : 90%;
+    margin-top: 3vh;;
+}
+
+/*================================================PHOTOS================================================*/
+
+.photos {
+    background-color: #B8D8F5;
+}
+
+.photos p {
+    text-align : center;
+    font-size : 22px;
+}
+
+.photos a, .photos a:visited {
+    color : whitesmoke;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+#photocont {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#photocont1 {
+    display : flex;
+    flex-direction: column;
+}
+
+#photocont2 {
+    display : flex;
+    flex-direction: column;
+}
+
+.pourtour img{
+    width : 35vw;
+    margin : 2vw;
+}
+
+.pourtour {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+    
+.pourtour:hover {
+    /* L'image est grossie de 18% */
+    -webkit-transform:scale(1.12); /* Safari et Chrome */
+    -moz-transform:scale(1.12); /* Firefox */
+    -ms-transform:scale(1.12); /* Internet Explorer 9 */
+    -o-transform:scale(1.12); /* Opera */
+    transform:scale(1.12);
+}
+
+/*================================================PREVENTION================================================*/
+
+.prev {
+    background-color: #F0D7B6;
+}
+
+.prev a, .prev a:visited {
+    color : blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.prev h2{
+    font-size : 2.3vw;
+    text-align : center;
+    text-shadow : 0px 0px;
+    font-family: NextFont, creato, Quicksand, Arial, sans-serif;
+}
+
+.prev h3{
+    font-size : 1.7vw;
+    text-align : left;
+    color : darkgreen;
+    font-weight : bold;
+    font-family: NextFont, creato, Quicksand, Arial, sans-serif;
+}
+
+#prevcont{
+    display : flex;
+    justify-content : space-around;
+    flex-wrap : wrap;
+}
+
+#prevcont .titre{
+    text-align : center;
+    padding-top : 0.6vw;
+}
+
+.rentrechill{
+    width :50vw;
+    padding : 1vw;
+}
+
+.rentrechill p {
+    padding : 1vw;
+    padding-bottom: 2vw;
+    padding-top: 0.5vw;
+}
+
+.respect{
+    width :50vw;
+    padding : 1vw;
+    padding-left : 2vw;
+}
+
+.reste{
+    width : 100vw;
+    margin-top : 1vw;
+    padding-left : 2vw;
+    padding-right : 2vw;
+    margin-bottom : -4vw;
+}
+
+.reste p{
+    padding-left : 1vw;
+}
+
+.reste h3{
+    color : #0775D6;
+    font-family: NextFont, creato, Quicksand, Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 1vw;;
+}
+
+#imgcont {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+
+#imgcont img{
+    height: 32vw;;
+}
+
+.inner1, .inner2 {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+    
+.inner1:hover, .inner2:hover {
+    /* L'image est grossie de 18% */
+    -webkit-transform:scale(1.12); /* Safari et Chrome */
+    -moz-transform:scale(1.12); /* Firefox */
+    -ms-transform:scale(1.12); /* Internet Explorer 9 */
+    -o-transform:scale(1.12); /* Opera */
+    transform:scale(1.12);
+}
+
+.legende {
+    text-align: center;
+    font-weight: bold;
+    color : darkgreen;
+    font-family: NextFont, Arial, sans-serif;
+    padding-top: 0.5vw;
+}
+
+
+/*================================================LINE-UP================================================*/
+
+.lineup{
+    text-align: center;
+    background-color: #f2e1f3;
+}
+/*.lineup table{
+    margin:auto;
+}
+.lineup table td{
+    text-align: center;
+}
+.lineup img{
+    width:20vw;
+    margin: 20px;
+}*/
+
+.lineup img:hover{
+    filter: brightness(150%);
+}
+
+.zoom {
+    width: 23vw;
+    height: 23vw;
+    display: inline-block;
+}
+
+.image img{
+    width:21vw;
+    min-width: 250px;
+}
+    
+.image img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+
+.image:hover img {
+/* L'image est grossie de 18% */
+-webkit-transform:scale(1.18); /* Safari et Chrome */
+-moz-transform:scale(1.18); /* Firefox */
+-ms-transform:scale(1.18); /* Internet Explorer 9 */
+-o-transform:scale(1.18); /* Opera */
+transform:scale(1.18);
+}
+
+/*================================================STATUTS================================================*/
+
+#statux, #statux a, #statux a:hover, #statux a:visited, #statux a:active {
+    font-family: NextFont;
+    text-align: center;
+    font-size : 20px;
+    text-decoration: none;
+}
+
+#statux a {
+    transition: border-color 0.5s;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+#statux a:hover {
+    border-color: blue;
+}
+
+#statux a:visited {
+    color : blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*================================================SPONSORS================================================*/
+.sponsors h1 {
+    color : white;
+    text-shadow: 2px 2px black;
+}
+.dossier22, .dossier22 a, .dossier22 a:visited {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: NextFont;
+    text-align: center;
+    color : white;
+    text-shadow: 2px 2px black;
+}
+
+.sponsors{
+    text-align: center;
+    background-color: #F0D7B6;
+}
+
+.sponsors img{
+    height : 6vw;
+    margin : 20px;
+}
+
+.sponsors img:hover{
+    filter: brightness(200%) contrast(40%);
+}
+
+#sponsorcont{
+    margin-top: 3vh;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 43vh;
+}
+
+.forum{
+    height : 30%;
+    width : 30%;
+}
+
+.epfl{
+    height : 30%;
+    width : 30%;
+    position: relative;
+    top: 2vh;
+}
+
+.agep{
+    height : 30%;
+    width : 30%;
+    position: relative;
+    top: 2vh;
+}
+
+.brio{
+    width : 20%;
+}
+
+.patrick{
+    width : 20%;
+}
+
+.pps{
+    width : 20%;
+}
+
+.swissvillage{
+    width : 20%;
+}
+
+.swissvillage img{
+    height : 8vw;
+    position: relative;
+    top : 5vh;
+    left : 2vw;
+}
+
+.brio img{
+    height : 12vw;
+    position: relative;
+    top: 5vh;
+}
+
+
+/*================================================ACTUALITES================================================*/
+
+.actu {
+    background-color: #B8D8F5;
+}
+
+.actu p {
+    text-align : center;
+    font-size : 22px;
+}
+
+.actu a, .actu a:visited {
+    color : whitesmoke;
+    text-shadow: 1px 1px 0px black;
+
+}
+
+/*#prelude {
+    display : block;
+    margin : 0 auto;
+}*/
+
+
+/*================================================PORTFOLIO================================================*/
+
+.portfolio{
+    text-align: center;
+    background-image: url("../images/back.jpg");
+    background-size: 100%;
+    box-shadow: 0px 0px 60px black inset;
+}
+.portfolio h1{
+    color : white;
+}
+.portfolioBoxImg{
+    background-color:rgba(255,255,255,0.6);
+    padding: 40px;
+}
+.portfolio img{
+    height:270px;
+}
+
+/*================================================COMITE================================================*/
+
+.comite{
+    text-align: center;
+}
+.comite p{
+    font-size: 25px;
+}
+
+.comite .poste{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.comite h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.comite img{
+    width:13vw;
+    min-width: 200px;
+    margin: 10px;
+}
+.comiteDiv{
+    display: inline-block;
+    margin: 15px;
+}
+
+
+/*================================================RESEAUX================================================*/
+
+.social{
+    text-align: center;
+    background-color: #C2EBB3;
+    /* background-image: url("../images/back2.png"); */
+    background-size: 100%;
+}
+
+.social table {
+    margin : auto;
+    text-align: center;
+}
+
+.social img {
+    margin : 10px;
+}
+
+.social .mail {
+    text-align : center
+}
+
+
+/*================================================FOOTER================================================*/
+
+footer{
+    text-align: center;
+    background-color: #EFD5FC;
+    padding:10px;
+}
+
+/*================================================MOBILE DISPLAY================================================*/
+
+@media only screen and (max-width: 750px){
+
+    .mainTitle{
+        font-size: 19vw;
+        top:5vw;
+    }
+
+    header img{
+        top:-10vw;
+        height : 500px;
+    }
+
+    .subMainTitle{
+        font-size: 12vw;
+        top:-25vw;
+    }
+
+    h1{
+        font-size: 13vw;
+    }
+
+    .infos h1{
+        font-size: 12vw;
+    }
+
+    .infos iframe {
+        border-right : 1px solid black;
+    }
+
+    nav{
+        top: -20vw;
+        margin-bottom: -14vw;
+    }
+
+    nav a{
+        font-size: 8vw;
+    }
+
+    .zoom{
+        margin : 70px;
+        position : relative;
+        left: -22vw;
+    }
+
+    #prevcont {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #imgcont {
+        margin-top: 5vh;;
+    }
+
+    #imgcont img {
+        height : 60vw;
+    }
+
+    .rentrechill{
+        width : 100vw;
+        padding : 1vw;
+    }
+
+    .respect{
+        width : 100vw;
+    }
+
+    .prev{
+        text-align: center;
+
+    }
+
+    .prev h2{
+        font-size: 5vw;
+    }
+
+    .rentrechill h3{
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 2vh;
+    }
+
+    .rentrechill .titre {
+        margin-top: 6vh;
+    }
+
+    .reste h3{
+        text-align: center;
+        margin-top: 3vh;
+        font-size: 5vw;
+    }
+
+    #sponsorcont{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 110vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .forum, .epfl, .agep, .brio, .patrick, .pps, .swissvillage{
+        width : 100%;
+        height : 11vh;
+    }
+
+    .forum img, .epfl img, .agep img, .patrick img, .pps img{
+        height : 8vh;
+    }
+    
+    .swissvillage img{
+        position : relative;
+        top : 5vh;
+        left : 0vh;
+        height : 12vh;
+    }
+
+    .brio {
+        position: relative;
+        bottom : 3.3vh;
+    }
+
+    .patrick, .pps {
+        position:relative;
+        top: 7vh;
+    }
+
+    .brio img{
+        height : 16vh;
+    }
+}
+
+@media only screen and (max-width: 1215px){
+    .onlyMobile{
+        display: inline-block;
+    }
+    header{
+        height: auto;
+    }
+    .infos div{
+        width : 100vw;
+    }
+}
