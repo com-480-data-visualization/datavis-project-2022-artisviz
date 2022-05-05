@@ -10,7 +10,7 @@ FONTS
 
 @font-face {
     font-family: Helvetica, Arial, sans-serif;
-    src: url("ressources/fonts/Helvetica.ttf");
+    src: url("./ressources/fonts/Helvetica.ttf");
 }
 
 @font-face {
