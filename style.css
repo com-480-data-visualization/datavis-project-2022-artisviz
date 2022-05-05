@@ -10,12 +10,12 @@ FONTS
 
 @font-face {
     font-family: Helvetica, Arial, sans-serif;
-    src: url("/blob/main/ressources/fonts/Helvetica.ttf");
+    src: url("ressources/fonts/Helvetica.ttf");
 }
 
 @font-face {
     font-family: Helvetica-Light, Arial, sans-serif;
-    src: url("/blob/main/ressources/fonts/helvetica-light.ttf");
+    src: url("ressources/fonts/helvetica-light.ttf");
 	font-style: light;
 }
 
@@ -49,11 +49,11 @@ h2{
 /*================================================Title header================================================*/
 
 header{
-    background-image: url("/blob/main/ressources/images/earth-background.jpg");
+    /*background-image: url("ressources/images/video.mp4");*/
     background-size: auto 100%;
     text-align:center;
     /*height: 100vh;*/
-    border-bottom: 3px solid black;
+	
 }
 
 header img{
@@ -61,18 +61,35 @@ header img{
     top: -150px;
     width: 90vw;
     max-width: 750px;
+	height: auto;	
+
 }
 
 .mainTitle{
     font-family : Arial, Helvetica, sans-serif;
     font-size : 80px;
-    /* color : #D64F35; */
     color : white;
+	text-shadow: 3px 3px black;
     position: relative;
     top: 30px;
 	bottom: 30px;
-    z-index:10;
+	padding: auto;
+    z-index: auto;
+	height: auto;	
+	padding: 1em;
 
+}
+
+#BackgroundVideo {
+    width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
 }
 
 
@@ -102,14 +119,19 @@ header img{
 	padding: 12px;
 	color: #22577E;
 	text-decoration: none;
+	font-style: oblique;
 	font-size: 17px;
-	width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-	text-align: center; /* If you want the text to be centered */
+	width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	text-align: center; 
+	vertical-align: middle ;
+	height: 63.6px;
   }
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
 	background-color: #000;
+	height: 63.6px;
+
   }
   
   /* Style the current/active link */
@@ -117,7 +139,7 @@ header img{
 	background-color: #22577E;
   }
   
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  /* Responsiveness */
   @media screen and (max-width: 500px) {
 	.navbar a {
 	  float: none;
@@ -128,12 +150,6 @@ header img{
   }
 
 
-/*================================================NAV================================================*/
-
-
-
-
-
 
 
 section div{
@@ -141,14 +157,17 @@ section div{
 }
 
 
-/* Zones de texte */
+/*================================================TEXTE================================================*/
 
 .text_area {
-    background-color: black;
+    background-color: white;
 	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	position: sticky;
+	padding-left: 5%;
+	padding-right: 5%;
+
 }
 
 
@@ -160,6 +179,7 @@ section div{
 
 .text_area h2{
 	color : #22577E;
+	text-shadow: 3px 3px black;
     font-size : 2.3vw;
     text-align : left;
     text-shadow : 0px 0px;
@@ -181,10 +201,10 @@ section div{
 }
 
 .text_box p {
-	color: white;
+	color: black;
     padding : 1vw;
     padding-bottom: 2vw;
-    padding-top: 0.5vw;
+    padding-top: 1.5vw;
 }
 
 
