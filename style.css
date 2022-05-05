@@ -1,215 +1,190 @@
+div{
+	float:left;
+	margin-right:5px;
+  }
 
 /*
-This CSS governs the appearance of our site.
-You can find the basic concepts of CSS here: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works
+FONTS
 */
 
-/*
-This makes the border and padding be counted as part of the element's size.
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model
-It switches from
-	https://mdn.mozillademos.org/files/13647/box-model-standard-small.png
-to
-	https://mdn.mozillademos.org/files/13649/box-model-alt-small.png
-*/
-* {
-	box-sizing: border-box;
+
+@font-face {
+    font-family: Helvetica, Arial, sans-serif;
+    src: url("ressources/fonts/Helvetica.ttf");
 }
 
-/*
-Make the document fill the whole viewport, this overrides any weird defaults that browsers might have.
-*/
-html, body, figure {
+@font-face {
+    font-family: Helvetica-Light, Arial, sans-serif;
+    src: url("ressources/fonts/helvetica-light.ttf");
+	font-style: light;
+}
+
+
+/*================================================GLOBAL================================================*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    transition: all 0.1s;
+    transition: background-position 0s;
+    font-family: creato, Quicksand, Arial, sans-serif;
+}
+
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size : 80px;
+    text-align: center;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    color : #0775D6;
+    display: inline-block;
+    font-size: 37px;
+}
+
+/*================================================Title header================================================*/
+
+header{
+    background-image: url("ressources/images/earth-background.jpg");
+    background-size: auto 100%;
+    text-align:center;
+    /*height: 100vh;*/
+    border-bottom: 3px solid black;
+}
+
+header img{
+    position: relative;
+    top: -150px;
+    width: 90vw;
+    max-width: 750px;
+}
+
+.mainTitle{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 80px;
+    /* color : #D64F35; */
+    color : white;
+    position: relative;
+    top: 30px;
+	bottom: 30px;
+    z-index:10;
+
+}
+
+
+.subMainTitle{
+    position: relative;
+    top: -555px;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color : white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+
+/*================================================MENU================================================*/
+
+/* Style the navigation menu */
+.navbar {
 	width: 100%;
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-/* Default font and size */
-body {
-	font-family: sans-serif;
-	font-size: 1.1rem;
-}
-
-/*
-It is easier to read if the text is not too wide, so we limit the width.
-We use the class selector ".", so this style will be applied to elements with class="width-limited"
-
-The various units of measurement available in CSS:
-	https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
-*/
-.width-limited {
-	max-width: 55rem;
-
-	/* Center horizontally: */
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* Links: apply our theme color and remove underline */
-a {
-	color: rgb(0, 44, 122);
+	background-color: white;
+	overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+	float: left;
+	padding: 12px;
+	color: #22577E;
 	text-decoration: none;
-}
+	font-size: 17px;
+	width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+	background-color: #000;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+	background-color: #22577E;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: left; /* If you want the text to be left-aligned on small screens */
+	}
+  }
 
-/* Justify paragraphs */
-p {
-	text-align: justify;
-}
 
-/* Titles: set color and sizes */
-h1, h2, h3, h4, h5, h6
-{
-	color: rgb(0, 44, 122);
-}
-h1 { font-size: 2rem; }
-h2 { font-size: 1.75rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.25rem; }
+/*================================================NAV================================================*/
 
-/* Top navigation bar */
-nav {
-	width: 100%;
 
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
 
-/* Make the links in the navbar bold */
-nav a {
-	font-weight: bold;
-}
 
-/* Style of the list of links in the navbar */
-nav ul {
-	/* Clear defaults */
-	margin: 0;
-	padding: 0;
 
-	/* Remove list bullet points */
-	list-style-type: none;
 
-	/*
-	Flexbox is a modern mechanism for arranging elements
-		https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-	This will arrange the elements in a row
-	*/
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-}
 
-/* Space between links */
-nav li {
-	margin-right: 3rem;
+section div{
+    padding-bottom: 30px;
 }
 
 
-/* The box with a dark background and our site's title */
-.title-row {
-	width: 100%;
+/* Zones de texte */
 
-	/* Space above and below the title */
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-
-	background-color: rgb(0, 44, 122);
-
-	/* Center the title using flexbox */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-/* Style of the title inside the box */
-.title-row h1 {
-	font-size: 2.5rem;
-	color: white;
-	font-variant: small-caps;
-}
-
-.viz-row {
-	width: 100%;
-	/* Center the title using flexbox */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-
-	background-color: rgb(50, 50, 50);
-}
-
-figure > * {
-	width: 100%;
-	height: auto;
-}
-
-
-footer {
-	padding-bottom: 5rem;
-}
-
-button {
-	display: block;
-
-	margin: 0.75rem;
+.text_area {
+    background-color: black;
+	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0.75rem;
-
-	border: 2px blue solid;
-	border-radius: 1rem;
-
-	background: rgb(150, 200, 255);
-
-	font-weight: bold;
-	font-size: 1.5rem;
-
+	position: sticky;
 }
 
-textarea {
-	width: 100%;
-	height: 30rem;
 
-	font-family: sans-serif;
-	font-size: 1rem;
+.text_area a, .text_area a:visited {
+    color : #22577E;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-#plot-occurrences {
-	height: 18rem;
+.text_area h2{
+	color : #22577E;
+    font-size : 2.3vw;
+    text-align : left;
+    text-shadow : 0px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
-	align-items: stretch;
+.text_area h3{
+    font-size : 1.7vw;
+    text-align : left;
+    color : darkgreen;
+    font-weight : bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
+.text_box{
+	font-family: Helvetica, Arial, sans-serif;
+    width :80vw;
+    padding : 1vw;
+}
+
+.text_box p {
 	color: white;
-	font-size: 1.3rem;
+    padding : 1vw;
+    padding-bottom: 2vw;
+    padding-top: 0.5vw;
 }
 
-#plot-occurrences > div {
-	display: flex;
-	flex-flow: column nowrap;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-#plot-occurrences .bar {
-	width: 2rem;
-
-	margin-bottom: 0.4rem;
-
-	background: rgb(240, 50, 10);
-}
-
-.label-value {
-	margin-top: 2rem;
-	margin-bottom: 0.25rem;
-	transform: rotate(90deg);
-
-	font-size: 0.8rem;
-}
 
