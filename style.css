@@ -121,16 +121,16 @@ header img{
 	text-decoration: none;
 	font-style: oblique;
 	font-size: 17px;
-	width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
 	text-align: center; 
 	vertical-align: middle ;
-	height: 63.6px;
+	/*height: 63.6px;*/
   }
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-	background-color: #000;
-	height: 63.6px;
+	background-color: #f6641f;
+	/*height: 63.6px;*/
 
   }
   
@@ -207,4 +207,25 @@ section div{
     padding-top: 1.5vw;
 }
 
+.pourtour img{
+    width : 35vw;
+    margin : 2vw;
+}
 
+.pourtour {
+    /* La transition s'applique Ã  la fois sur la largeur et la hauteur, avec une durÃ©e d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+    
+.pourtour:hover {
+    /* L'image est grossie de 18% */
+    -webkit-transform:scale(1.12); /* Safari et Chrome */
+    -moz-transform:scale(1.12); /* Firefox */
+    -ms-transform:scale(1.12); /* Internet Explorer 9 */
+    -o-transform:scale(1.12); /* Opera */
+    transform:scale(1.12);
+}
