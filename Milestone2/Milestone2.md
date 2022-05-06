@@ -1,5 +1,14 @@
 ## Milestone 2
 
+
+
+### Our work
+
+Please find the skeleton of our website : [follow this link](https://com-480-data-visualization.github.io/datavis-project-2022-artisviz/)
+And the report for the second milestone: [here](https://github.com/com-480-data-visualization/datavis-project-2022-artisviz/blob/main/Milestone2/artisviz-milestone2.pdf).
+
+We created the files needed for one of the visualization. At the time of milestone 2, it is not yet correctly displayed on our site because we have some errors to correct in our code.
+
 Deadline : Friday 1st May, 5pm
 10% of the final grade
 Two A4 pages describing the project goal.

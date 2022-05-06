@@ -1,5 +1,9 @@
 # Milestone 1 (Friday 3rd April, 5pm)
-___
+
+## Our work
+
+You can find the report for the first milestone [here](https://github.com/com-480-data-visualization/datavis-project-2022-artisviz/blob/main/Milestone1/DataViz_Milestone1.pdf).
+
   
 #### 10% of the final grade
 
