@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,12 @@
 	<meta name="author" content="BG, HG, CLF">
 
 	<link rel="stylesheet" href="style.css">
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
 </head>
 
 
@@ -45,7 +51,11 @@
 
 <div class="text_area" >
 
+
 	<div class="text_box" name="home" id="home"> 
+
+
+
 		<h2>Political context</h2>
 		<p>
 			In the context of the 2022 French presidential election, the subject of minimum wages and working hours has been brought back to the centre of the public debate by candidates and their parties.
@@ -114,6 +124,18 @@
 		<p>
 			Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
 		</p>
+
+		<div id="vis">
+
+			<script>
+			var spec = "data_vis.json";
+			vegaEmbed("#vis", spec)
+			// result.view provides access to the Vega View API
+				.then(result => console.log(result))
+				.catch(console.warn);
+			
+			</script> 
+		</div>
 
 		<div class="pourtour">
 			<img src="ressources/sketches/sk3.png">
