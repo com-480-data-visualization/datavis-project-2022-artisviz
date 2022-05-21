@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Povevrty rate evolution in EU countries.",
+    "width": 300,
+    "height": 900,
+    "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/pvty.csv"},
+    
+    "layer":[
+        {
+        "params": [{
+            "name": "First",
+            "select": {"type": "point", "fields": ["country"]},
+            "bind": {"input": "select", "options": [null, "AUT", "BEL", "CZE", "DNK", "FIN", "FRA", "DEU","GRC", "HUN", "IRL", "ITA", "LUX", "NLD", "POL", "PRT", "SVK", "ESP", "SWE","EST", "SVN", "LVA", "LTU"]}
+            }],
+        
+
+        "mark": {
+            "type": "line",
+            "point": true,
+            "tooltip": true
+          },
+        "encoding": {
+          "x": {"timeUnit": "year", "field": "Year"},
+          "y": {"field": "Poverty index (no unit)", "type": "quantitative","scale": {"zero": false}},
+          "color": {
+            "condition": {"param": "First","field": "LOCATION", "type": "nominal"},
+          "value": ""
+                    }        
+        }
+        
+    }]  
+    
+  }

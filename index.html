@@ -22,8 +22,9 @@
 
 
 <body>
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+	<!-- Here we define the 'top' button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<script>
 		//Get the button
 		var mybutton = document.getElementById("myBtn");
@@ -45,6 +46,7 @@
 		  document.documentElement.scrollTop = 0;
 		}
 		</script>
+	<!-- End of the definition -->
 
 
 <div>
@@ -159,13 +161,26 @@
 			</script> 
 		</div>
 
+
+		<!-- <div id="vis">
+
+			<script>
+			var spec = "visualisation.json";
+			vegaEmbed("#vis", spec)
+			// result.view provides access to the Vega View API
+				.then(result => console.log(result))
+				.catch(console.warn);
+			
+			</script> 
+		</div> -->
+
 		<div class="pourtour">
 			<img src="ressources/sketches/sk3.png">
 		</div>
 		<div class="text_box" name="conclusion" id="conclusion">
 			<h2>Conclusion: Working time impacts are not so clear</h2>
 			<p>
-				Conclusion
+				Conclusion test
 			</p>
 
 	</div>
