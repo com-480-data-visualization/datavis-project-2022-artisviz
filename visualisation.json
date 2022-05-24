@@ -4,7 +4,7 @@
     "width": 300,
     "height": 900,
     "data": {
-        "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/pvty.csv"
+        "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final.csv"
     },
     "layer": [
         {
@@ -47,6 +47,9 @@
                     }
                 }
             ],
+            "transform": [
+                {"filter": "isValid(datum.Value)"}
+              ],
             "mark": {
                 "type": "line",
                 "point": true,
