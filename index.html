@@ -149,30 +149,31 @@
 			Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
 		</p>
 
-		<div id="vis">
 
-			<script>
-			var spec = "data_vis.json";
-			vegaEmbed("#vis", spec)
-			// result.view provides access to the Vega View API
-				.then(result => console.log(result))
-				.catch(console.warn);
-			
-			</script> 
-		</div>
+		<!-- First visualisation -->
+		<div id="vis"></div>
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/data_vis.json";
+		vegaEmbed('#vis', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script> 
+		<!-- End of first visualisation -->
 
 
-		<!-- <div id="vis">
+		<!-- Second visualisation -->
+		<div id="vis2"></div>
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
+		vegaEmbed('#vis2', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script> 
+		<!-- End of Second visualisation -->
 
-			<script>
-			var spec = "visualisation.json";
-			vegaEmbed("#vis", spec)
-			// result.view provides access to the Vega View API
-				.then(result => console.log(result))
-				.catch(console.warn);
-			
-			</script> 
-		</div> -->
+
+
+
 
 		<div class="pourtour">
 			<img src="ressources/sketches/sk3.png">
