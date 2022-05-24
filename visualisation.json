@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Povevrty rate evolution in EU countries.",
-    "width": 300,
-    "height": 900,
+    "width": 400,
+    "height": 600,
     "data": {
         "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final.csv"
     },
@@ -10,7 +10,7 @@
         {
             "params": [
                 {
-                    "name": "First",
+                    "name": "GDP",
                     "select": {
                         "type": "point",
                         "fields": [
@@ -45,82 +45,23 @@
                             "LTU"
                         ]
                     }
-                }
-            ],
-            "transform": [
-                {"filter": "isValid(datum.Value)"}
-              ],
-            "mark": {
-                "type": "line",
-                "point": true,
-                "tooltip": true
-            },
-            "encoding": {
-                "x": {
-                    "timeUnit": "year",
-                    "field": "Year"
                 },
-                "y": {
-                    "field": "Poverty index (no unit)",
-                    "type": "quantitative",
-                    "scale": {
-                        "zero": false
-                    }
-                },
-                "color": {
-                    "condition": {
-                        "param": "First",
-                        "field": "LOCATION",
-                        "type": "nominal"
-                    },
-                    "value": ""
-                }
-            }
-        },
-        {
-            "params": [
                 {
-                    "name": "Second",
+                    "name": "hover",
+                    "value": [{"LOCATION": "AUT"}],
                     "select": {
-                        "type": "point",
-                        "fields": [
-                            "LOCATION"
-                        ]
-                    },
-                    "bind": {
-                        "input": "select",
-                        "options": [
-                            null,
-                            "AUT",
-                            "BEL",
-                            "CZE",
-                            "DNK",
-                            "FIN",
-                            "FRA",
-                            "DEU",
-                            "GRC",
-                            "HUN",
-                            "IRL",
-                            "ITA",
-                            "LUX",
-                            "NLD",
-                            "POL",
-                            "PRT",
-                            "SVK",
-                            "ESP",
-                            "SWE",
-                            "EST",
-                            "SVN",
-                            "LVA",
-                            "LTU"
-                        ]
+                      "type": "point",
+                      "fields": ["LOCATION"],
+                      "on": "mouseover"
                     }
-                }
+                  }
             ],
             "mark": {
                 "type": "line",
                 "point": true,
-                "tooltip": true
+                "tooltip": true,
+                "strokeWidth": 3
+
             },
             "encoding": {
                 "x": {
@@ -128,7 +69,7 @@
                     "field": "Year"
                 },
                 "y": {
-                    "field": "Poverty index (no unit)",
+                    "field": "GDP per hours worked wage (USD/hour)",
                     "type": "quantitative",
                     "scale": {
                         "zero": false
@@ -136,13 +77,22 @@
                 },
                 "color": {
                     "condition": {
-                        "param": "Second",
+                        "param": "hover",
                         "field": "LOCATION",
                         "type": "nominal"
                     },
-                    "value": ""
-                }
+                    "value": "grey"
+                },
+                "opacity": {
+                    "condition": {
+                      "param": "hover",
+                      "value": 1
+                    },
+                    "value": 0.2
+                  }
             }
-        }
-    ]
+            
+        }],
+            "config": {"view": {"stroke": null}}
+
 }
