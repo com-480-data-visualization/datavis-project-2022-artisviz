@@ -6,115 +6,119 @@
     "data": {
         "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final.csv"
     },
-
-    "params": [
-        {
-            "name": "measure",
-            "value": "temp_max",
-            "bind": {
-                "input": "select",
-                "options": [null,
-                    "Poverty index (no unit)",
-                    "GDP per hours worked wage (USD/hour)",
-                    "Gini coefficient (no units)",
-                    "Employment rate (% of working age population)"
-                ]
-            }
-        },
-        {
-            "name": "country",
-            "select": {
-                "type": "point",
-                "fields": [
-                    "LOCATION"
-                ]
-            },
-            "bind": {
-                "input": "select",
-                "options": [
-                    null,
-                    "AUT",
-                    "BEL",
-                    "CZE",
-                    "DNK",
-                    "FIN",
-                    "FRA",
-                    "DEU",
-                    "GRC",
-                    "HUN",
-                    "IRL",
-                    "ITA",
-                    "LUX",
-                    "NLD",
-                    "POL",
-                    "PRT",
-                    "SVK",
-                    "ESP",
-                    "SWE",
-                    "EST",
-                    "SVN",
-                    "LVA",
-                    "LTU"
-                ]
-            }
-        },
-        {
-            "name": "hover",
-            "value": [
+    
+            "params": [
                 {
-                    "LOCATION": "AUT"
+                    "name": "measure",
+                    "value": "temp_max",
+                    "bind": {
+                        "input": "select",
+                        "options": [null,
+                            "Poverty index (no unit)",
+                            "GDP per hours worked wage (USD/hour)",
+                            "Gini coefficient (no units)",
+                            "Employment rate (% of working age population)"
+                        ]
+                    }
+                },
+                {
+                    "name": "country",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "LOCATION"
+                        ]
+                    },
+                    "bind": {
+                        "input": "select",
+                        "options": [
+                            null,
+                            "AUT",
+                            "BEL",
+                            "CZE",
+                            "DNK",
+                            "FIN",
+                            "FRA",
+                            "DEU",
+                            "GRC",
+                            "HUN",
+                            "IRL",
+                            "ITA",
+                            "LUX",
+                            "NLD",
+                            "POL",
+                            "PRT",
+                            "SVK",
+                            "ESP",
+                            "SWE",
+                            "EST",
+                            "SVN",
+                            "LVA",
+                            "LTU"
+                        ]
+                    }
+                },
+                {
+                    "name": "hover",
+                    "value": [
+                        {
+                            "LOCATION": "AUT"
+                        }
+                    ],
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "LOCATION"
+                        ],
+                        "on": "mouseover"
+                    }
                 }
             ],
-            "select": {
-                "type": "point",
-                "fields": [
-                    "LOCATION"
-                ],
-                "on": "mouseover"
-            }
-        }
-    ],
-    "transform": [
-        {
-            "calculate": "datum[measure]",
-            "as": "y"
-        }
-    ],
-    "mark": {
-        "type": "line",
-        "point": true,
-        "tooltip": true,
-        "strokeWidth": 3
-    },
-    "encoding": {
-        "x": {
-            "field": "Year",
-            "timeUnit": "year",
-            "scale": {
-                "zero": false
-            }
-        },
-        "y": {
-            "field": "y",
-            "aggregate": "mean",
-            "scale": {
-                "zero": false
-            }
-        },
-        "color": {
-            "condition": {
-                "param": "hover",
-                "field": "LOCATION",
-                "type": "nominal"
+            "transform": [
+                {
+                    "calculate": "datum[measure]",
+                    "as": "y"
+                }
+            ],
+
+            
+            "mark": {
+                "type": "line",
+                "point": true,
+                "tooltip": true,
+                "strokeWidth": 3
             },
-            "value": "grey"
-        },
-        "opacity": {
-            "condition": {
-                "param": "hover",
-                "value": 1
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "year",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "y": {
+                    "field": "y",
+                    "aggregate": "mean",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "condition": {
+                        "param": "hover",
+                        "field": "LOCATION",
+                        "type": "nominal",
+                        "scale": {"scheme": "category20b"}
+                    },
+                    "value": "grey"
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "hover",
+                        "value": 1
+                    },
+                    "value": 0.2
+                }
             },
-            "value": 0.2
-        }
-    }
+    "resolve": {"scale": {"y": "independent"}}
 }
