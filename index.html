@@ -106,16 +106,17 @@
 		<img src="ressources/sketches/map.png">
 	</div>
 
-	<div id="vis">
+	<div id="vis-map"> <!--J'ai créé un nouvel id "vis-map" qui suit l'exemple de celui des autre visualisation-->
+		
 
 		<script>
 		var spec = "map.json";
-		//vegaEmbed("#vis", spec)
-		// result.view provides access to the Vega View API
-			//.then(result => console.log(result))
-			//.catch(console.warn);
+		vegaEmbed("#vis", spec) // est-ce quil faut changer en vis-map ?
+		 result.view provides access to the Vega View API
+			.then(result => console.log(result))
+			.catch(console.warn);
 		
-		//</script> 
+		</script> 
 	</div>
 
 	<p>As you can see, some countries... whereas some countries...</p>
@@ -183,7 +184,15 @@
 		</script> 
 		<!-- End of Second visualisation -->
 
-
+		<!-- MAP visualisation -->
+		<div id="vis-map"></div>
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/map.json";
+		vegaEmbed('#vis', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script> 
+		<!-- End of map visualisation -->
 
 
 
