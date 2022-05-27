@@ -5,7 +5,7 @@ html {
 div{
 	float:left;
 	margin-right:5px;
-    padding: 5px;
+    padding: 5pt;
   }
 
 /*
@@ -279,7 +279,7 @@ section div{
 /*================================================VISUALISATION================================================*/
 .visualisation{
     background-color: aliceblue;
-    margin : 2vw;
     align-self: center;
     align-items: center;
+    padding: 1cm;
 }
