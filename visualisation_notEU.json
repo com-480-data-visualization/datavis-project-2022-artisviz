@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Povevrty rate evolution in EU countries.",
+    "width": 400,
+    "height": 600,
+    "data": {
+        "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_NEU.csv"
+    },
+    
+            "params": [
+                {
+                    "name": "measure",
+                    "value": "temp_max",
+                    "bind": {
+                        "input": "select",
+                        "options": [null,
+                            "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)"
+                        ]
+                    }
+                },
+                
+                {
+                    "name": "country",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "country"
+                        ]
+                    },
+                    "bind": {
+                        "input": "select",
+                        "options": [null, "AUS","CAN","KOR","MEX","NOR","CHE","GBR","USA","ISR","ISL","NZL","CHL"]
+                    }
+                },
+                {
+                    "name": "hover",
+                    "value": [
+                        {
+                            "country": "AUS"
+                        }
+                    ],
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "country"
+                        ],
+                        "on": "mouseover"
+                    }
+                }
+            ],
+            "transform": [
+                {
+                    "calculate": "datum[measure]",
+                    "as": "y"
+                }
+            ],
+
+            
+            "mark": {
+                "type": "line",
+                "point": true,
+                "tooltip": true,
+                "strokeWidth": 3
+            },
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "year",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "y": {
+                    "field": "y",
+                    "aggregate": "mean",
+                    "scale": {
+                        "zero": false
+                    }
+                },
+                "color": {
+                    "condition": {
+                        "param": "country",
+                        "field": "country",
+                        "type": "nominal",
+                        "scale": {"scheme": "category20b"}
+                    },
+                    "value": ""
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "hover",
+                        "value": 1
+                    },
+                    "value": 0.1
+                }
+            },
+    "resolve": {"scale": {"y": "independent"}}
+}

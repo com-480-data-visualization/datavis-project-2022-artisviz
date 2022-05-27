@@ -5,6 +5,7 @@ html {
 div{
 	float:left;
 	margin-right:5px;
+    padding: 5px;
   }
 
 /*
@@ -238,11 +239,11 @@ section div{
     
 .pourtour:hover {
     /* L'image est grossie de 18% */
-    -webkit-transform:scale(1.12); /* Safari et Chrome */
-    -moz-transform:scale(1.12); /* Firefox */
-    -ms-transform:scale(1.12); /* Internet Explorer 9 */
-    -o-transform:scale(1.12); /* Opera */
-    transform:scale(1.12);
+    -webkit-transform:scale(1.05); /* Safari et Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* Internet Explorer 9 */
+    -o-transform:scale(1.05); /* Opera */
+    transform:scale(1.05);
 }
 
 /*================================================BUTTON================================================*/
