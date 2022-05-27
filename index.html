@@ -45,101 +45,95 @@
 		  document.body.scrollTop = 0;
 		  document.documentElement.scrollTop = 0;
 		}
-		</script>
+	</script>
 	<!-- End of the definition -->
 
 
-<div>
+	<div>
 
-	<video autoplay muted loop id="BackgroundVideo">
-		<source src="ressources/images/video.mp4" type="video/mp4">
-		Any alternate text.
-		 </video>
-<header
-	
-  
-	<div> <h1 class="mainTitle"> Working time and its socio-economical impacts </h1> </div>
-	<div class = "navbar">
-		<a href="#home">Political context</a>
-		<a href="#workinghours">Where do people work the most?</a>
-		<a href="#purchasing">What about purchasing power? </a>
-		<a href="#productivity">What about productivity? </a>
-		<a href="#interaction">How does it interact?</a>
-		<a href="#conclusion">Conclusion</a>
+		<video autoplay muted loop id="BackgroundVideo">
+			<source src="ressources/images/video.mp4" type="video/mp4">
+			Any alternate text.
+		</video>
+		<header
+			<div> 
+				<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
+			</div>
+			<div class = "navbar">
+				<a href="#home">Political context</a>
+				<a href="#workinghours">Where do people work the most?</a>
+				<a href="#purchasing">What about purchasing power? </a>
+				<a href="#productivity">What about productivity? </a>
+				<a href="#interaction">How does it interact?</a>
+				<a href="#conclusion">Conclusion</a>
 
-	</div>
-</header> </div>
-
-
-
-
-<div class="text_area" >
-
-
-	<div class="text_box" name="home" id="home"> 
-
-
-
-		<h2>Political context</h2>
-		<p>
-			In the context of the 2022 French presidential election, the subject of minimum wages and working hours has been brought back to the centre of the public debate by candidates and their parties.
-		</p>
-		<p>
-			Various scenarios are envisioned. Some parties promote an increase in wages without affecting working time while others support overtime work. 
-			Still, others think that income should be maintained but with less work for example by advocating for a 4-day week. These questions are all linked to the same topic: how to increase the general well-being of the population while maintaining productivity and keeping a strong economy?
-		</p>
-		<p>
-			This project aims to document voters by answering the previously listed questions on the international level through concise but informative data analyses and visualisations. 
-			This will give them a factual understanding of the topic and allow a critical view of politicians' promises.
-			Some other questions that the study will help to answer concern the impact of working time on Gross Domestic Product (GDP), inequalities among workers, the productivity of the country, and living standards. And, can we work less without affecting the economic dynamics?
-			To meet this goal we consider key variables (further detailed in the following) in a selection of EU countries and major economic powers (Switzerland, the US etc...) through the past decades.
-		</p>
-	</div>
-
-	<div class="text_box" name="workinghours" id="workinghours"> 
-		<h2>Where do people work the most?</h2>
-		<p>
-		How many hours per week do people spend working across OECD? Here is a map of studies OECD countries. Countries are colored according to their number of hours worked: people work the most in red countries, the less in green countries, and black countries are in the middle.
-		</p>
-		
-	<div class="pourtour">
-		<img src="ressources/sketches/map.png">
+			</div>
+		</header> 
 	</div>
 
 
 
+
+	<div class="text_area" >
+
+		<div class="text_box" name="home" id="home"> 
+			<h2>Political context</h2>
+			<p>
+				In the context of the 2022 French presidential election, the subject of minimum wages and working hours has been brought back to the centre of the public debate by candidates and their parties.
+			</p>
+			<p>
+				Various scenarios are envisioned. Some parties promote an increase in wages without affecting working time while others support overtime work. 
+				Still, others think that income should be maintained but with less work for example by advocating for a 4-day week. These questions are all linked to the same topic: how to increase the general well-being of the population while maintaining productivity and keeping a strong economy?
+			</p>
+			<p>
+				This project aims to document voters by answering the previously listed questions on the international level through concise but informative data analyses and visualisations. 
+				This will give them a factual understanding of the topic and allow a critical view of politicians' promises.
+				Some other questions that the study will help to answer concern the impact of working time on Gross Domestic Product (GDP), inequalities among workers, the productivity of the country, and living standards. And, can we work less without affecting the economic dynamics?
+				To meet this goal we consider key variables (further detailed in the following) in a selection of EU countries and major economic powers (Switzerland, the US etc...) through the past decades.
+			</p>
+		</div>
+
+		<div class="text_box" name="workinghours" id="workinghours"> 
+			<h2>Where do people work the most?</h2>
+			<p>
+			How many hours per week do people spend working across OECD? Here is a map of studies OECD countries. Countries are colored according to their number of hours worked: people work the most in red countries, the less in green countries, and black countries are in the middle.
+			</p>
 			
-	<svg id="map-plot" viewBox="0 0 1000 550" width="1000" height="550">
-		<style>
-			<!--was canton-->
-			.country { 
-			stroke: rgb(25, 25, 25);
-			stroke-width: 1px;
-		}
-			<!--was canton-->
+			<div class="pourtour">
+				<img src="ressources/sketches/map.png">
+			</div>
+			
+			<svg id="map-plot" viewBox="0 0 1000 550" width="1000" height="550">
+				<style>
+					<!--was canton-->
+					.country { 
+					stroke: rgb(25, 25, 25);
+					stroke-width: 1px;
+				}
+					<!--was canton-->
 
-		.country-label {
-			fill: black;
-			text-anchor: middle;
-			font-size: 10pt;
-		}
+				.country-label {
+					fill: black;
+					text-anchor: middle;
+					font-size: 10pt;
+				}
 
-			.point {
-				fill: rgb(255, 141, 82);
-				opacity: 0.05;
-			}
-		</style>
-	</svg>
+					.point {
+						fill: rgb(255, 141, 82);
+						opacity: 0.05;
+					}
+				</style>
+			</svg>
+
+		</div>
+
+		<p>As you can see, some countries... whereas some countries...</p>
 
 	</div>
 
-	<p>As you can see, some countries... whereas some countries...</p>
-
-	</div>
 
 
-
-	<div class="text_box" name="purchasing" id="purchasing">
+	<div class="text_area" name="purchasing" id="purchasing">
 		<h2>Where people work the most, do people earn more money?</h2>
 		<p>
 		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
@@ -151,7 +145,7 @@
 	</div>
 
 	<div class="text_box" name="productivity" id="productivity">
-		<h2>Where people work the less, are they more productive?</h2>
+		<h2>Where people work the less, are they more productive ?</h2>
 		<p>
 			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
 		</p>
@@ -167,7 +161,7 @@
 	</div>
 
 
-	<div class="text_box" name="interaction" id="interaction">
+	<div  name="interaction" id="interaction">
 		<h2>Choose variables and see how they evolve across time...</h2>
 		<p>
 			In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
@@ -178,9 +172,16 @@
 
 
 		<!-- First visualisation -->
-		<div id="vis"></div>
+		<h3>Average Wage</h3>
+
+		<div class="text-box">
+			Here you can select and compare the average wages of 3 countries using the scrollable list.
+		</div>
+
+		<div class = "visualisation" id="vis"></div>
+
 		<script type="text/javascript">
-		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/data_vis.json";
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/avg_wg.json";
 		vegaEmbed('#vis', spec).then(function(result) {
 		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 		}).catch(console.error);
@@ -188,8 +189,21 @@
 		<!-- End of first visualisation -->
 
 
+		<!-- Comment on the visualisation -->
+		<div class = "text-box">
+			Interpretation and comments
+		</div>
+
+
 		<!-- Second visualisation -->
-		<div id="vis2"></div>
+		<h3> Compare EU countries Wage</h3>
+
+		<div class="text-box">
+			Here you can select and compare the average wages of 3 countries using the scrollable list.
+		</div>
+
+		<div class = "visualisation" id="vis2"></div>
+
 		<script type="text/javascript">
 		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
 		vegaEmbed('#vis2', spec).then(function(result) {
@@ -200,7 +214,8 @@
 
 
 		<!-- Third visualisation -->
-		<div id="vis3"></div>
+		<div class = "visualisation" id="vis3"></div>
+
 		<script type="text/javascript">
 		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
 		vegaEmbed('#vis3', spec).then(function(result) {
@@ -209,9 +224,9 @@
 		</script> 
 		<!-- End of Third visualisation -->
 		
-		<div class="pourtour">
+		<!-- <div class="pourtour">
 			<img src="ressources/sketches/sk3.png">
-		</div>
+		</div> -->
 		<div class="text_box" name="conclusion" id="conclusion">
 			<h2>Conclusion: Working time impacts are not so clear</h2>
 			<p>

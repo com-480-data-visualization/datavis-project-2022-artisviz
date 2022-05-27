@@ -51,6 +51,7 @@ h2{
     font-size: 37px;
 }
 
+
 /*================================================Title header================================================*/
 
 header{
@@ -197,15 +198,19 @@ section div{
 .text_area h3{
     font-size : 1.7vw;
     text-align : left;
+    align-self: left;
+    padding-left: 3pt;
     color : darkgreen;
     font-weight : bold;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+
 .text_box{
 	font-family: Helvetica, Arial, sans-serif;
     width :80vw;
     padding : 1vw;
+    align-self: left;
 }
 
 .text_box_attention{
@@ -246,6 +251,8 @@ section div{
     transform:scale(1.05);
 }
 
+
+
 /*================================================BUTTON================================================*/
 
 #myBtn {
@@ -267,3 +274,12 @@ section div{
   #myBtn:hover {
     background-color: rgb(162, 200, 235); /* Add a dark-grey background on hover */
   }
+
+
+/*================================================VISUALISATION================================================*/
+.visualisation{
+    background-color: aliceblue;
+    margin : 2vw;
+    align-self: center;
+    align-items: center;
+}
