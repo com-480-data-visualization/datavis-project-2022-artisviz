@@ -21,6 +21,7 @@
                         ]
                     }
                 },
+                
                 {
                     "name": "country",
                     "select": {
@@ -105,19 +106,19 @@
                 },
                 "color": {
                     "condition": {
-                        "param": "hover",
+                        "param": "country",
                         "field": "LOCATION",
                         "type": "nominal",
                         "scale": {"scheme": "category20b"}
                     },
-                    "value": "grey"
+                    "value": ""
                 },
                 "opacity": {
                     "condition": {
                         "param": "hover",
                         "value": 1
                     },
-                    "value": 0.2
+                    "value": 0.1
                 }
             },
     "resolve": {"scale": {"y": "independent"}}
