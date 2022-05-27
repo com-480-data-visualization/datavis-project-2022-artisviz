@@ -4,7 +4,7 @@
     "width": 400,
     "height": 600,
     "data": {
-        "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final.csv"
+        "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_EU.csv"
     },
     
             "params": [
@@ -14,10 +14,7 @@
                     "bind": {
                         "input": "select",
                         "options": [null,
-                            "Poverty index (no unit)",
-                            "GDP per hours worked wage (USD/hour)",
-                            "Gini coefficient (no units)",
-                            "Employment rate (% of working age population)"
+                            "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)"
                         ]
                     }
                 },
@@ -27,7 +24,7 @@
                     "select": {
                         "type": "point",
                         "fields": [
-                            "LOCATION"
+                            "country"
                         ]
                     },
                     "bind": {
@@ -63,13 +60,13 @@
                     "name": "hover",
                     "value": [
                         {
-                            "LOCATION": "AUT"
+                            "country": "AUT"
                         }
                     ],
                     "select": {
                         "type": "point",
                         "fields": [
-                            "LOCATION"
+                            "country"
                         ],
                         "on": "mouseover"
                     }
@@ -107,7 +104,7 @@
                 "color": {
                     "condition": {
                         "param": "country",
-                        "field": "LOCATION",
+                        "field": "country",
                         "type": "nominal",
                         "scale": {"scheme": "category20b"}
                     },
