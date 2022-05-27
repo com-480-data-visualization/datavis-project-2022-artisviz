@@ -1,4 +1,4 @@
-,LOCATION,Year,Poverty index (no unit),GDP per hours worked wage (USD/hour),Gini coefficient (no units),Employment rate (% of working age population)
+,country,Year,Poverty rate (no unit),GDP per hours worked (USD/hour),Income Inequality (no unit),Employment Rate (no unit)
 0,AUT,2007,0.097,63.814049,0.284,69.875
 1,AUT,2008,0.093,63.814456,0.28,70.825
 2,AUT,2009,0.096,63.363388,0.289,70.325
