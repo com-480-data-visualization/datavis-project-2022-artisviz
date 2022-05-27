@@ -106,17 +106,31 @@
 		<img src="ressources/sketches/map.png">
 	</div>
 
-	<div id="vis-map"> <!--J'ai créé un nouvel id "vis-map" qui suit l'exemple de celui des autre visualisation-->
-		
 
-		<script>
-		var spec = "map.json";
-		vegaEmbed("#vis", spec) // est-ce quil faut changer en vis-map ?
-		 result.view provides access to the Vega View API
-			.then(result => console.log(result))
-			.catch(console.warn);
-		
-		</script> 
+
+			
+	<svg id="map-plot" viewBox="0 0 1000 550" width="1000" height="550">
+		<style>
+			<!--was canton-->
+			.country { 
+			stroke: rgb(25, 25, 25);
+			stroke-width: 1px;
+		}
+			<!--was canton-->
+
+		.country-label {
+			fill: black;
+			text-anchor: middle;
+			font-size: 10pt;
+		}
+
+			.point {
+				fill: rgb(255, 141, 82);
+				opacity: 0.05;
+			}
+		</style>
+	</svg>
+
 	</div>
 
 	<p>As you can see, some countries... whereas some countries...</p>
@@ -184,15 +198,6 @@
 		</script> 
 		<!-- End of Second visualisation -->
 
-		<!-- MAP visualisation -->
-		<div id="vis-map"></div>
-		<script type="text/javascript">
-		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/map.json";
-		vegaEmbed('#vis', spec).then(function(result) {
-		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-		}).catch(console.error);
-		</script> 
-		<!-- End of map visualisation -->
 
 
 
@@ -211,6 +216,8 @@
 
 
 <footer></footer>
-
+<script src="ressources/lib/d3.min.js"></script>
+<script src="ressources/lib/topojson.min.js"></script>
+<script src="map.js"></script>
 </body>
 </html>
