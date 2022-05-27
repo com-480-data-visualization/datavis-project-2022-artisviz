@@ -106,31 +106,23 @@
 		<img src="ressources/sketches/map.png">
 	</div>
 
-	<div id="vis-map"> <!--J'ai créé un nouvel id "vis-map" qui suit l'exemple de celui des autre visualisation-->
-		
 
-		<script>
-		var spec = "map.json";
-		vegaEmbed("#vis", spec) // est-ce quil faut changer en vis-map ?
-		 result.view provides access to the Vega View API
-			.then(result => console.log(result))
-			.catch(console.warn);
-		
-		</script> 
 
 			
 	<svg id="map-plot" viewBox="0 0 1000 550" width="1000" height="550">
 		<style>
-			.canton {
-				stroke: rgb(25, 25, 25);
-				stroke-width: 1px;
-			}
+			<!--was canton-->
+			.country { 
+			stroke: rgb(25, 25, 25);
+			stroke-width: 1px;
+		}
+			<!--was canton-->
 
-			.canton-label {
-				fill: black;
-				text-anchor: middle;
-				font-size: 10pt;
-			}
+		.country-label {
+			fill: black;
+			text-anchor: middle;
+			font-size: 10pt;
+		}
 
 			.point {
 				fill: rgb(255, 141, 82);
