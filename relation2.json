@@ -1,140 +1,146 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "An interactive scatter plot of global health statistics by country and year.",
-    "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
-    "width": 200,
-    "height": 200,
-    "layer": [
-      {
-        "transform": [
-          {"filter": {"field": "country", "equal": "AUT"}},
-          {"filter": {"param": "year"}}
-        ],
-        "mark": {
-          "type": "text",
-          "fontSize": 50,
-          "x": 100,
-          "y": 100,
-          "opacity": 0.06
-        },
-        "encoding": {"text": {"field": "Year"}, "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An interactive scatter plot of global health statistics by country and year.",
+  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
+  "width": 200,
+  "height": 200,
+  "layer": [
+    {
+      "transform": [
+        {"filter": {"field": "country", "equal": "AUT"}},
+        {"filter": {"param": "year"}}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 40,
+        "x": 100,
+        "y": 100,
+        "opacity": 0.2,
+        "color":"grey"
       },
-      {
-        "encoding": {
-          "x": {
-            "field": "GDP per hours worked (USD/hour)",
-            "type": "quantitative",
-            "scale": {"zero": false},
-            "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+      "encoding": {"text": {"field": "Year"}}
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "GDP per hours worked (USD/hour)",
+          "type": "quantitative",
+          "scale": {"zero": false, "domainMax":110},
+          "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+        },
+        "y": {
+          "field": "Poverty rate (no unit)",
+          "type": "quantitative",
+          "scale": {"zero": false},
+          "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "size": 4,
+            "strokeCap": "round",
+            "tooltip":true
           },
-          "y": {
-            "field": "Poverty rate (no unit)",
-            "type": "quantitative",
-            "scale": {"zero": false},
-            "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
+          "encoding": {
+            "detail": {"field": "country"},
+            "order": {"field": "Year"},
+            "opacity": {
+              "condition": {
+                "test": {"or": [
+                  {"param": "hovered", "empty": false},
+                  {"param": "clicked", "empty": false}
+                ]},
+                "value": 0.8
+              },
+              "value": 0.2
+            },
+            "color": {"field": "country", "title": "Country","scale": {"scheme": "category20b"}}
           }
         },
-        "layer": [
-          {
-            "mark": {
-              "type": "line",
-              "size": 4,
-              "color": "lightgray",
-              "strokeCap": "round"
-            },
-            "encoding": {
-              "detail": {"field": "country"},
-              "order": {"field": "Year"},
-              "opacity": {
-                "condition": {
-                  "test": {"or": [
-                    {"param": "hovered", "empty": false},
-                    {"param": "clicked", "empty": false}
-                  ]},
-                  "value": 0.8
-                },
-                "value": 0
-              },
-              "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}
-            }
+        {
+          "params": [{
+            "name": "grid",
+            "select": "interval",
+            "bind": "scales"
           },
-          {
-            "params": [
-              {
-                "name": "year",
-                "value": [{"Year": 1970}],
-                "select": {
-                  "type": "point",
-                  "fields": ["Year"]
-                },
-                "bind": {
-                  "name": "Year",
-                  "input": "range",
-                  "min": 1970, "max": 2021, "step": 1
-                }
+            {
+              "name": "year",
+              "value": [{"Year": 1987}],
+              "select": {
+                "type": "point",
+                "fields": ["Year"]
               },
-              {
-                "name": "hovered",
-                "select": {
-                  "type": "point",
-                  "fields": ["country"],
-                  "toggle": false,
-                  "on": "mouseover"
-                }
-              },
-              {
-                "name": "clicked",
-                "select": {"type": "point", "fields": ["country"]}
+              "bind": {
+                "name": "Year",
+                "input": "range",
+                "min": 1987, "max": 2021, "step": 1
               }
-            ],
-            "transform": [{"filter": {"param": "year"}}],
-            "mark": {"type": "circle", "size": 100, "opacity": 0.9},
-            "encoding": {"color": {"field": "country", "title": "Country"}}
-          },
-          {
-            "transform": [
-              {
-                "filter": {
-                  "and": [
-                    {"param": "year"},
-                    {"or": [
-                      {"param": "clicked", "empty": false},
-                      {"param": "hovered", "empty": false}
-                    ]}
-                  ]
-                }
-              }
-            ],
-            "mark": {
-              "type": "text",
-              "yOffset": -12,
-              "fontSize": 12,
-              "fontWeight": "bold"
             },
-            "encoding": {
-              "text": {"field": "country"},
-              "color": {"field": "country", "title": "Country", "scale": {"scheme": "category20b"}}
+            {
+              "name": "hovered",
+              "select": {
+                "type": "point",
+                "fields": ["country"],
+                "toggle": false,
+                "on": "mouseover"
+              }
+            },
+            {
+              "name": "clicked",
+              "select": {"type": "point", "fields": ["country"]}
             }
+          ],
+          "transform": [{"filter": {"param": "year"}}],
+          "mark": {"type": "circle", "size": 100, "opacity": 1, "tooltip":true},
+          "encoding": {"color": {"field": "country"}}
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "and": [
+                  {"param": "year"},
+                  {"or": [
+                    {"param": "clicked", "empty": false},
+                    {"param": "hovered", "empty": false}
+                  ]}
+                ]
+              }
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "yOffset": -15,
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "tooltip":true
+
           },
-          {
-            "transform": [
-              {"filter": {"param": "hovered", "empty": false}},
-              {"filter": {"not": {"param": "year"}}}
-            ],
-            "layer": [
-              {
-                "mark": {
-                  "type": "text",
-                  "yOffset": -12,
-                  "fontSize": 7,
-                  "color": "gray"
-                },
-                "encoding": {"text": {"field": "Year"}, "color" : {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}}},
-              {"mark": {"type": "circle", "color": "gray"}}
-            ]
+          "encoding": {
+            "text": {"field": "country"},
+            "color": {"field": "country", "scale": {"scheme": "category20b"}}
           }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "transform": [
+            {"filter": {"param": "clicked", "empty": false}},
+            {"filter": {"not": {"param": "year"}}}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "yOffset": -12,
+                "fontSize": 12,
+                "tooltip":true
+                },
+              "encoding": {"text": {"field": "Year"}, "color" : {"field": "country","scale": {"scheme": "category20b"}}}},
+            {"mark": {"type": "circle"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

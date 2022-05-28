@@ -4,16 +4,6 @@
   "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
   "width": 200,
   "height": 200,
-  "params": [{
-              "name": "measure",
-              "value": "temp_max",
-              "bind": {
-                  "input": "select",
-                  "options": [null,
-                      "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)"
-                  ]
-              }
-            }],
   "layer": [
     {
       "transform": [
@@ -25,9 +15,10 @@
         "fontSize": 40,
         "x": 100,
         "y": 100,
-        "opacity": 0.6
+        "opacity": 0.2,
+        "color":"grey"
       },
-      "encoding": {"text": {"field": "Year"}, "color": {"field": "country", "scale": {"scheme": "category20b"}}}
+      "encoding": {"text": {"field": "Year"}}
     },
     {
       "encoding": {
@@ -49,7 +40,8 @@
           "mark": {
             "type": "line",
             "size": 4,
-            "strokeCap": "round"
+            "strokeCap": "round",
+            "tooltip":true
           },
           "encoding": {
             "detail": {"field": "country"},
@@ -62,9 +54,9 @@
                 ]},
                 "value": 0.8
               },
-              "value": 0
+              "value": 0.2
             },
-            "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}
+            "color": {"field": "country", "title": "Country","scale": {"scheme": "category20b"}}
           }
         },
         {
@@ -101,7 +93,7 @@
             }
           ],
           "transform": [{"filter": {"param": "year"}}],
-          "mark": {"type": "circle", "size": 100, "opacity": 1},
+          "mark": {"type": "circle", "size": 100, "opacity": 1, "tooltip":true},
           "encoding": {"color": {"field": "country"}}
         },
         {
@@ -120,9 +112,10 @@
           ],
           "mark": {
             "type": "text",
-            "yOffset": -12,
-            "fontSize": 12,
-            "fontWeight": "bold"
+            "yOffset": -15,
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "tooltip":true
 
           },
           "encoding": {
@@ -132,7 +125,7 @@
         },
         {
           "transform": [
-            {"filter": {"param": "hovered", "empty": false}},
+            {"filter": {"param": "clicked", "empty": false}},
             {"filter": {"not": {"param": "year"}}}
           ],
           "layer": [
@@ -140,7 +133,8 @@
               "mark": {
                 "type": "text",
                 "yOffset": -12,
-                "fontSize": 12
+                "fontSize": 12,
+                "tooltip":true
                 },
               "encoding": {"text": {"field": "Year"}, "color" : {"field": "country","scale": {"scheme": "category20b"}}}},
             {"mark": {"type": "circle"}}
