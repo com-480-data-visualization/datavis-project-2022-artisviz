@@ -1,4 +1,3 @@
-map
 class MapPlot {
     
 	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLog) {
@@ -89,26 +88,29 @@ class MapPlot {
 			return cantonId_to_population;
 		});
 
-		const map_promise = d3.json("data/ch-cantons.json").then((topojson_raw) => {
-			const canton_paths = topojson.feature(topojson_raw, topojson_raw.objects.cantons);
-			return canton_paths.features;
+		const map_promise = d3.json("ressources/countries-110m.json").then((topojson_raw) => {
+			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.canton);
+			return country_paths.features;
 		});
+            
+		//const point_promise = d3.csv("data/locations.csv").then((data) => {
+		//	let new_data = [];
 
-		const point_promise = d3.csv("data/locations.csv").then((data) => {
-			let new_data = [];
+		//	for(let idx = 0; idx < data.length; idx += 10) {
+				//new_data.push(data[idx]);
+		//	}
 
-			for(let idx = 0; idx < data.length; idx += 10) {
-				new_data.push(data[idx]);
-			}
+		//	return new_data;
+		//});
 
-			return new_data;
-		});
-
-		Promise.all([population_promise, map_promise, point_promise]).then((results) => {
-			let cantonId_to_population = results[0];
+		Promise.all([population_promise, map_promise]).then((results) => {
+			//ai enleve dernier argu point_promise
+            let cantonId_to_population = results[0];
 			let map_data = results[1];
-			let point_data = results[2];
+			//let point_data = results[2];
 
+            
+            //continuer a partir de là
 			map_data.forEach(canton => {
 				canton.properties.density = cantonId_to_population[canton.id];
 			});
