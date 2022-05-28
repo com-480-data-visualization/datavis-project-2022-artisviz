@@ -12,9 +12,9 @@
         ],
         "mark": {
           "type": "text",
-          "fontSize": 100,
-          "x": 200,
-          "y": 200,
+          "fontSize": 50,
+          "x": 100,
+          "y": 100,
           "opacity": 0.06
         },
         "encoding": {"text": {"field": "Year"}, "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}}
