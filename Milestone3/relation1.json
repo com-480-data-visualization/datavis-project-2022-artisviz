@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "An interactive scatter plot of global health statistics by country and year.",
-    "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_EU.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
     "width": 400,
     "height": 400,
     "layer": [
@@ -12,26 +12,26 @@
         ],
         "mark": {
           "type": "text",
-          "fontSize": 50,
+          "fontSize": 100,
           "x": 200,
           "y": 200,
           "opacity": 0.06
         },
-        "encoding": {"text": {"field": "year"}}
+        "encoding": {"text": {"field": "Year"}, "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}}
       },
       {
         "encoding": {
           "x": {
             "field": "GDP per hours worked (USD/hour)",
             "type": "quantitative",
-            "scale": {"domain": [0, 9]},
-            "axis": {"tickCount": 5, "title": "GDP per hours worked (USD/hour)"}
+            "scale": {"zero": false},
+            "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
           },
           "y": {
             "field": "Income Inequality (no unit)",
             "type": "quantitative",
-            "scale": {"domain": [0, 1]},
-            "axis": {"tickCount": 5, "title": "Income Inequality (no unit)"}
+            "scale": {"zero": false},
+            "axis": {"tickCount": 10, "title": "Income Inequality (no unit)"}
           }
         },
         "layer": [
@@ -54,8 +54,10 @@
                   "value": 0.8
                 },
                 "value": 0
-              }
-            }
+              },
+              "color": {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}
+  
+            },
           },
           {
             "params": [
@@ -67,7 +69,7 @@
                   "fields": ["Year"]
                 },
                 "bind": {
-                  "name": "année",
+                  "name": "Year",
                   "input": "range",
                   "min": 1970, "max": 2021, "step": 1
                 }
@@ -88,7 +90,7 @@
             ],
             "transform": [{"filter": {"param": "year"}}],
             "mark": {"type": "circle", "size": 100, "opacity": 0.9},
-            "encoding": {"color": {"field": "country"}}
+            "encoding": {"color": {"field": "country", "title": "Country"}}
           },
           {
             "transform": [
@@ -112,7 +114,7 @@
             },
             "encoding": {
               "text": {"field": "country"},
-              "color": {"field": "country"}
+              "color": {"field": "country", "title": "Country", "scale": {"scheme": "category20b"}}
             }
           },
           {
@@ -125,11 +127,10 @@
                 "mark": {
                   "type": "text",
                   "yOffset": -12,
-                  "fontSize": 12,
+                  "fontSize": 7,
                   "color": "gray"
                 },
-                "encoding": {"text": {"field": "Year"}}
-              },
+                "encoding": {"text": {"field": "Year"}, "color" : {"field": "country", "title": "Region","scale": {"scheme": "category20b"}}}},
               {"mark": {"type": "circle", "color": "gray"}}
             ]
           }
