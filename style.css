@@ -299,3 +299,26 @@ section div{
     clear: both;
     display: table;
   }
+
+/*=======================================MAP====================================================*/
+svg {
+	width: 100%;
+	height: auto;
+
+    width: 70vw;
+	height: 70vh;
+
+	/* center vertically */
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+
+	/* background behind the plot */
+	/*background: rgb(40, 40, 40);*/
+	background: white;
+
+	/* default text */
+	font-family: sans-serif;
+	font-size: 1.1rem;
+}

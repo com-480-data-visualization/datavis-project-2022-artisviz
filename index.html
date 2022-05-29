@@ -11,7 +11,6 @@
 	<meta name="author" content="BG, HG, CLF">
 
 	<link rel="stylesheet" href="style.css">
-
 	
 	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -79,7 +78,7 @@
 
 
 	<div class="text_area" >
-
+		<!--blabla-->
 		<div class="text_box" name="home" id="home"> 
 			<h2>Political context</h2>
 			<p>
@@ -107,7 +106,9 @@
 				<img src="ressources/sketches/map.png">
 			</div>
 			
-			<svg id="map-plot" viewBox="0 0 1000 550" width="1000" height="550">
+			<svg id="map1" viewBox="0 0 1000 550" width="1000" height="550">
+				<!--view box permet de mettre des limites en x et en y pour l'image-->
+				<!-- id est facultatif id="map1"  -->
 				<style>
 					<!--was canton-->
 					.country { 
@@ -128,75 +129,87 @@
 					}
 				</style>
 			</svg>
+			
+			<script src="ressources\lib\d3.min.js"></script>
+			<script src="ressources\lib\topojson.min.js"></script>
+			<script src="map-main.js"></script>
+
+			<p>As you can see, some countries... whereas some countries...</p>
 
 		</div>
 
-		<p>As you can see, some countries... whereas some countries...</p>
+		
 
-	</div>
-
-
-
-	<div class="text_area" name="purchasing" id="purchasing">
-		<h2>Where people work the most, do people earn more money?</h2>
-		<p>
-		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
-		</p>
-		<div class="pourtour">
-			<img src="ressources/sketches/scatter.png">
+		<div class="text_area" name="purchasing" id="purchasing">
+			<h2>Where people work the most, do people earn more money?</h2>
+			<p>
+			Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
+			</p>
+			<div class="pourtour">
+				<img src="ressources/sketches/scatter.png">
+			</div>
+	
 		</div>
 
-	</div>
-
-	<div class="text_box" name="productivity" id="productivity">
-		<h2>Where people work the less, are they more productive ?</h2>
-		<p>
-			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
-		</p>
-		<div class="pourtour">
-			<img src="ressources/sketches/scatter.png">
-		</div>
-	</div>
-
-	<div class="text_box_attention" name="ATTENTION" id="ATTENTION">
-		<h2></h2>
-		Careful! These are <strong>correlations</strong>, not <strong>causalities</strong>!	
-		<p> <small><small>What happens when you look at these variables within one specific country?</small></small> </p>
-	</div>
-
-
-	<div  class = "text_area" name="interaction" id="interaction">
-		<h2>Choose variables and see how they evolve across time...</h2>
-		<p>
-			In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
-		</p>
-		<p>
-			Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
-		</p>
-
-
-		<!-- First visualisation -->
-		<h3>Average Wage</h3>
-
-		<div class="text-box">
-			Here you can select and compare the average wages of 3 countries using the scrollable list.
+		<div class="text_box" name="productivity" id="productivity">
+			<h2>Where people work the less, are they more productive ?</h2>
+			<p>
+				Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
+			</p>
+			<div class="pourtour">
+				<img src="ressources/sketches/scatter.png">
+			</div>
 		</div>
 
-		<div class = "visualisation" id="vis" ></div>
-
-		<script type="text/javascript">
-		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/avg_wg.json";
-		vegaEmbed('#vis', spec).then(function(result) {
-		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-		}).catch(console.error);
-		</script> 
-		<!-- End of first visualisation -->
-
-
-		<!-- Comment on the visualisation -->
-		<div class = "text-box">
-			Interpretation and comments
+		
+		<div class="text_box_attention" name="ATTENTION" id="ATTENTION">
+			<h2></h2>
+			Careful! These are <strong>correlations</strong>, not <strong>causalities</strong>!	
+			<p> <small><small>What happens when you look at these variables within one specific country?</small></small> </p>
 		</div>
+
+
+		<div  class = "text-area" name="interaction" id="interaction">
+			<h2>Choose variables and see how they evolve across time...</h2>
+			<p>
+				In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
+			</p>
+			<p>
+				Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
+			</p>
+
+
+			<!-- First visualisation -->
+			<h3>Average Wage</h3>
+
+			<div class="text-box">
+				Here you can select and compare the average wages of 3 countries using the scrollable list.
+			</div>
+
+			<div class = "visualisation" id="vis" ></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/avg_wg.json";
+			vegaEmbed('#vis', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+			<!-- End of first visualisation -->
+
+
+			<!-- Comment on the visualisation -->
+			<div class = "text-box">
+				Interpretation and comments
+			</div>
+
+		</div>
+
+
+
+
+
+
+
 
 
 
