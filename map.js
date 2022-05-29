@@ -1,7 +1,7 @@
 class MapPlot {
     
 	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLog) {
-
+		//affichage
 		const value_to_svg = scaleClass()
 			.domain(color_scale.domain())
 			.range([colorbar_size[1], 0]);
@@ -52,7 +52,7 @@ class MapPlot {
 			.style('stroke', 'black')
 			.style('stroke-width', '1px')
 	}
-
+	//constructeur, l'input doit être un truc SVG
 	constructor(svg_element_id) {
 		this.svg = d3.select('#' + svg_element_id);
 
@@ -173,5 +173,8 @@ function whenDocumentLoaded(action) {
 
 whenDocumentLoaded(() => {
 	plot_object = new MapPlot('map-plot');
+	// constructor(svg_element_id) -> map-plot doit être svg
+	// En fait non: // path generator to convert JSON to SVG paths
+	// const path_generator = d3.geoPath()
 	// plot object is global, you can inspect it in the dev-console
 });
