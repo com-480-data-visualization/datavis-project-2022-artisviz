@@ -11,10 +11,6 @@
 	<meta name="author" content="BG, HG, CLF">
 
 	<link rel="stylesheet" href="style.css">
-
-	<script src="ressources/lib/d3.min.js"></script>
-	<script src="ressources/lib/topojson.min.js"></script>
-	<script src="map-main.js"></script>
 	
 	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -107,6 +103,8 @@
 			</div>
 			
 			<svg id="map1" viewBox="0 0 1000 550" width="1000" height="550">
+				<!--view box permet de mettre des limites en x et en y pour l'image-->
+				<!-- id est facultatif id="map1"  -->
 				<style>
 					<!--was canton-->
 					.country { 
@@ -127,6 +125,10 @@
 					}
 				</style>
 			</svg>
+			
+			<script src="ressources\lib\d3.min.js"></script>
+			<script src="ressources\lib\topojson.min.js"></script>
+			<script src="map-main.js"></script>
 
 			<p>As you can see, some countries... whereas some countries...</p>
 

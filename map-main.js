@@ -54,6 +54,9 @@ class MapPlot {
 	}
 	//constructeur, l'input doit être un truc SVG
 	constructor(svg_element_id) {
+		//il y a peut-être un problème avec la ligne suivante : 
+		// je crois que d3 ne trouve pas # + svg_element_id
+		//est-ce qu'il faut utiliser un id particulier ?
 		this.svg = d3.select('#' + svg_element_id);
 
 		// may be useful for calculating scales
@@ -80,16 +83,21 @@ class MapPlot {
 			.range(["hsl(62,100%,90%)", "hsl(228,30%,20%)"])
 			.interpolate(d3.interpolateHcl);
 
-		const population_promise = d3.csv("data/cantons-population.csv").then((data) => {
-			let cantonId_to_population = {};
+		const population_promise = d3.csv("Milestone3\data\map-csv.csv").then((data) => {
+		//const population_promise = d3.csv("data/cantons-population.csv").then((data) => {
+			let countryId_to_hours = {};
 			data.forEach((row) => {
-				cantonId_to_population[row.code] =  parseFloat(row.density);
+				countryId_to_hours[row.code] =  parseFloat(row.density);
 			});
-			return cantonId_to_population;
+			return countryId_to_hours;
 		});
 
 		const map_promise = d3.json("ressources/countries-110m.json").then((topojson_raw) => {
+		//const map_promise = d3.json("ressources/ch-cantons.json").then((topojson_raw) => {
+
+			//const cantons_paths = topojson.feature(topojson_raw, topojson_raw.objects.canton);
 			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.canton);
+
 			return country_paths.features;
 		});
             
@@ -103,16 +111,22 @@ class MapPlot {
 		//	return new_data;
 		//});
 
-		Promise.all([population_promise, map_promise]).then((results) => {
+		Promise.all([hours_promise, map_promise]).then((results) => {
+			//Promise.all([population_promise, map_promise]).then((results) => {
+			// ai remplacé population par hours
 			//ai enleve dernier argu point_promise
-            let cantonId_to_population = results[0];
+            let countryId_to_hours = results[0];
+			//remplacé cantonId_to_jsp
 			let map_data = results[1];
 			//let point_data = results[2];
 
             
             //continuer a partir de là
-			map_data.forEach(canton => {
-				canton.properties.density = cantonId_to_population[canton.id];
+			map_data.forEach(country => {
+				//remplacement canton -> country
+				country.properties.hours = countryId_to_hours[country.id];
+				//canton.properties.density = cantonId_to_population[canton.id];
+
 			});
 
 			const densities = Object.values(cantonId_to_population);
@@ -126,23 +140,29 @@ class MapPlot {
 			this.label_container = this.svg.append('g'); // <- is on top
 
 			//color the map according to the density of each canton
-			this.map_container.selectAll(".canton")
+			this.map_container.selectAll(".country")
+			//this.map_container.selectAll(".canton")
 				.data(map_data)
 				.enter()
 				.append("path")
-				.classed("canton", true)
+				.classed("country", true)
+				//.classed("canton", true)
 				.attr("d", path_generator)
-				.style("fill", (d) => color_scale(d.properties.density));
+				//.style("fill", (d) => color_scale(d.properties.density));
+				.style("fill", (d) => color_scale(d.properties.hours));
+
 
 			this.label_container.selectAll(".canton-label")
+			//this.label_container.selectAll(".country-label")
+
 				.data(map_data)
 				.enter().append("text")
-				.classed("canton-label", true)
+				.classed("country-label", true)
+				//.classed("canton-label", true)
 				.attr("transform", (d) => "translate(" + path_generator.centroid(d) + ")")
 				//.translate((d) => path_generator.centroid(d))
 				.attr("dy", ".35em")
 				.text((d) => d.properties.name);
-
 			const r = 3;
 
 
