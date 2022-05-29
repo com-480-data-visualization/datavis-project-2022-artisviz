@@ -1,6 +1,6 @@
 class MapPlot {
     
-	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLog) {
+	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLinear) {
 		//affichage
 		const value_to_svg = scaleClass()
 			.domain(color_scale.domain())
