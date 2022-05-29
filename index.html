@@ -52,27 +52,27 @@
 	<!-- End of the definition -->
 
 
-	<div>
+	
 
-		<video autoplay muted loop id="BackgroundVideo">
-			<source src="ressources/images/video.mp4" type="video/mp4">
-			Any alternate text.
-		</video>
-		<header
-			<div> 
-				<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
-			</div>
-			<div class = "navbar">
-				<a href="#home">Political context</a>
-				<a href="#workinghours">Where do people work the most?</a>
-				<a href="#purchasing">What about purchasing power? </a>
-				<a href="#productivity">What about productivity? </a>
-				<a href="#interaction">How does it interact?</a>
-				<a href="#conclusion">Conclusion</a>
+	<video autoplay muted loop id="BackgroundVideo">
+		<source src="ressources/images/video.mp4" type="video/mp4">
+		Any alternate text.
+	</video>
+	<header
+		<div> 
+			<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
+		</div>
+		<div class = "navbar">
+			<a href="#home">Political context</a>
+			<a href="#workinghours">Where do people work the most?</a>
+			<a href="#purchasing">What about purchasing power? </a>
+			<a href="#productivity">What about productivity? </a>
+			<a href="#interaction">How does it interact?</a>
+			<a href="#conclusion">Conclusion</a>
 
-			</div>
-		</header> 
-	</div>
+		</div>
+	</header> 
+	
 
 
 
@@ -105,42 +105,42 @@
 			<div class="pourtour">
 				<img src="ressources/sketches/map.png">
 			</div>
-			
-			<svg id="map1" viewBox="0 0 1000 550" width="1000" height="550">
-				<!--view box permet de mettre des limites en x et en y pour l'image-->
-				<!-- id est facultatif id="map1"  -->
-				<style>
-					<!--was canton-->
-					.country { 
-					stroke: rgb(25, 25, 25);
-					stroke-width: 1px;
-				}
-					<!--was canton-->
+		</div>
 
-				.country-label {
-					fill: black;
-					text-anchor: middle;
-					font-size: 10pt;
-				}
+		<svg class="MapPlot" id="map1" viewBox="0 0 1000 550" width="1000" height="550">
+			<!--view box permet de mettre des limites en x et en y pour l'image-->
+			<!-- id est facultatif id="map1"  -->
+			<style>
+				<!--was canton-->
+				.country { 
+				stroke: rgb(25, 25, 25);
+				stroke-width: 1px;
+			}
+				<!--was canton-->
 
-					.point {
-						fill: rgb(255, 141, 82);
-						opacity: 0.05;
-					}
-				</style>
-			</svg>
-			
+			.country-label {
+				fill: black;
+				text-anchor: middle;
+				font-size: 10pt;
+			}
+
+				.point {
+					fill: rgb(255, 141, 82);
+					opacity: 0.05;
+				}
+			</style>
+
 			<script src="ressources\lib\d3.min.js"></script>
 			<script src="ressources\lib\topojson.min.js"></script>
 			<script src="map-main.js"></script>
-
-			<p>As you can see, some countries... whereas some countries...</p>
-
-		</div>
-
+		</svg>
 		
-
 		<div class="text_area" name="purchasing" id="purchasing">
+			<p>As you can see, some countries... whereas some countries...</p>
+		</div>
+		
+		<div class="text_area" name="purchasing" id="purchasing">
+
 			<h2>Where people work the most, do people earn more money?</h2>
 			<p>
 			Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
