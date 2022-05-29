@@ -13,7 +13,7 @@
                 "bind": "scales"
               },
                 {
-                    "name": "measure",
+                    "name": "Measure",
                     "value": "temp_max",
                     "bind": {
                         "input": "select",
@@ -24,7 +24,7 @@
                 },
                 
                 {
-                    "name": "country",
+                    "name": "Selection",
                     "select": {
                         "type": "point",
                         "fields": [
@@ -54,7 +54,7 @@
             ],
             "transform": [
                 {
-                    "calculate": "datum[measure]",
+                    "calculate": "datum[Measure]",
                     "as": "y"
                 }
             ],
@@ -79,11 +79,13 @@
                     "aggregate": "mean",
                     "scale": {
                         "zero": false
-                    }
+                    },
+                    "axis": {"title":"measure"}
+
                 },
                 "color": {
                     "condition": {
-                        "param": "country",
+                        "param": "Selection",
                         "field": "country",
                         "type": "nominal",
                         "scale": {"scheme": "category20b"}
@@ -97,6 +99,5 @@
                     },
                     "value": 0.1
                 }
-            },
-    "resolve": {"scale": {"y": "independent"}}
+            }
 }

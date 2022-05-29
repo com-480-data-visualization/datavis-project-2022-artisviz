@@ -17,6 +17,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -161,7 +165,7 @@
 	</div>
 
 
-	<div  class = "text-area" name="interaction" id="interaction">
+	<div  class = "text_area" name="interaction" id="interaction">
 		<h2>Choose variables and see how they evolve across time...</h2>
 		<p>
 			In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
@@ -195,11 +199,13 @@
 		</div>
 
 
+
+
 		<!-- Second visualisation -->
-		<!-- <h3> Compare EU countries Wage</h3>
+		<h3> Four variables through the years EU countries Wage</h3>
 
 		<div class="text-box">
-			Here you can select and compare the average wages of 3 countries using the scrollable list.
+			Here you can select and compare the evolution of Eu countries and non EU countries that are members of the OECD. You can zoom in and point your cursor on data points to get more information on the data point value. You can also select a country of interest and change the variable observed to quickly make a comparison.
 		</div>
 
 		<div class = "visualisation" id="vis2"></div>
@@ -211,6 +217,9 @@
 		}).catch(console.error);
 		</script>  -->
 		<!-- End of Second visualisation -->
+
+
+
 
 
 		<!-- Third visualisation -->
@@ -227,6 +236,11 @@
 		<!-- <div class="pourtour">
 			<img src="ressources/sketches/sk3.png">
 		</div> -->
+
+		<div class="text_box">
+			In the following visualisations, you can explore the relationship between four variables through the years and for a selection of EU countries.
+			The frames are interactive, you can zoom in and out, change the year of interest and click on a data point to show the curve followed through the year by the selected country as well as a track of the years. 
+		</div>
 
 		<!-- test a table of figures to sum up all the realations-->
 			<div class="row">
@@ -296,6 +310,10 @@
 					</script> 
 
 				</div>
+			</div>
+
+			<div class="text_box">
+				Interpretation of the results.
 			</div>
 		</div>
 
