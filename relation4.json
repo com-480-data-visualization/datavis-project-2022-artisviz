@@ -29,10 +29,10 @@
           "axis": {"tickCount": 10, "title": "Employment Rate (no unit)"}
         },
         "y": {
-          "field": "GDP per hours worked (USD/hour)",
+          "field": "Poverty rate (no unit)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+          "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
         }
       },
       "layer": [

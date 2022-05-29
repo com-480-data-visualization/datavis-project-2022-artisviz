@@ -23,16 +23,16 @@
     {
       "encoding": {
         "x": {
-          "field": "Employment Rate (no unit)",
+          "field": "Poverty rate (no unit)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "Employment Rate (no unit)"}
+          "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
         },
         "y": {
-          "field": "GDP per hours worked (USD/hour)",
+          "field": "Income Inequality (no unit)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+          "axis": {"tickCount": 10, "title": "Income Inequality (no unit)"}
         }
       },
       "layer": [
