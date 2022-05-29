@@ -107,38 +107,43 @@
 			</div>
 		</div>
 
-		<svg class="MapPlot" id="map1" viewBox="0 0 1000 550" width="1000" height="550">
-			<!--view box permet de mettre des limites en x et en y pour l'image-->
-			<!-- id est facultatif id="map1"  -->
-			<style>
-				<!--was canton-->
-				.country { 
-				stroke: rgb(25, 25, 25);
-				stroke-width: 1px;
+	</div>
+	<svg class="MapPlot" id="map1" viewBox="0 0 1000 550" width="1000" height="550">
+		<!--view box permet de mettre des limites en x et en y pour l'image-->
+		<!-- id est facultatif id="map1"  -->
+		<style>
+			<!--was canton-->
+			.country { 
+			stroke: rgb(25, 25, 25);
+			stroke-width: 1px;
+		}
+			<!--was canton-->
+
+		.country-label {
+			fill: black;
+			text-anchor: middle;
+			font-size: 10pt;
+		}
+
+			.point {
+				fill: rgb(255, 141, 82);
+				opacity: 0.05;
 			}
-				<!--was canton-->
+		</style>
 
-			.country-label {
-				fill: black;
-				text-anchor: middle;
-				font-size: 10pt;
-			}
 
-				.point {
-					fill: rgb(255, 141, 82);
-					opacity: 0.05;
-				}
-			</style>
+	</svg>
 
-			<script src="ressources\lib\d3.min.js"></script>
-			<script src="ressources\lib\topojson.min.js"></script>
-			<script src="map-main.js"></script>
-		</svg>
+	<script src="ressources\lib\d3.min.js"></script>
+	<script src="ressources\lib\topojson.min.js"></script>
+	<script src="map-main.js"></script>
+	
+	<div class="text_area" >
 		
 		<div class="text_area" name="purchasing" id="purchasing">
 			<p>As you can see, some countries... whereas some countries...</p>
 		</div>
-		
+
 		<div class="text_area" name="purchasing" id="purchasing">
 
 			<h2>Where people work the most, do people earn more money?</h2>
