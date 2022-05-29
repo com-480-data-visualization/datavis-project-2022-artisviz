@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "An interactive scatter plot of global health statistics by country and year.",
   "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
-  "width": 200,
-  "height": 200,
+  "width": 300,
+  "height": 300,
   "layer": [
     {
       "transform": [
@@ -13,8 +13,8 @@
       "mark": {
         "type": "text",
         "fontSize": 40,
-        "x": 100,
-        "y": 100,
+        "x": 150,
+        "y": 150,
         "opacity": 0.2,
         "color":"grey"
       },

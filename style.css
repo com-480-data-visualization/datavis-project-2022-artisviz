@@ -278,18 +278,17 @@ section div{
 
 /*================================================VISUALISATION================================================*/
 .visualisation{
-    background-color: aliceblue;
+    background-color: white;
     align-self: center;
     align-items: center;
-    padding: 1cm;
 }
 
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 30%;
+    padding: 1cm;
   }
   
   /* Clear floats after image containers */
