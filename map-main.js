@@ -83,20 +83,20 @@ class MapPlot {
 			.range(["hsl(62,100%,90%)", "hsl(228,30%,20%)"])
 			.interpolate(d3.interpolateHcl);
 
-		const population_promise = d3.csv("Milestone3\data\map-csv.csv").then((data) => {
+		const population_promise = d3.csv("Milestone3/data/map-csv.csv").then((data) => {
 			let countryId_to_hours = {};
 			data.forEach((row) => {
+				
 				countryId_to_hours[row.LOCATION] =  parseFloat(row.Value);
 			});
+
 			return countryId_to_hours;
 		});
 
-		const map_promise = d3.json("ressources/countries-110m.json").then((topojson_raw) => {
-		//const map_promise = d3.json("ressources/ch-cantons.json").then((topojson_raw) => {
-
+		const map_promise = d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((topojson_raw) => {
+			console.log(topojson_raw.objects.countries)
 			//const cantons_paths = topojson.feature(topojson_raw, topojson_raw.objects.cantons);
 			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.countries);
-
 			return country_paths.features;
 		});
             
@@ -109,8 +109,8 @@ class MapPlot {
 
 		//	return new_data;
 		//});
-
-		Promise.all([hours_promise, map_promise]).then((results) => {
+		//console.log(map_promise)
+		Promise.all([population_promise, map_promise]).then((results) => {
 			//Promise.all([population_promise, map_promise]).then((results) => {
 			// ai remplacé population par hours
 			//ai enleve dernier argu point_promise
@@ -123,17 +123,17 @@ class MapPlot {
             
 			map_data.forEach(country => {
 				//remplacement canton -> country
-				country.properties.Value = countryId_to_hours[country.LOCATION];
+				country.properties.hours_worked = countryId_to_hours[country.LOCATION];
 				//canton.properties.density = cantonId_to_population[canton.id];
 
 			});
 
-			const densities = Object.values(cantonId_to_population);
+			const densities = Object.values(countryId_to_hours);
 
 			// color_scale.domain([d3.quantile(densities, .01), d3.quantile(densities, .99)]);
 			//color_scale.domain([d3.min(densities), d3.max(densities)]);
-			color_scale.domain([d3.quantile(Value, .01), d3.quantile(Value, .99)]);
-			color_scale.domain([d3.min(Value), d3.max(Value)]);
+			color_scale.domain([d3.quantile(densities, .01), d3.quantile(densities, .99)]);
+			color_scale.domain([d3.min(densities), d3.max(densities)]);
 
 			// Order of creating groups decides what is on top
 			this.map_container = this.svg.append('g');
@@ -150,7 +150,7 @@ class MapPlot {
 				//.classed("canton", true)
 				.attr("d", path_generator)
 				//.style("fill", (d) => color_scale(d.properties.density));
-				.style("fill", (d) => color_scale(d.properties.hours));
+				.style("fill", 'blue');//(d) => color_scale(d.properties.hours)
 
 
 			this.label_container.selectAll(".country-label")
