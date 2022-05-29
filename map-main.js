@@ -84,10 +84,9 @@ class MapPlot {
 			.interpolate(d3.interpolateHcl);
 
 		const population_promise = d3.csv("Milestone3\data\map-csv.csv").then((data) => {
-		//const population_promise = d3.csv("data/cantons-population.csv").then((data) => {
 			let countryId_to_hours = {};
 			data.forEach((row) => {
-				countryId_to_hours[row.code] =  parseFloat(row.density);
+				countryId_to_hours[row.LOCATION] =  parseFloat(row.Value);
 			});
 			return countryId_to_hours;
 		});
@@ -95,8 +94,8 @@ class MapPlot {
 		const map_promise = d3.json("ressources/countries-110m.json").then((topojson_raw) => {
 		//const map_promise = d3.json("ressources/ch-cantons.json").then((topojson_raw) => {
 
-			//const cantons_paths = topojson.feature(topojson_raw, topojson_raw.objects.canton);
-			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.canton);
+			//const cantons_paths = topojson.feature(topojson_raw, topojson_raw.objects.cantons);
+			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.countries);
 
 			return country_paths.features;
 		});
@@ -119,12 +118,12 @@ class MapPlot {
 			//remplacé cantonId_to_jsp
 			let map_data = results[1];
 			//let point_data = results[2];
-
+			
             
-            //continuer a partir de là
+            
 			map_data.forEach(country => {
 				//remplacement canton -> country
-				country.properties.hours = countryId_to_hours[country.id];
+				country.properties.Value = countryId_to_hours[country.LOCATION];
 				//canton.properties.density = cantonId_to_population[canton.id];
 
 			});
@@ -132,7 +131,9 @@ class MapPlot {
 			const densities = Object.values(cantonId_to_population);
 
 			// color_scale.domain([d3.quantile(densities, .01), d3.quantile(densities, .99)]);
-			color_scale.domain([d3.min(densities), d3.max(densities)]);
+			//color_scale.domain([d3.min(densities), d3.max(densities)]);
+			color_scale.domain([d3.quantile(Value, .01), d3.quantile(Value, .99)]);
+			color_scale.domain([d3.min(Value), d3.max(Value)]);
 
 			// Order of creating groups decides what is on top
 			this.map_container = this.svg.append('g');
@@ -152,8 +153,8 @@ class MapPlot {
 				.style("fill", (d) => color_scale(d.properties.hours));
 
 
-			this.label_container.selectAll(".canton-label")
-			//this.label_container.selectAll(".country-label")
+			this.label_container.selectAll(".country-label")
+			//this.label_container.selectAll(".canton-label")
 
 				.data(map_data)
 				.enter().append("text")
@@ -192,7 +193,7 @@ function whenDocumentLoaded(action) {
 }
 
 whenDocumentLoaded(() => {
-	plot_object = new MapPlot('map-plot');
+	plot_object = new MapPlot('map1');
 	// constructor(svg_element_id) -> map-plot doit être svg
 	// En fait non: // path generator to convert JSON to SVG paths
 	// const path_generator = d3.geoPath()
