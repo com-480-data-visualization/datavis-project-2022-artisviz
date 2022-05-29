@@ -70,7 +70,7 @@ class MapPlot {
 		const projection = d3.geoMercator()
 			.rotate([0, 0])
 			.center([8.3, 46.8]) // WorldSpace: Latitude and longitude of center of switzerland
-			.scale(500)
+			.scale(300)
 			.translate([this.svg_width / 2, this.svg_height / 2]) // SVG space
 			.precision(.1);
 
