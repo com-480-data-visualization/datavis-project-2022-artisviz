@@ -67,10 +67,10 @@ class MapPlot {
 
 		// D3 Projection
 		// similar to scales
-		const projection = d3.geoNaturalEarth1()
+		const projection = d3.geoMercator()
 			.rotate([0, 0])
 			.center([8.3, 46.8]) // WorldSpace: Latitude and longitude of center of switzerland
-			.scale(13000)
+			.scale(500)
 			.translate([this.svg_width / 2, this.svg_height / 2]) // SVG space
 			.precision(.1);
 
@@ -123,7 +123,8 @@ class MapPlot {
             
 			map_data.forEach(country => {
 				//remplacement canton -> country
-				country.properties.hours_worked = countryId_to_hours[country.LOCATION];
+				console.log(countryId_to_hours[country.properties.name])
+				country.properties.hours_worked = countryId_to_hours[country.properties.name];
 				//canton.properties.density = cantonId_to_population[canton.id];
 
 			});
@@ -150,7 +151,7 @@ class MapPlot {
 				//.classed("canton", true)
 				.attr("d", path_generator)
 				//.style("fill", (d) => color_scale(d.properties.density));
-				.style("fill", 'blue');//(d) => color_scale(d.properties.hours)
+				.style("fill", (d) => color_scale(d.properties.hours_worked));
 
 
 			this.label_container.selectAll(".country-label")
@@ -167,8 +168,8 @@ class MapPlot {
 			const r = 3;
 
 
-			this.point_container.selectAll(".point")
-				.data(point_data)
+			/*this.point_container.selectAll(".point")
+				//.data(point_data)
 				.enter()
 				.append("circle")
 				.classed("point", true)
@@ -177,7 +178,7 @@ class MapPlot {
 				.attr("cy", -r)
 				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
 				;
-
+*/
 			this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);
 		});
 	}
