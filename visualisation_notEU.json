@@ -7,7 +7,11 @@
         "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_NEU.csv"
     },
     
-            "params": [
+            "params": [{
+                "name": "grid",
+                "select": "interval",
+                "bind": "scales"
+              },
                 {
                     "name": "measure",
                     "value": "temp_max",

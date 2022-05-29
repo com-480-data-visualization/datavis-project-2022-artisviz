@@ -13,6 +13,10 @@
                         "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)"
                     ]
                 }
+              },{
+                "name": "grid",
+                "select": "interval",
+                "bind": "scales"
               }],
     "layer": [
       {
@@ -68,11 +72,7 @@
             }
           },
           {
-            "params": [{
-              "name": "grid",
-              "select": "interval",
-              "bind": "scales"
-            },
+            "params": [
               {
                 "name": "year",
                 "value": [{"Year": 1987}],
