@@ -1,4 +1,7 @@
 class MapPlot {
+
+	
+
     
 	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLinear) {
 		//affichage
@@ -58,19 +61,26 @@ class MapPlot {
 		// je crois que d3 ne trouve pas # + svg_element_id
 		//est-ce qu'il faut utiliser un id particulier ?
 		this.svg = d3.select('#' + svg_element_id);
-
 		// may be useful for calculating scales
 		const svg_viewbox = this.svg.node().viewBox.animVal;
 		this.svg_width = svg_viewbox.width;
 		this.svg_height = svg_viewbox.height;
-
-
+		//test zoom:
+		/*var mapFeatures = svg.append('g')
+			.attr('class', 'features YlGnBu');
+		mapFeatures.selectAll('path')
+			//.data.features.features
 		// D3 Projection
 		// similar to scales
+
+			var zoom = d3.behavior.zoom()
+		.scaleExtent([1, 10])
+		.on('zoom', doZoom);
+		svg.call(zoom);*/
 		const projection = d3.geoMercator()
 			.rotate([0, 0])
 			.center([8.3, 46.8]) // WorldSpace: Latitude and longitude of center of switzerland
-			.scale(300)
+			.scale(180)
 			.translate([this.svg_width / 2, this.svg_height / 2]) // SVG space
 			.precision(.1);
 
@@ -180,20 +190,6 @@ class MapPlot {
 */
 			this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);
 		});
-		var mapFeatures = svg.append('g')
-			.attr('class', 'features YlGnBu');
-		mapFeatures.selectAll('path')
-		// Define the zoom and attach it to the map
-		var zoom = d3.behavior.zoom()
-			.scaleExtent([1, 10])
-			.on('zoom', doZoom);
-			
-		svg.call(zoom);
-
-		function doZoom() {
-			mapFeatures.attr("transform",
-				"translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
-				}
 	}
 }
 
@@ -208,8 +204,12 @@ function whenDocumentLoaded(action) {
 
 whenDocumentLoaded(() => {
 	plot_object = new MapPlot('map1');
+
+
 	// constructor(svg_element_id) -> map-plot doit être svg
 	// En fait non: // path generator to convert JSON to SVG paths
 	// const path_generator = d3.geoPath()
 	// plot object is global, you can inspect it in the dev-console
 });
+
+
