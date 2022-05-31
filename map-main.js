@@ -132,11 +132,7 @@ class MapPlot {
             
             
 			map_data.forEach(country => {
-				//remplacement canton -> country
-				console.log(countryId_to_hours[country.properties.name])
 				country.properties.hours_worked = countryId_to_hours[country.properties.name];
-				//canton.properties.density = cantonId_to_population[canton.id];
-
 			});
 
 			const densities = Object.values(countryId_to_hours);
@@ -150,21 +146,29 @@ class MapPlot {
 			this.map_container = this.svg.append('g');
 			this.point_container = this.svg.append('g');
 			this.label_container = this.svg.append('g'); // <- is on top
+			/*this.svg.append('g')
+				.attr('class','country')
+				.data(map_data)
+				.enter()
+				.append('path_generator')
+				.attrs({
+					'd' : path_generator,
+					'class': 'grey',
+					'stroke-width': 0.3,
+					'cursor': 'pointer'
+
+				})*/
 
 			//color the map according to the density of each canton
 			this.map_container.selectAll(".country")
-			//this.map_container.selectAll(".canton")
 				.data(map_data)
 				.enter()
 				.append("path")
 				.classed("country", true)
-				//.classed("canton", true)
 				.attr("d", path_generator)
-				//.style("fill", (d) => color_scale(d.properties.density));
 				.style("fill", (d) => color_scale(d.properties.hours_worked));
 
-
-			this.label_container.selectAll(".country-label")
+				this.label_container.selectAll(".country-label")
 			//this.label_container.selectAll(".canton-label")
 
 				.data(map_data)
@@ -204,8 +208,6 @@ function whenDocumentLoaded(action) {
 
 whenDocumentLoaded(() => {
 	plot_object = new MapPlot('map1');
-
-
 	// constructor(svg_element_id) -> map-plot doit être svg
 	// En fait non: // path generator to convert JSON to SVG paths
 	// const path_generator = d3.geoPath()
