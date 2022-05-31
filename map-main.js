@@ -167,7 +167,6 @@ class MapPlot {
 				.text((d) => d.properties.name);
 			const r = 3;
 
-
 			/*this.point_container.selectAll(".point")
 				//.data(point_data)
 				.enter()
@@ -181,6 +180,20 @@ class MapPlot {
 */
 			this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);
 		});
+		var mapFeatures = svg.append('g')
+			.attr('class', 'features YlGnBu');
+		mapFeatures.selectAll('path')
+		// Define the zoom and attach it to the map
+		var zoom = d3.behavior.zoom()
+			.scaleExtent([1, 10])
+			.on('zoom', doZoom);
+			
+		svg.call(zoom);
+
+		function doZoom() {
+			mapFeatures.attr("transform",
+				"translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+				}
 	}
 }
 
