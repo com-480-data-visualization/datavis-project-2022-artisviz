@@ -137,7 +137,8 @@ header img{
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-	background-color: #e6d29d;
+	background-color: #9da6e6;
+    color: aliceblue;
 	/*height: 63.6px;*/
 
   }
@@ -174,8 +175,8 @@ section div{
 	margin-left: auto;
 	margin-right: auto;
 	position: sticky;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
 
 }
 
@@ -226,8 +227,7 @@ section div{
 .text_box p {
 	color: black;
     padding : 1vw;
-    padding-bottom: 2vw;
-    padding-top: 1.5vw;
+    font-family: 'Poppins', sans-serif;
 }
 
 .pourtour img{
