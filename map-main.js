@@ -80,7 +80,7 @@ class MapPlot {
 
 		//colormap for population density
 		const color_scale = d3.scaleLog()
-			.range(["hsl(62,100%,90%)", "hsl(228,30%,20%)"])
+			.range(["hsl(60,100%,92%)", "hsl(0,100%,50%)"])
 			.interpolate(d3.interpolateHcl);
 
 		const population_promise = d3.csv("Milestone3/data/map-csv.csv").then((data) => {
