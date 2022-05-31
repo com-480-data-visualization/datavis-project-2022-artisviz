@@ -174,7 +174,6 @@ class MapPlot {
 				.data(map_data)
 				.enter().append("text")
 				.classed("country-label", true)
-				//.classed("canton-label", true)
 				.attr("transform", (d) => "translate(" + path_generator.centroid(d) + ")")
 				//.translate((d) => path_generator.centroid(d))
 				.attr("dy", ".35em")
@@ -187,7 +186,7 @@ class MapPlot {
 				.append("circle")
 				.classed("point", true)
 				.attr("r", r)
-				.attr("cx", -r)
+				.attr("cx", -r)	
 				.attr("cy", -r)
 				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
 				;
