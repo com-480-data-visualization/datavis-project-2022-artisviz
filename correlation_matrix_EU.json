@@ -1,0 +1,30 @@
+
+{  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/correlation_EU.json"},
+  "encoding": {
+    "y": {"field": "Field 2", "type": "ordinal"},
+    "x": {"field": "Field 1", "type": "ordinal"}
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "Correlation coefficient",
+          "legend": {"direction": "horizontal", "gradientLength": 120}
+        }
+      }
+    },
+    {
+      "mark": "text",
+      "encoding": {
+        "text": {"field": "Value", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent"}
+  }
+}

@@ -1,0 +1,37 @@
+,Field 1,Field 2,Value
+0,Poverty rate (no unit),Poverty rate (no unit),1.0
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.5419281637776194
+2,Poverty rate (no unit),Income Inequality (no unit),0.774171167667381
+3,Poverty rate (no unit),Employment Rate (no unit),-0.7974197755852909
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.7932980174915171
+5,Poverty rate (no unit),Average Wage (USD),-0.5313783169093372
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.5419281637776194
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.4551844882674259
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.724566242375255
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.795548272580819
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.8300179239486062
+12,Income Inequality (no unit),Poverty rate (no unit),0.774171167667381
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.4551844882674259
+14,Income Inequality (no unit),Income Inequality (no unit),1.0
+15,Income Inequality (no unit),Employment Rate (no unit),-0.6044481433145343
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.6158483414835434
+17,Income Inequality (no unit),Average Wage (USD),-0.5815476776449555
+18,Employment Rate (no unit),Poverty rate (no unit),-0.7974197755852909
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.724566242375255
+20,Employment Rate (no unit),Income Inequality (no unit),-0.6044481433145343
+21,Employment Rate (no unit),Employment Rate (no unit),1.0
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.7933980383189317
+23,Employment Rate (no unit),Average Wage (USD),0.7578199561812153
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.7932980174915171
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.795548272580819
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.6158483414835434
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.7933980383189317
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0
+29,Hours worked per year (hours/year),Average Wage (USD),-0.684918975068584
+30,Average Wage (USD),Poverty rate (no unit),-0.5313783169093372
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.8300179239486062
+32,Average Wage (USD),Income Inequality (no unit),-0.5815476776449555
+33,Average Wage (USD),Employment Rate (no unit),0.7578199561812153
+34,Average Wage (USD),Hours worked per year (hours/year),-0.684918975068584
+35,Average Wage (USD),Average Wage (USD),1.0
