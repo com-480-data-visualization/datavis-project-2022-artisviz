@@ -87,7 +87,7 @@ header img{
 }
 
 #BackgroundVideo {
-    width: 100vw;
+    width: 100%;
 	height: 100vh;
 	object-fit: cover;
 	position: fixed;
@@ -171,7 +171,7 @@ section div{
 .text_area {
     background-color: white;
     /* background-image: url("ressources/images/wallpaper.png"); */
-	max-width: auto;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	position: sticky;
@@ -292,6 +292,7 @@ section div{
     float: left;
     width: 32%;
   }
+
   
   /* Clear floats after image containers */
   .row::after {
