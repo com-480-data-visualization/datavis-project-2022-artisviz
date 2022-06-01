@@ -70,7 +70,8 @@
                   "field": "Year",
                   "timeUnit": "year",
                   "scale": {
-                      "zero": false
+                      "zero": false,
+                      "domainMin":1970
                   },
                   "axis": {"grid": false}
 
