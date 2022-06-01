@@ -18,11 +18,11 @@
                   "bind": {
                       "input": "select",
                       "options": [null,
-                          "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)"
+                          "Poverty rate (no unit)","GDP per hours worked (USD/hour)","Income Inequality (no unit)","Employment Rate (no unit)","Hours worked per year (hours/year)","Average Wage (USD)"
                       ]
                   }
               },
-              
+             
               {
                   "name": "Select",
                   "select": {
