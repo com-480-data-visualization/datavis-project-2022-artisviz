@@ -29,10 +29,10 @@
           "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
         },
         "y": {
-          "field": "Employment Rate (no unit)",
+          "field": "Hours worked per year (hours/year)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "Employment Rate (no unit)"}
+          "axis": {"tickCount": 10, "title": "Hours worked per year (hours/year)"}
         }
       },
       "layer": [

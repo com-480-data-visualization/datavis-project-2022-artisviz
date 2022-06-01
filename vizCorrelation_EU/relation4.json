@@ -23,16 +23,16 @@
     {
       "encoding": {
         "x": {
-          "field": "Employment Rate (no unit)",
+          "field": "Hours worked per year (hours/year)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "Employment Rate (no unit)"}
+          "axis": {"tickCount": 10, "title": "Hours worked per year (hours/year)"}
         },
         "y": {
-          "field": "Poverty rate (no unit)",
+          "field": "Average Wage (USD)",
           "type": "quantitative",
           "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
+          "axis": {"tickCount": 10, "title": "Average Wage (USD)"}
         }
       },
       "layer": [
