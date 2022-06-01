@@ -23,10 +23,10 @@
     {
       "encoding": {
         "x": {
-          "field": "GDP per hours worked (USD/hour)",
+          "field": "Hours worked per year (hours/year)",
           "type": "quantitative",
-          "scale": {"zero": false, "domainMax":110},
-          "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+          "scale": {"zero": false},
+          "axis": {"tickCount": 10, "title": "Hours worked per year (hours/year)"}
         },
         "y": {
           "field": "Poverty rate (no unit)",
