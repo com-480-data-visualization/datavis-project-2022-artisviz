@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "An interactive scatter plot of global health statistics by country and year.",
-  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/csvjson.json"},
+  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_EU.json"},
   "width": 300,
   "height": 300,
   "layer": [
@@ -23,16 +23,16 @@
     {
       "encoding": {
         "x": {
+          "field": "Employment Rate (no unit)",
+          "type": "quantitative",
+          "scale": {"zero": false},
+          "axis": {"tickCount": 10, "title": "Employment Rate (no unit)"}
+        },
+        "y": {
           "field": "Poverty rate (no unit)",
           "type": "quantitative",
           "scale": {"zero": false},
           "axis": {"tickCount": 10, "title": "Poverty rate (no unit)"}
-        },
-        "y": {
-          "field": "Income Inequality (no unit)",
-          "type": "quantitative",
-          "scale": {"zero": false},
-          "axis": {"tickCount": 10, "title": "Income Inequality (no unit)"}
         }
       },
       "layer": [

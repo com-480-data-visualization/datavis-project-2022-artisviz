@@ -1,0 +1,146 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "An interactive scatter plot of global health statistics by country and year.",
+  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_NEU.json"},
+  "width": 300,
+  "height": 300,
+  "layer": [
+    {
+      "transform": [
+        {"filter": {"field": "country", "equal": "AUS"}},
+        {"filter": {"param": "year"}}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 40,
+        "x": 150,
+        "y": 150,
+        "opacity": 0.2,
+        "color":"grey"
+      },
+      "encoding": {"text": {"field": "Year"}}
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "GDP per hours worked (USD/hour)",
+          "type": "quantitative",
+          "scale": {"zero": false, "domainMax":110},
+          "axis": {"tickCount": 10, "title": "GDP per hours worked (USD/hour)"}
+        },
+        "y": {
+          "field": "Income Inequality (no unit)",
+          "type": "quantitative",
+          "scale": {"zero": false},
+          "axis": {"tickCount": 10, "title": "Income Inequality (no unit)"}
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "line",
+            "size": 4,
+            "strokeCap": "round",
+            "tooltip":true
+          },
+          "encoding": {
+            "detail": {"field": "country"},
+            "order": {"field": "Year"},
+            "opacity": {
+              "condition": {
+                "test": {"or": [
+                  {"param": "hovered", "empty": false},
+                  {"param": "clicked", "empty": false}
+                ]},
+                "value": 0.8
+              },
+              "value": 0.2
+            },
+            "color": {"field": "country", "title": "Country","scale": {"scheme": "category20b"}}
+          }
+        },
+        {
+          "params": [{
+            "name": "grid",
+            "select": "interval",
+            "bind": "scales"
+          },
+            {
+              "name": "year",
+              "value": [{"Year": 1987}],
+              "select": {
+                "type": "point",
+                "fields": ["Year"]
+              },
+              "bind": {
+                "name": "Year",
+                "input": "range",
+                "min": 1987, "max": 2021, "step": 1
+              }
+            },
+            {
+              "name": "hovered",
+              "select": {
+                "type": "point",
+                "fields": ["country"],
+                "toggle": false,
+                "on": "mouseover"
+              }
+            },
+            {
+              "name": "clicked",
+              "select": {"type": "point", "fields": ["country"]}
+            }
+          ],
+          "transform": [{"filter": {"param": "year"}}],
+          "mark": {"type": "circle", "size": 100, "opacity": 1, "tooltip":true},
+          "encoding": {"color": {"field": "country"}}
+        },
+        {
+          "transform": [
+            {
+              "filter": {
+                "and": [
+                  {"param": "year"},
+                  {"or": [
+                    {"param": "clicked", "empty": false},
+                    {"param": "hovered", "empty": false}
+                  ]}
+                ]
+              }
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "yOffset": -15,
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "tooltip":true
+
+          },
+          "encoding": {
+            "text": {"field": "country"},
+            "color": {"field": "country", "scale": {"scheme": "category20b"}}
+          }
+        },
+        {
+          "transform": [
+            {"filter": {"param": "clicked", "empty": false}},
+            {"filter": {"not": {"param": "year"}}}
+          ],
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "yOffset": -12,
+                "fontSize": 12,
+                "tooltip":true
+                },
+              "encoding": {"text": {"field": "Year"}, "color" : {"field": "country","scale": {"scheme": "category20b"}}}},
+            {"mark": {"type": "circle"}}
+          ]
+        }
+      ]
+    }
+  ]
+}

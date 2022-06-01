@@ -1,0 +1,5312 @@
+[
+  {
+    "": 0,
+    "country": "AUS",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.14,
+    "GDP per hours worked (USD/hour)": 51.67034,
+    "Income Inequality (no unit)": 0.326,
+    "Employment Rate (no unit)": 72.34558
+  },
+  {
+    "": 1,
+    "country": "AUS",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.128,
+    "GDP per hours worked (USD/hour)": 52.781785,
+    "Income Inequality (no unit)": 0.337,
+    "Employment Rate (no unit)": 71.56635
+  },
+  {
+    "": 2,
+    "country": "AUS",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.121,
+    "GDP per hours worked (USD/hour)": 53.959369,
+    "Income Inequality (no unit)": 0.33,
+    "Employment Rate (no unit)": 72.4315
+  },
+  {
+    "": 3,
+    "country": "AUS",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 54.536922,
+    "Income Inequality (no unit)": 0.325,
+    "Employment Rate (no unit)": 73.76588
+  },
+  {
+    "": 4,
+    "country": "CAN",
+    "Year": 1976,
+    "Poverty rate (no unit)": 0.131,
+    "GDP per hours worked (USD/hour)": 33.28053,
+    "Income Inequality (no unit)": 0.303,
+    "Employment Rate (no unit)": 63.075
+  },
+  {
+    "": 5,
+    "country": "CAN",
+    "Year": 1977,
+    "Poverty rate (no unit)": 0.139,
+    "GDP per hours worked (USD/hour)": 34.204027,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 62.93333
+  },
+  {
+    "": 6,
+    "country": "CAN",
+    "Year": 1978,
+    "Poverty rate (no unit)": 0.132,
+    "GDP per hours worked (USD/hour)": 34.456076,
+    "Income Inequality (no unit)": 0.294,
+    "Employment Rate (no unit)": 63.7
+  },
+  {
+    "": 7,
+    "country": "CAN",
+    "Year": 1979,
+    "Poverty rate (no unit)": 0.133,
+    "GDP per hours worked (USD/hour)": 34.116931,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 65.38333
+  },
+  {
+    "": 8,
+    "country": "CAN",
+    "Year": 1980,
+    "Poverty rate (no unit)": 0.131,
+    "GDP per hours worked (USD/hour)": 34.016491,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 66.13333
+  },
+  {
+    "": 9,
+    "country": "CAN",
+    "Year": 1981,
+    "Poverty rate (no unit)": 0.123,
+    "GDP per hours worked (USD/hour)": 34.483961,
+    "Income Inequality (no unit)": 0.288,
+    "Employment Rate (no unit)": 67
+  },
+  {
+    "": 10,
+    "country": "CAN",
+    "Year": 1982,
+    "Poverty rate (no unit)": 0.125,
+    "GDP per hours worked (USD/hour)": 34.95985,
+    "Income Inequality (no unit)": 0.292,
+    "Employment Rate (no unit)": 63.90833
+  },
+  {
+    "": 11,
+    "country": "CAN",
+    "Year": 1983,
+    "Poverty rate (no unit)": 0.132,
+    "GDP per hours worked (USD/hour)": 35.772644,
+    "Income Inequality (no unit)": 0.3,
+    "Employment Rate (no unit)": 63.65833
+  },
+  {
+    "": 12,
+    "country": "CAN",
+    "Year": 1984,
+    "Poverty rate (no unit)": 0.133,
+    "GDP per hours worked (USD/hour)": 36.744884,
+    "Income Inequality (no unit)": 0.297,
+    "Employment Rate (no unit)": 64.58334
+  },
+  {
+    "": 13,
+    "country": "CAN",
+    "Year": 1985,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 37.074654,
+    "Income Inequality (no unit)": 0.294,
+    "Employment Rate (no unit)": 66.00833
+  },
+  {
+    "": 14,
+    "country": "CAN",
+    "Year": 1986,
+    "Poverty rate (no unit)": 0.119,
+    "GDP per hours worked (USD/hour)": 36.758123,
+    "Income Inequality (no unit)": 0.293,
+    "Employment Rate (no unit)": 67.40833
+  },
+  {
+    "": 15,
+    "country": "CAN",
+    "Year": 1987,
+    "Poverty rate (no unit)": 0.12,
+    "GDP per hours worked (USD/hour)": 36.928036,
+    "Income Inequality (no unit)": 0.291,
+    "Employment Rate (no unit)": 68.575
+  },
+  {
+    "": 16,
+    "country": "CAN",
+    "Year": 1988,
+    "Poverty rate (no unit)": 0.114,
+    "GDP per hours worked (USD/hour)": 37.281976,
+    "Income Inequality (no unit)": 0.286,
+    "Employment Rate (no unit)": 69.98333
+  },
+  {
+    "": 17,
+    "country": "CAN",
+    "Year": 1989,
+    "Poverty rate (no unit)": 0.109,
+    "GDP per hours worked (USD/hour)": 37.371447,
+    "Income Inequality (no unit)": 0.284,
+    "Employment Rate (no unit)": 70.76667
+  },
+  {
+    "": 18,
+    "country": "CAN",
+    "Year": 1990,
+    "Poverty rate (no unit)": 0.119,
+    "GDP per hours worked (USD/hour)": 37.329579,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 70.35
+  },
+  {
+    "": 19,
+    "country": "CAN",
+    "Year": 1991,
+    "Poverty rate (no unit)": 0.118,
+    "GDP per hours worked (USD/hour)": 37.657788,
+    "Income Inequality (no unit)": 0.296,
+    "Employment Rate (no unit)": 68.25833
+  },
+  {
+    "": 20,
+    "country": "CAN",
+    "Year": 1992,
+    "Poverty rate (no unit)": 0.121,
+    "GDP per hours worked (USD/hour)": 38.428156,
+    "Income Inequality (no unit)": 0.296,
+    "Employment Rate (no unit)": 66.80833
+  },
+  {
+    "": 21,
+    "country": "CAN",
+    "Year": 1993,
+    "Poverty rate (no unit)": 0.119,
+    "GDP per hours worked (USD/hour)": 39.205668,
+    "Income Inequality (no unit)": 0.29,
+    "Employment Rate (no unit)": 66.45834
+  },
+  {
+    "": 22,
+    "country": "CAN",
+    "Year": 1994,
+    "Poverty rate (no unit)": 0.117,
+    "GDP per hours worked (USD/hour)": 39.985071,
+    "Income Inequality (no unit)": 0.291,
+    "Employment Rate (no unit)": 67.025
+  },
+  {
+    "": 23,
+    "country": "CAN",
+    "Year": 1995,
+    "Poverty rate (no unit)": 0.118,
+    "GDP per hours worked (USD/hour)": 40.473261,
+    "Income Inequality (no unit)": 0.293,
+    "Employment Rate (no unit)": 67.525
+  },
+  {
+    "": 24,
+    "country": "CAN",
+    "Year": 1996,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 40.384258,
+    "Income Inequality (no unit)": 0.301,
+    "Employment Rate (no unit)": 67.35
+  },
+  {
+    "": 25,
+    "country": "CAN",
+    "Year": 1997,
+    "Poverty rate (no unit)": 0.125,
+    "GDP per hours worked (USD/hour)": 41.11408,
+    "Income Inequality (no unit)": 0.304,
+    "Employment Rate (no unit)": 67.98333
+  },
+  {
+    "": 26,
+    "country": "CAN",
+    "Year": 1998,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 41.878901,
+    "Income Inequality (no unit)": 0.31,
+    "Employment Rate (no unit)": 68.95
+  },
+  {
+    "": 27,
+    "country": "CAN",
+    "Year": 1999,
+    "Poverty rate (no unit)": 0.117,
+    "GDP per hours worked (USD/hour)": 42.937024,
+    "Income Inequality (no unit)": 0.308,
+    "Employment Rate (no unit)": 69.98333
+  },
+  {
+    "": 28,
+    "country": "CAN",
+    "Year": 2000,
+    "Poverty rate (no unit)": 0.12,
+    "GDP per hours worked (USD/hour)": 44.285388,
+    "Income Inequality (no unit)": 0.315,
+    "Employment Rate (no unit)": 70.9
+  },
+  {
+    "": 29,
+    "country": "CAN",
+    "Year": 2001,
+    "Poverty rate (no unit)": 0.117,
+    "GDP per hours worked (USD/hour)": 44.991861,
+    "Income Inequality (no unit)": 0.317,
+    "Employment Rate (no unit)": 70.79166
+  },
+  {
+    "": 30,
+    "country": "CAN",
+    "Year": 2002,
+    "Poverty rate (no unit)": 0.123,
+    "GDP per hours worked (USD/hour)": 45.721803,
+    "Income Inequality (no unit)": 0.317,
+    "Employment Rate (no unit)": 71.41666
+  },
+  {
+    "": 31,
+    "country": "CAN",
+    "Year": 2003,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 45.835459,
+    "Income Inequality (no unit)": 0.315,
+    "Employment Rate (no unit)": 72.18333
+  },
+  {
+    "": 32,
+    "country": "CAN",
+    "Year": 2004,
+    "Poverty rate (no unit)": 0.129,
+    "GDP per hours worked (USD/hour)": 46.221376,
+    "Income Inequality (no unit)": 0.321,
+    "Employment Rate (no unit)": 72.45
+  },
+  {
+    "": 33,
+    "country": "CAN",
+    "Year": 2005,
+    "Poverty rate (no unit)": 0.123,
+    "GDP per hours worked (USD/hour)": 47.247735,
+    "Income Inequality (no unit)": 0.315,
+    "Employment Rate (no unit)": 72.44167
+  },
+  {
+    "": 34,
+    "country": "CAN",
+    "Year": 2006,
+    "Poverty rate (no unit)": 0.129,
+    "GDP per hours worked (USD/hour)": 47.751732,
+    "Income Inequality (no unit)": 0.316,
+    "Employment Rate (no unit)": 72.70834
+  },
+  {
+    "": 35,
+    "country": "CAN",
+    "Year": 2007,
+    "Poverty rate (no unit)": 0.129,
+    "GDP per hours worked (USD/hour)": 47.748713,
+    "Income Inequality (no unit)": 0.317,
+    "Employment Rate (no unit)": 73.325
+  },
+  {
+    "": 36,
+    "country": "CAN",
+    "Year": 2008,
+    "Poverty rate (no unit)": 0.127,
+    "GDP per hours worked (USD/hour)": 47.612779,
+    "Income Inequality (no unit)": 0.315,
+    "Employment Rate (no unit)": 73.35
+  },
+  {
+    "": 37,
+    "country": "CAN",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.134,
+    "GDP per hours worked (USD/hour)": 47.84147,
+    "Income Inequality (no unit)": 0.316,
+    "Employment Rate (no unit)": 71.26667
+  },
+  {
+    "": 38,
+    "country": "CAN",
+    "Year": 2010,
+    "Poverty rate (no unit)": 0.131,
+    "GDP per hours worked (USD/hour)": 48.328378,
+    "Income Inequality (no unit)": 0.316,
+    "Employment Rate (no unit)": 71.29166
+  },
+  {
+    "": 39,
+    "country": "CAN",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.131,
+    "GDP per hours worked (USD/hour)": 49.118031,
+    "Income Inequality (no unit)": 0.313,
+    "Employment Rate (no unit)": 71.71667
+  },
+  {
+    "": 40,
+    "country": "CAN",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.133,
+    "GDP per hours worked (USD/hour)": 49.22531,
+    "Income Inequality (no unit)": 0.317,
+    "Employment Rate (no unit)": 71.925
+  },
+  {
+    "": 41,
+    "country": "CAN",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.133,
+    "GDP per hours worked (USD/hour)": 49.879102,
+    "Income Inequality (no unit)": 0.32,
+    "Employment Rate (no unit)": 72.29166
+  },
+  {
+    "": 42,
+    "country": "CAN",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.126,
+    "GDP per hours worked (USD/hour)": 51.187305,
+    "Income Inequality (no unit)": 0.313,
+    "Employment Rate (no unit)": 72.13333
+  },
+  {
+    "": 43,
+    "country": "CAN",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.142,
+    "GDP per hours worked (USD/hour)": 51.051617,
+    "Income Inequality (no unit)": 0.318,
+    "Employment Rate (no unit)": 72.35833
+  },
+  {
+    "": 44,
+    "country": "CAN",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 51.135179,
+    "Income Inequality (no unit)": 0.307,
+    "Employment Rate (no unit)": 72.33334
+  },
+  {
+    "": 45,
+    "country": "CAN",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.12,
+    "GDP per hours worked (USD/hour)": 52.046638,
+    "Income Inequality (no unit)": 0.31,
+    "Employment Rate (no unit)": 73.15833
+  },
+  {
+    "": 46,
+    "country": "CAN",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.118,
+    "GDP per hours worked (USD/hour)": 52.212832,
+    "Income Inequality (no unit)": 0.303,
+    "Employment Rate (no unit)": 73.53333
+  },
+  {
+    "": 47,
+    "country": "CAN",
+    "Year": 2019,
+    "Poverty rate (no unit)": 0.116,
+    "GDP per hours worked (USD/hour)": 52.691958,
+    "Income Inequality (no unit)": 0.301,
+    "Employment Rate (no unit)": 74.15
+  },
+  {
+    "": 48,
+    "country": "ISL",
+    "Year": 2004,
+    "Poverty rate (no unit)": 0.058,
+    "GDP per hours worked (USD/hour)": 49.292787,
+    "Income Inequality (no unit)": 0.261,
+    "Employment Rate (no unit)": 82.275
+  },
+  {
+    "": 49,
+    "country": "ISL",
+    "Year": 2005,
+    "Poverty rate (no unit)": 0.063,
+    "GDP per hours worked (USD/hour)": 50.908345,
+    "Income Inequality (no unit)": 0.273,
+    "Employment Rate (no unit)": 83.775
+  },
+  {
+    "": 50,
+    "country": "ISL",
+    "Year": 2006,
+    "Poverty rate (no unit)": 0.057,
+    "GDP per hours worked (USD/hour)": 51.827047,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 84.6
+  },
+  {
+    "": 51,
+    "country": "ISL",
+    "Year": 2007,
+    "Poverty rate (no unit)": 0.066,
+    "GDP per hours worked (USD/hour)": 54.507634,
+    "Income Inequality (no unit)": 0.285,
+    "Employment Rate (no unit)": 85.15
+  },
+  {
+    "": 52,
+    "country": "ISL",
+    "Year": 2008,
+    "Poverty rate (no unit)": 0.066,
+    "GDP per hours worked (USD/hour)": 54.473883,
+    "Income Inequality (no unit)": 0.306,
+    "Employment Rate (no unit)": 83.575
+  },
+  {
+    "": 53,
+    "country": "ISL",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.062,
+    "GDP per hours worked (USD/hour)": 57.958666,
+    "Income Inequality (no unit)": 0.266,
+    "Employment Rate (no unit)": 78.325
+  },
+  {
+    "": 54,
+    "country": "ISL",
+    "Year": 2010,
+    "Poverty rate (no unit)": 0.066,
+    "GDP per hours worked (USD/hour)": 57.363205,
+    "Income Inequality (no unit)": 0.248,
+    "Employment Rate (no unit)": 78.175
+  },
+  {
+    "": 55,
+    "country": "ISL",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.058,
+    "GDP per hours worked (USD/hour)": 57.412617,
+    "Income Inequality (no unit)": 0.252,
+    "Employment Rate (no unit)": 78.475
+  },
+  {
+    "": 56,
+    "country": "ISL",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.061,
+    "GDP per hours worked (USD/hour)": 57.495299,
+    "Income Inequality (no unit)": 0.252,
+    "Employment Rate (no unit)": 79.675
+  },
+  {
+    "": 57,
+    "country": "ISL",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.045,
+    "GDP per hours worked (USD/hour)": 58.702973,
+    "Income Inequality (no unit)": 0.24,
+    "Employment Rate (no unit)": 81.1
+  },
+  {
+    "": 58,
+    "country": "ISL",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.067,
+    "GDP per hours worked (USD/hour)": 58.676681,
+    "Income Inequality (no unit)": 0.246,
+    "Employment Rate (no unit)": 82.95
+  },
+  {
+    "": 59,
+    "country": "ISL",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.054,
+    "GDP per hours worked (USD/hour)": 59.662657,
+    "Income Inequality (no unit)": 0.257,
+    "Employment Rate (no unit)": 84.725
+  },
+  {
+    "": 60,
+    "country": "ISL",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.06,
+    "GDP per hours worked (USD/hour)": 60.324542,
+    "Income Inequality (no unit)": 0.264,
+    "Employment Rate (no unit)": 86.525
+  },
+  {
+    "": 61,
+    "country": "ISL",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.049,
+    "GDP per hours worked (USD/hour)": 60.815593,
+    "Income Inequality (no unit)": 0.25,
+    "Employment Rate (no unit)": 86.1
+  },
+  {
+    "": 62,
+    "country": "KOR",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.175,
+    "GDP per hours worked (USD/hour)": 35.5578,
+    "Income Inequality (no unit)": 0.352,
+    "Employment Rate (no unit)": 65.90981
+  },
+  {
+    "": 63,
+    "country": "KOR",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.176,
+    "GDP per hours worked (USD/hour)": 36.548092,
+    "Income Inequality (no unit)": 0.355,
+    "Employment Rate (no unit)": 66.07566
+  },
+  {
+    "": 64,
+    "country": "KOR",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.173,
+    "GDP per hours worked (USD/hour)": 38.180621,
+    "Income Inequality (no unit)": 0.354,
+    "Employment Rate (no unit)": 66.62926
+  },
+  {
+    "": 65,
+    "country": "KOR",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.167,
+    "GDP per hours worked (USD/hour)": 39.639227,
+    "Income Inequality (no unit)": 0.345,
+    "Employment Rate (no unit)": 66.61324
+  },
+  {
+    "": 66,
+    "country": "MEX",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.189,
+    "GDP per hours worked (USD/hour)": 20.061491,
+    "Income Inequality (no unit)": 0.457,
+    "Employment Rate (no unit)": 60.90891
+  },
+  {
+    "": 67,
+    "country": "MEX",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.167,
+    "GDP per hours worked (USD/hour)": 20.473929,
+    "Income Inequality (no unit)": 0.459,
+    "Employment Rate (no unit)": 60.40805
+  },
+  {
+    "": 68,
+    "country": "MEX",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.166,
+    "GDP per hours worked (USD/hour)": 20.673107,
+    "Income Inequality (no unit)": 0.458,
+    "Employment Rate (no unit)": 61.04717
+  },
+  {
+    "": 69,
+    "country": "MEX",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.159,
+    "GDP per hours worked (USD/hour)": 20.685444,
+    "Income Inequality (no unit)": 0.418,
+    "Employment Rate (no unit)": 61.52908
+  },
+  {
+    "": 70,
+    "country": "NZL",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.098,
+    "GDP per hours worked (USD/hour)": 39.989327,
+    "Income Inequality (no unit)": 0.323,
+    "Employment Rate (no unit)": 72.40391
+  },
+  {
+    "": 71,
+    "country": "NZL",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.099,
+    "GDP per hours worked (USD/hour)": 41.489133,
+    "Income Inequality (no unit)": 0.333,
+    "Employment Rate (no unit)": 71.85777
+  },
+  {
+    "": 72,
+    "country": "NZL",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.109,
+    "GDP per hours worked (USD/hour)": 40.611254,
+    "Income Inequality (no unit)": 0.349,
+    "Employment Rate (no unit)": 74.17313
+  },
+  {
+    "": 73,
+    "country": "NOR",
+    "Year": 2004,
+    "Poverty rate (no unit)": 0.069,
+    "GDP per hours worked (USD/hour)": 81.894347,
+    "Income Inequality (no unit)": 0.285,
+    "Employment Rate (no unit)": 75.125
+  },
+  {
+    "": 74,
+    "country": "NOR",
+    "Year": 2008,
+    "Poverty rate (no unit)": 0.078,
+    "GDP per hours worked (USD/hour)": 78.348249,
+    "Income Inequality (no unit)": 0.25,
+    "Employment Rate (no unit)": 77.95
+  },
+  {
+    "": 75,
+    "country": "NOR",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.075,
+    "GDP per hours worked (USD/hour)": 78.455084,
+    "Income Inequality (no unit)": 0.245,
+    "Employment Rate (no unit)": 76.425
+  },
+  {
+    "": 76,
+    "country": "NOR",
+    "Year": 2010,
+    "Poverty rate (no unit)": 0.075,
+    "GDP per hours worked (USD/hour)": 78.789195,
+    "Income Inequality (no unit)": 0.249,
+    "Employment Rate (no unit)": 75.3
+  },
+  {
+    "": 77,
+    "country": "NOR",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.077,
+    "GDP per hours worked (USD/hour)": 78.170009,
+    "Income Inequality (no unit)": 0.25,
+    "Employment Rate (no unit)": 75.3
+  },
+  {
+    "": 78,
+    "country": "NOR",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.081,
+    "GDP per hours worked (USD/hour)": 78.839549,
+    "Income Inequality (no unit)": 0.253,
+    "Employment Rate (no unit)": 75.75
+  },
+  {
+    "": 79,
+    "country": "NOR",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.078,
+    "GDP per hours worked (USD/hour)": 79.340132,
+    "Income Inequality (no unit)": 0.252,
+    "Employment Rate (no unit)": 75.425
+  },
+  {
+    "": 80,
+    "country": "NOR",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.081,
+    "GDP per hours worked (USD/hour)": 79.913585,
+    "Income Inequality (no unit)": 0.257,
+    "Employment Rate (no unit)": 75.225
+  },
+  {
+    "": 81,
+    "country": "NOR",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.081,
+    "GDP per hours worked (USD/hour)": 81.021883,
+    "Income Inequality (no unit)": 0.272,
+    "Employment Rate (no unit)": 74.8
+  },
+  {
+    "": 82,
+    "country": "NOR",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.082,
+    "GDP per hours worked (USD/hour)": 81.489588,
+    "Income Inequality (no unit)": 0.262,
+    "Employment Rate (no unit)": 74.3
+  },
+  {
+    "": 83,
+    "country": "NOR",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.084,
+    "GDP per hours worked (USD/hour)": 83.062125,
+    "Income Inequality (no unit)": 0.262,
+    "Employment Rate (no unit)": 74
+  },
+  {
+    "": 84,
+    "country": "NOR",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.084,
+    "GDP per hours worked (USD/hour)": 82.656232,
+    "Income Inequality (no unit)": 0.262,
+    "Employment Rate (no unit)": 74.8
+  },
+  {
+    "": 85,
+    "country": "NOR",
+    "Year": 2019,
+    "Poverty rate (no unit)": 0.084,
+    "GDP per hours worked (USD/hour)": 82.030731,
+    "Income Inequality (no unit)": 0.261,
+    "Employment Rate (no unit)": 75.3
+  },
+  {
+    "": 86,
+    "country": "CHE",
+    "Year": 2006,
+    "Poverty rate (no unit)": 0.097,
+    "GDP per hours worked (USD/hour)": 66.20517,
+    "Income Inequality (no unit)": 0.305,
+    "Employment Rate (no unit)": 77.9
+  },
+  {
+    "": 87,
+    "country": "CHE",
+    "Year": 2007,
+    "Poverty rate (no unit)": 0.094,
+    "GDP per hours worked (USD/hour)": 67.534657,
+    "Income Inequality (no unit)": 0.312,
+    "Employment Rate (no unit)": 78.6
+  },
+  {
+    "": 88,
+    "country": "CHE",
+    "Year": 2008,
+    "Poverty rate (no unit)": 0.097,
+    "GDP per hours worked (USD/hour)": 68.157631,
+    "Income Inequality (no unit)": 0.306,
+    "Employment Rate (no unit)": 79.5
+  },
+  {
+    "": 89,
+    "country": "CHE",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.094,
+    "GDP per hours worked (USD/hour)": 66.778137,
+    "Income Inequality (no unit)": 0.297,
+    "Employment Rate (no unit)": 79
+  },
+  {
+    "": 90,
+    "country": "CHE",
+    "Year": 2010,
+    "Poverty rate (no unit)": 0.094,
+    "GDP per hours worked (USD/hour)": 69.220566,
+    "Income Inequality (no unit)": 0.298,
+    "Employment Rate (no unit)": 77.325
+  },
+  {
+    "": 91,
+    "country": "CHE",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.105,
+    "GDP per hours worked (USD/hour)": 68.896991,
+    "Income Inequality (no unit)": 0.289,
+    "Employment Rate (no unit)": 78.35
+  },
+  {
+    "": 92,
+    "country": "CHE",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.091,
+    "GDP per hours worked (USD/hour)": 69.192713,
+    "Income Inequality (no unit)": 0.285,
+    "Employment Rate (no unit)": 78.475
+  },
+  {
+    "": 93,
+    "country": "CHE",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.086,
+    "GDP per hours worked (USD/hour)": 70.491166,
+    "Income Inequality (no unit)": 0.295,
+    "Employment Rate (no unit)": 78.4
+  },
+  {
+    "": 94,
+    "country": "CHE",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.099,
+    "GDP per hours worked (USD/hour)": 71.253329,
+    "Income Inequality (no unit)": 0.297,
+    "Employment Rate (no unit)": 78.75
+  },
+  {
+    "": 95,
+    "country": "CHE",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.091,
+    "GDP per hours worked (USD/hour)": 70.792085,
+    "Income Inequality (no unit)": 0.296,
+    "Employment Rate (no unit)": 79.2
+  },
+  {
+    "": 96,
+    "country": "CHE",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.104,
+    "GDP per hours worked (USD/hour)": 71.230165,
+    "Income Inequality (no unit)": 0.302,
+    "Employment Rate (no unit)": 79.6
+  },
+  {
+    "": 97,
+    "country": "CHE",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.092,
+    "GDP per hours worked (USD/hour)": 72.531098,
+    "Income Inequality (no unit)": 0.299,
+    "Employment Rate (no unit)": 79.8
+  },
+  {
+    "": 98,
+    "country": "CHE",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.105,
+    "GDP per hours worked (USD/hour)": 74.24583,
+    "Income Inequality (no unit)": 0.311,
+    "Employment Rate (no unit)": 80.1
+  },
+  {
+    "": 99,
+    "country": "GBR",
+    "Year": 2002,
+    "Poverty rate (no unit)": 0.126,
+    "GDP per hours worked (USD/hour)": 52.788493,
+    "Income Inequality (no unit)": 0.359,
+    "Employment Rate (no unit)": 72.65
+  },
+  {
+    "": 100,
+    "country": "GBR",
+    "Year": 2003,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 54.165884,
+    "Income Inequality (no unit)": 0.353,
+    "Employment Rate (no unit)": 72.775
+  },
+  {
+    "": 101,
+    "country": "GBR",
+    "Year": 2004,
+    "Poverty rate (no unit)": 0.116,
+    "GDP per hours worked (USD/hour)": 54.838747,
+    "Income Inequality (no unit)": 0.354,
+    "Employment Rate (no unit)": 72.975
+  },
+  {
+    "": 102,
+    "country": "GBR",
+    "Year": 2005,
+    "Poverty rate (no unit)": 0.12,
+    "GDP per hours worked (USD/hour)": 55.277146,
+    "Income Inequality (no unit)": 0.359,
+    "Employment Rate (no unit)": 72.925
+  },
+  {
+    "": 103,
+    "country": "GBR",
+    "Year": 2006,
+    "Poverty rate (no unit)": 0.126,
+    "GDP per hours worked (USD/hour)": 56.438924,
+    "Income Inequality (no unit)": 0.364,
+    "Employment Rate (no unit)": 72.825
+  },
+  {
+    "": 104,
+    "country": "GBR",
+    "Year": 2007,
+    "Poverty rate (no unit)": 0.128,
+    "GDP per hours worked (USD/hour)": 57.065862,
+    "Income Inequality (no unit)": 0.373,
+    "Employment Rate (no unit)": 72.7
+  },
+  {
+    "": 105,
+    "country": "GBR",
+    "Year": 2008,
+    "Poverty rate (no unit)": 0.123,
+    "GDP per hours worked (USD/hour)": 57.043284,
+    "Income Inequality (no unit)": 0.369,
+    "Employment Rate (no unit)": 72.6
+  },
+  {
+    "": 106,
+    "country": "GBR",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.112,
+    "GDP per hours worked (USD/hour)": 55.836707,
+    "Income Inequality (no unit)": 0.374,
+    "Employment Rate (no unit)": 70.9
+  },
+  {
+    "": 107,
+    "country": "GBR",
+    "Year": 2010,
+    "Poverty rate (no unit)": 0.11,
+    "GDP per hours worked (USD/hour)": 57.224896,
+    "Income Inequality (no unit)": 0.351,
+    "Employment Rate (no unit)": 70.45
+  },
+  {
+    "": 108,
+    "country": "GBR",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.104,
+    "GDP per hours worked (USD/hour)": 57.462167,
+    "Income Inequality (no unit)": 0.354,
+    "Employment Rate (no unit)": 70.325
+  },
+  {
+    "": 109,
+    "country": "GBR",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.105,
+    "GDP per hours worked (USD/hour)": 57.075996,
+    "Income Inequality (no unit)": 0.351,
+    "Employment Rate (no unit)": 70.975
+  },
+  {
+    "": 110,
+    "country": "GBR",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.104,
+    "GDP per hours worked (USD/hour)": 57.369742,
+    "Income Inequality (no unit)": 0.358,
+    "Employment Rate (no unit)": 71.55
+  },
+  {
+    "": 111,
+    "country": "GBR",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.105,
+    "GDP per hours worked (USD/hour)": 57.420731,
+    "Income Inequality (no unit)": 0.356,
+    "Employment Rate (no unit)": 72.875
+  },
+  {
+    "": 112,
+    "country": "GBR",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.109,
+    "GDP per hours worked (USD/hour)": 58.56933,
+    "Income Inequality (no unit)": 0.36,
+    "Employment Rate (no unit)": 73.675
+  },
+  {
+    "": 113,
+    "country": "GBR",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.111,
+    "GDP per hours worked (USD/hour)": 58.413715,
+    "Income Inequality (no unit)": 0.351,
+    "Employment Rate (no unit)": 74.375
+  },
+  {
+    "": 114,
+    "country": "GBR",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.119,
+    "GDP per hours worked (USD/hour)": 59.266936,
+    "Income Inequality (no unit)": 0.357,
+    "Employment Rate (no unit)": 75
+  },
+  {
+    "": 115,
+    "country": "GBR",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.117,
+    "GDP per hours worked (USD/hour)": 59.534549,
+    "Income Inequality (no unit)": 0.366,
+    "Employment Rate (no unit)": 75.625
+  },
+  {
+    "": 116,
+    "country": "GBR",
+    "Year": 2019,
+    "Poverty rate (no unit)": 0.124,
+    "GDP per hours worked (USD/hour)": 59.841982,
+    "Income Inequality (no unit)": 0.366,
+    "Employment Rate (no unit)": 76.175
+  },
+  {
+    "": 117,
+    "country": "USA",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.172,
+    "GDP per hours worked (USD/hour)": 68.407849,
+    "Income Inequality (no unit)": 0.396,
+    "Employment Rate (no unit)": 67.35994
+  },
+  {
+    "": 118,
+    "country": "USA",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.175,
+    "GDP per hours worked (USD/hour)": 68.665009,
+    "Income Inequality (no unit)": 0.394,
+    "Employment Rate (no unit)": 68.14875
+  },
+  {
+    "": 119,
+    "country": "USA",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.168,
+    "GDP per hours worked (USD/hour)": 69.047471,
+    "Income Inequality (no unit)": 0.39,
+    "Employment Rate (no unit)": 68.70962
+  },
+  {
+    "": 120,
+    "country": "USA",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.178,
+    "GDP per hours worked (USD/hour)": 69.256659,
+    "Income Inequality (no unit)": 0.391,
+    "Employment Rate (no unit)": 69.35136
+  },
+  {
+    "": 121,
+    "country": "USA",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.178,
+    "GDP per hours worked (USD/hour)": 69.916594,
+    "Income Inequality (no unit)": 0.39,
+    "Employment Rate (no unit)": 70.11017
+  },
+  {
+    "": 122,
+    "country": "USA",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.181,
+    "GDP per hours worked (USD/hour)": 70.653952,
+    "Income Inequality (no unit)": 0.393,
+    "Employment Rate (no unit)": 70.72614
+  },
+  {
+    "": 123,
+    "country": "USA",
+    "Year": 2019,
+    "Poverty rate (no unit)": 0.18,
+    "GDP per hours worked (USD/hour)": 71.526814,
+    "Income Inequality (no unit)": 0.395,
+    "Employment Rate (no unit)": 71.35841
+  },
+  {
+    "": 124,
+    "country": "ISR",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.181,
+    "GDP per hours worked (USD/hour)": 37.968417,
+    "Income Inequality (no unit)": 0.371,
+    "Employment Rate (no unit)": 60.87873
+  },
+  {
+    "": 125,
+    "country": "ISR",
+    "Year": 2012,
+    "Poverty rate (no unit)": 0.184,
+    "GDP per hours worked (USD/hour)": 38.084659,
+    "Income Inequality (no unit)": 0.371,
+    "Employment Rate (no unit)": 66.5
+  },
+  {
+    "": 126,
+    "country": "ISR",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.186,
+    "GDP per hours worked (USD/hour)": 39.074476,
+    "Income Inequality (no unit)": 0.36,
+    "Employment Rate (no unit)": 67.05833
+  },
+  {
+    "": 127,
+    "country": "ISR",
+    "Year": 2014,
+    "Poverty rate (no unit)": 0.186,
+    "GDP per hours worked (USD/hour)": 39.87803,
+    "Income Inequality (no unit)": 0.365,
+    "Employment Rate (no unit)": 67.86667
+  },
+  {
+    "": 128,
+    "country": "ISR",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.195,
+    "GDP per hours worked (USD/hour)": 39.851887,
+    "Income Inequality (no unit)": 0.36,
+    "Employment Rate (no unit)": 68.31667
+  },
+  {
+    "": 129,
+    "country": "ISR",
+    "Year": 2016,
+    "Poverty rate (no unit)": 0.177,
+    "GDP per hours worked (USD/hour)": 40.142972,
+    "Income Inequality (no unit)": 0.346,
+    "Employment Rate (no unit)": 68.575
+  },
+  {
+    "": 130,
+    "country": "ISR",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.179,
+    "GDP per hours worked (USD/hour)": 40.916647,
+    "Income Inequality (no unit)": 0.344,
+    "Employment Rate (no unit)": 69.025
+  },
+  {
+    "": 131,
+    "country": "ISR",
+    "Year": 2018,
+    "Poverty rate (no unit)": 0.169,
+    "GDP per hours worked (USD/hour)": 41.986031,
+    "Income Inequality (no unit)": 0.348,
+    "Employment Rate (no unit)": 69.03333
+  },
+  {
+    "": 132,
+    "country": "CHL",
+    "Year": 2009,
+    "Poverty rate (no unit)": 0.178,
+    "GDP per hours worked (USD/hour)": 23.625551,
+    "Income Inequality (no unit)": 0.48,
+    "Employment Rate (no unit)": 56.06453
+  },
+  {
+    "": 133,
+    "country": "CHL",
+    "Year": 2011,
+    "Poverty rate (no unit)": 0.184,
+    "GDP per hours worked (USD/hour)": 23.291463,
+    "Income Inequality (no unit)": 0.471,
+    "Employment Rate (no unit)": 62.04338
+  },
+  {
+    "": 134,
+    "country": "CHL",
+    "Year": 2013,
+    "Poverty rate (no unit)": 0.168,
+    "GDP per hours worked (USD/hour)": 24.892583,
+    "Income Inequality (no unit)": 0.465,
+    "Employment Rate (no unit)": 63.15082
+  },
+  {
+    "": 135,
+    "country": "CHL",
+    "Year": 2015,
+    "Poverty rate (no unit)": 0.161,
+    "GDP per hours worked (USD/hour)": 25.484431,
+    "Income Inequality (no unit)": 0.454,
+    "Employment Rate (no unit)": 63.49899
+  },
+  {
+    "": 136,
+    "country": "CHL",
+    "Year": 2017,
+    "Poverty rate (no unit)": 0.165,
+    "GDP per hours worked (USD/hour)": 25.837656,
+    "Income Inequality (no unit)": 0.46,
+    "Employment Rate (no unit)": 63.90356
+  },
+  {
+    "": 137,
+    "country": "AUS",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.849662,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 138,
+    "country": "AUS",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.519841,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 139,
+    "country": "AUS",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.126987,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 140,
+    "country": "AUS",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.707055,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 141,
+    "country": "AUS",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.246118,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 142,
+    "country": "AUS",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.292581,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 143,
+    "country": "AUS",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.780255,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 144,
+    "country": "AUS",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.745784,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 145,
+    "country": "AUS",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.002988,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 146,
+    "country": "AUS",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.162267,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.38335
+  },
+  {
+    "": 147,
+    "country": "AUS",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.510759,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.17445
+  },
+  {
+    "": 148,
+    "country": "AUS",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.41978,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.36742
+  },
+  {
+    "": 149,
+    "country": "AUS",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.809425,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.16441
+  },
+  {
+    "": 150,
+    "country": "AUS",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.708691,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.94022
+  },
+  {
+    "": 151,
+    "country": "AUS",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.441257,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.82397
+  },
+  {
+    "": 152,
+    "country": "AUS",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.376214,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.7218
+  },
+  {
+    "": 153,
+    "country": "AUS",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.394656,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.14481
+  },
+  {
+    "": 154,
+    "country": "AUS",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.128817,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.30288
+  },
+  {
+    "": 155,
+    "country": "AUS",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.019444,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.48173
+  },
+  {
+    "": 156,
+    "country": "AUS",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.134833,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.19857
+  },
+  {
+    "": 157,
+    "country": "AUS",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.688405,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.37136
+  },
+  {
+    "": 158,
+    "country": "AUS",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.503378,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.9215
+  },
+  {
+    "": 159,
+    "country": "AUS",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.621648,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.93269
+  },
+  {
+    "": 160,
+    "country": "AUS",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.703136,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.61858
+  },
+  {
+    "": 161,
+    "country": "AUS",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.768518,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.00251
+  },
+  {
+    "": 162,
+    "country": "AUS",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.9007,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.62838
+  },
+  {
+    "": 163,
+    "country": "AUS",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.247089,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.66373
+  },
+  {
+    "": 164,
+    "country": "AUS",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.610448,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.36479
+  },
+  {
+    "": 165,
+    "country": "AUS",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.919568,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.80048
+  },
+  {
+    "": 166,
+    "country": "AUS",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.290004,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.23203
+  },
+  {
+    "": 167,
+    "country": "AUS",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.779461,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.09614
+  },
+  {
+    "": 168,
+    "country": "AUS",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.312444,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.00098
+  },
+  {
+    "": 169,
+    "country": "AUS",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.998551,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.35914
+  },
+  {
+    "": 170,
+    "country": "AUS",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.056871,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.01125
+  },
+  {
+    "": 171,
+    "country": "AUS",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 46.902014,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.29926
+  },
+  {
+    "": 172,
+    "country": "AUS",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.063794,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.54403
+  },
+  {
+    "": 173,
+    "country": "AUS",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.3017,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.12262
+  },
+  {
+    "": 174,
+    "country": "AUS",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.836256,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.80006
+  },
+  {
+    "": 175,
+    "country": "AUS",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.483852,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.20431
+  },
+  {
+    "": 176,
+    "country": "AUS",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.055792,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.05107
+  },
+  {
+    "": 177,
+    "country": "AUS",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.867874,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.37024
+  },
+  {
+    "": 178,
+    "country": "AUS",
+    "Year": 2011,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.454253,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.65694
+  },
+  {
+    "": 179,
+    "country": "AUS",
+    "Year": 2013,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 52.549593,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.97044
+  },
+  {
+    "": 180,
+    "country": "AUS",
+    "Year": 2015,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.106372,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.15796
+  },
+  {
+    "": 181,
+    "country": "AUS",
+    "Year": 2017,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.568744,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.98936
+  },
+  {
+    "": 182,
+    "country": "AUS",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 55.208255,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.32264
+  },
+  {
+    "": 183,
+    "country": "AUS",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 55.803026,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.70295
+  },
+  {
+    "": 184,
+    "country": "CAN",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.629921,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 185,
+    "country": "CAN",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.334365,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 186,
+    "country": "CAN",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.350246,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 187,
+    "country": "CAN",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.07351,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 188,
+    "country": "CAN",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.071951,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 189,
+    "country": "CAN",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.427784,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 190,
+    "country": "CAN",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 56.862229,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.96667
+  },
+  {
+    "": 191,
+    "country": "ISL",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.781699,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 192,
+    "country": "ISL",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 21.775662,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 193,
+    "country": "ISL",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 22.858423,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 194,
+    "country": "ISL",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.985674,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 195,
+    "country": "ISL",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 24.857999,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 196,
+    "country": "ISL",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 24.892669,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 197,
+    "country": "ISL",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.914868,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 198,
+    "country": "ISL",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.767179,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 199,
+    "country": "ISL",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.257752,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 200,
+    "country": "ISL",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.751738,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 201,
+    "country": "ISL",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.754047,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 202,
+    "country": "ISL",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.579982,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 203,
+    "country": "ISL",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.403695,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 204,
+    "country": "ISL",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.418222,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 205,
+    "country": "ISL",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.304395,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 206,
+    "country": "ISL",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.213927,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 207,
+    "country": "ISL",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.334137,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 208,
+    "country": "ISL",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.235984,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 209,
+    "country": "ISL",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.092509,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 210,
+    "country": "ISL",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.797786,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 211,
+    "country": "ISL",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.776556,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 212,
+    "country": "ISL",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.637575,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 213,
+    "country": "ISL",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.401461,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 214,
+    "country": "ISL",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.624847,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 215,
+    "country": "ISL",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.235121,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 216,
+    "country": "ISL",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.509502,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 217,
+    "country": "ISL",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.709532,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 218,
+    "country": "ISL",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.293817,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 219,
+    "country": "ISL",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.966233,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 220,
+    "country": "ISL",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.617839,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 221,
+    "country": "ISL",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.538654,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 222,
+    "country": "ISL",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.225429,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 223,
+    "country": "ISL",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.986827,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 224,
+    "country": "ISL",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.717244,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 83.25
+  },
+  {
+    "": 225,
+    "country": "ISL",
+    "Year": 2018,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 62.372677,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 85.075
+  },
+  {
+    "": 226,
+    "country": "ISL",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 64.659108,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 84.1
+  },
+  {
+    "": 227,
+    "country": "ISL",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 64.909722,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 80.3
+  },
+  {
+    "": 228,
+    "country": "KOR",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 2.992643,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 229,
+    "country": "KOR",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 3.205216,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 230,
+    "country": "KOR",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 3.299719,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 231,
+    "country": "KOR",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 3.603414,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 232,
+    "country": "KOR",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 3.788234,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 233,
+    "country": "KOR",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 3.998885,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 234,
+    "country": "KOR",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 4.273191,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 235,
+    "country": "KOR",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 4.659708,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 236,
+    "country": "KOR",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 4.948738,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 237,
+    "country": "KOR",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 5.313231,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 238,
+    "country": "KOR",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 5.205596,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 239,
+    "country": "KOR",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 5.417179,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 240,
+    "country": "KOR",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 5.697845,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 241,
+    "country": "KOR",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 6.364285,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 242,
+    "country": "KOR",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 7.082612,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 243,
+    "country": "KOR",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 7.425646,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 244,
+    "country": "KOR",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 7.90201,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 245,
+    "country": "KOR",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 8.535919,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 246,
+    "country": "KOR",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 9.417768,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 247,
+    "country": "KOR",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.052417,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 248,
+    "country": "KOR",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.941045,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 249,
+    "country": "KOR",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 11.840905,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 250,
+    "country": "KOR",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 12.437938,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 251,
+    "country": "KOR",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 13.052885,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 252,
+    "country": "KOR",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 13.899385,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 253,
+    "country": "KOR",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 14.771812,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 254,
+    "country": "KOR",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 15.663279,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 255,
+    "country": "KOR",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 16.697812,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 256,
+    "country": "KOR",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 17.504263,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 257,
+    "country": "KOR",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.122007,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 258,
+    "country": "KOR",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.867034,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.51276
+  },
+  {
+    "": 259,
+    "country": "KOR",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.534599,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.2052
+  },
+  {
+    "": 260,
+    "country": "KOR",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 21.887622,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.40555
+  },
+  {
+    "": 261,
+    "country": "KOR",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 22.903303,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.0346
+  },
+  {
+    "": 262,
+    "country": "KOR",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.940085,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.76704
+  },
+  {
+    "": 263,
+    "country": "KOR",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.066255,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.74775
+  },
+  {
+    "": 264,
+    "country": "KOR",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.109854,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.97321
+  },
+  {
+    "": 265,
+    "country": "KOR",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.762018,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.14521
+  },
+  {
+    "": 266,
+    "country": "KOR",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.325932,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.9557
+  },
+  {
+    "": 267,
+    "country": "KOR",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.340215,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.0171
+  },
+  {
+    "": 268,
+    "country": "KOR",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.147724,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.38788
+  },
+  {
+    "": 269,
+    "country": "KOR",
+    "Year": 2011,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.077795,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.91484
+  },
+  {
+    "": 270,
+    "country": "KOR",
+    "Year": 2012,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.544427,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.34369
+  },
+  {
+    "": 271,
+    "country": "KOR",
+    "Year": 2013,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.297736,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.62727
+  },
+  {
+    "": 272,
+    "country": "KOR",
+    "Year": 2014,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.078734,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.56622
+  },
+  {
+    "": 273,
+    "country": "KOR",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.57594,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.82268
+  },
+  {
+    "": 274,
+    "country": "KOR",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.810911,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.86022
+  },
+  {
+    "": 275,
+    "country": "MEX",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.779529,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 276,
+    "country": "MEX",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.881873,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 277,
+    "country": "MEX",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.80269,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 278,
+    "country": "MEX",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.759341,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 279,
+    "country": "MEX",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 18.538649,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 280,
+    "country": "MEX",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 18.748189,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 281,
+    "country": "MEX",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 18.531243,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 282,
+    "country": "MEX",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.622722,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 283,
+    "country": "MEX",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.27401,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 284,
+    "country": "MEX",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.408184,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 285,
+    "country": "MEX",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.546467,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 286,
+    "country": "MEX",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.608957,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 287,
+    "country": "MEX",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.222358,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 288,
+    "country": "MEX",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.500537,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 289,
+    "country": "MEX",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.218735,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.05342
+  },
+  {
+    "": 290,
+    "country": "MEX",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.875724,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.96249
+  },
+  {
+    "": 291,
+    "country": "MEX",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 21.161519,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.00108
+  },
+  {
+    "": 292,
+    "country": "MEX",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.463338,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.66586
+  },
+  {
+    "": 293,
+    "country": "MEX",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.459199,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 59.784
+  },
+  {
+    "": 294,
+    "country": "MEX",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.441112,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 59.66136
+  },
+  {
+    "": 295,
+    "country": "MEX",
+    "Year": 2011,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.986545,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.02428
+  },
+  {
+    "": 296,
+    "country": "MEX",
+    "Year": 2013,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.965482,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.8422
+  },
+  {
+    "": 297,
+    "country": "MEX",
+    "Year": 2015,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.592155,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.74515
+  },
+  {
+    "": 298,
+    "country": "MEX",
+    "Year": 2017,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.783407,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.12864
+  },
+  {
+    "": 299,
+    "country": "MEX",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.409133,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.26349
+  },
+  {
+    "": 300,
+    "country": "MEX",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.224042,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 301,
+    "country": "NZL",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.792929,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 302,
+    "country": "NZL",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 24.444651,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 303,
+    "country": "NZL",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.618319,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 304,
+    "country": "NZL",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.739853,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 305,
+    "country": "NZL",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.018476,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 306,
+    "country": "NZL",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.319206,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 307,
+    "country": "NZL",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.161676,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 308,
+    "country": "NZL",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 24.681476,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 309,
+    "country": "NZL",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.017839,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 310,
+    "country": "NZL",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.35314,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 311,
+    "country": "NZL",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.852708,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 312,
+    "country": "NZL",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.133135,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 313,
+    "country": "NZL",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.041694,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 314,
+    "country": "NZL",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.453203,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 315,
+    "country": "NZL",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.104984,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 316,
+    "country": "NZL",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.680949,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 317,
+    "country": "NZL",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.951989,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.15318
+  },
+  {
+    "": 318,
+    "country": "NZL",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.214934,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.97916
+  },
+  {
+    "": 319,
+    "country": "NZL",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.790346,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.43733
+  },
+  {
+    "": 320,
+    "country": "NZL",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.109319,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.16886
+  },
+  {
+    "": 321,
+    "country": "NZL",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.171347,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.10247
+  },
+  {
+    "": 322,
+    "country": "NZL",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.621011,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.26609
+  },
+  {
+    "": 323,
+    "country": "NZL",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.771646,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.92945
+  },
+  {
+    "": 324,
+    "country": "NZL",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.531306,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.62728
+  },
+  {
+    "": 325,
+    "country": "NZL",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.639305,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.49545
+  },
+  {
+    "": 326,
+    "country": "NZL",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.977826,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.65571
+  },
+  {
+    "": 327,
+    "country": "NZL",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.07658,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.60989
+  },
+  {
+    "": 328,
+    "country": "NZL",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.173201,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.1252
+  },
+  {
+    "": 329,
+    "country": "NZL",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.62913,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.07514
+  },
+  {
+    "": 330,
+    "country": "NZL",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.996672,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.55356
+  },
+  {
+    "": 331,
+    "country": "NZL",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.021246,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.33273
+  },
+  {
+    "": 332,
+    "country": "NZL",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.644463,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.37629
+  },
+  {
+    "": 333,
+    "country": "NZL",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.337449,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.09379
+  },
+  {
+    "": 334,
+    "country": "NZL",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.029392,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.15541
+  },
+  {
+    "": 335,
+    "country": "NZL",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.892135,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.16463
+  },
+  {
+    "": 336,
+    "country": "NZL",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.857308,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.21869
+  },
+  {
+    "": 337,
+    "country": "NZL",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.364115,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.76456
+  },
+  {
+    "": 338,
+    "country": "NZL",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.842779,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.10442
+  },
+  {
+    "": 339,
+    "country": "NZL",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.566999,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.55002
+  },
+  {
+    "": 340,
+    "country": "NZL",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.575355,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.72729
+  },
+  {
+    "": 341,
+    "country": "NZL",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.230057,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.10973
+  },
+  {
+    "": 342,
+    "country": "NZL",
+    "Year": 2013,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.641509,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.72184
+  },
+  {
+    "": 343,
+    "country": "NZL",
+    "Year": 2015,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.622831,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.24967
+  },
+  {
+    "": 344,
+    "country": "NZL",
+    "Year": 2016,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.214514,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.57751
+  },
+  {
+    "": 345,
+    "country": "NZL",
+    "Year": 2017,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.290964,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 76.91602
+  },
+  {
+    "": 346,
+    "country": "NZL",
+    "Year": 2018,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.225511,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 77.49548
+  },
+  {
+    "": 347,
+    "country": "NZL",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.772946,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 77.46133
+  },
+  {
+    "": 348,
+    "country": "NZL",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.379934,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 76.78672
+  },
+  {
+    "": 349,
+    "country": "NOR",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.377926,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 350,
+    "country": "NOR",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.069098,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 351,
+    "country": "NOR",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.88853,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 352,
+    "country": "NOR",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.368234,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 353,
+    "country": "NOR",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.618037,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 354,
+    "country": "NOR",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.049104,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 355,
+    "country": "NOR",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.04593,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 356,
+    "country": "NOR",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.349568,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 357,
+    "country": "NOR",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.06515,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 358,
+    "country": "NOR",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.860708,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 359,
+    "country": "NOR",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.740239,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 360,
+    "country": "NOR",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.119829,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 361,
+    "country": "NOR",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.514612,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 362,
+    "country": "NOR",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 46.574181,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 363,
+    "country": "NOR",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.181401,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 364,
+    "country": "NOR",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.709237,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 365,
+    "country": "NOR",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 51.225244,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 366,
+    "country": "NOR",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 51.977196,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 367,
+    "country": "NOR",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 52.022856,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 368,
+    "country": "NOR",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.207718,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 369,
+    "country": "NOR",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 56.032463,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 370,
+    "country": "NOR",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 58.410551,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 371,
+    "country": "NOR",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 60.239324,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 372,
+    "country": "NOR",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 61.608354,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 373,
+    "country": "NOR",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 63.906557,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 374,
+    "country": "NOR",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 65.901469,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 375,
+    "country": "NOR",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 68.038502,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 376,
+    "country": "NOR",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 69.78884,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 377,
+    "country": "NOR",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 69.842737,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 378,
+    "country": "NOR",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 70.656951,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 379,
+    "country": "NOR",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 73.356584,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 77.5
+  },
+  {
+    "": 380,
+    "country": "NOR",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 76.081539,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 77.175
+  },
+  {
+    "": 381,
+    "country": "NOR",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 77.771226,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 76.825
+  },
+  {
+    "": 382,
+    "country": "NOR",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 80.26877,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.5
+  },
+  {
+    "": 383,
+    "country": "NOR",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 82.750646,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.825
+  },
+  {
+    "": 384,
+    "country": "NOR",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 82.157474,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.375
+  },
+  {
+    "": 385,
+    "country": "NOR",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 80.742255,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 76.825
+  },
+  {
+    "": 386,
+    "country": "NOR",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 83.179198,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.65
+  },
+  {
+    "": 387,
+    "country": "CHE",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.913565,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 388,
+    "country": "CHE",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.047201,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 389,
+    "country": "CHE",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.313555,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 390,
+    "country": "CHE",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.806971,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 391,
+    "country": "CHE",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 46.183334,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 392,
+    "country": "CHE",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.177652,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 393,
+    "country": "CHE",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.954877,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 394,
+    "country": "CHE",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.538201,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 395,
+    "country": "CHE",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.630376,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 396,
+    "country": "CHE",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 48.633552,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 397,
+    "country": "CHE",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.123561,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 398,
+    "country": "CHE",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.292491,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 399,
+    "country": "CHE",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.69234,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 400,
+    "country": "CHE",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.425183,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 401,
+    "country": "CHE",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 51.999602,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 402,
+    "country": "CHE",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.037461,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 403,
+    "country": "CHE",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.08242,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 404,
+    "country": "CHE",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 52.666086,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 405,
+    "country": "CHE",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.028336,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 406,
+    "country": "CHE",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.349299,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 407,
+    "country": "CHE",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.921784,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 408,
+    "country": "CHE",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.509477,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 409,
+    "country": "CHE",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.983038,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 410,
+    "country": "CHE",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.477362,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 411,
+    "country": "CHE",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.858899,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 412,
+    "country": "CHE",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 55.837572,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 413,
+    "country": "CHE",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 57.046066,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 414,
+    "country": "CHE",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 58.751779,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 415,
+    "country": "CHE",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 59.474725,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 416,
+    "country": "CHE",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 59.260019,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 417,
+    "country": "CHE",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 61.186261,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 418,
+    "country": "CHE",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 62.591374,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 419,
+    "country": "CHE",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 62.956428,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 420,
+    "country": "CHE",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 62.648295,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 421,
+    "country": "CHE",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 63.085764,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 422,
+    "country": "CHE",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 64.622926,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 77.2
+  },
+  {
+    "": 423,
+    "country": "CHE",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 74.709028,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 80.475
+  },
+  {
+    "": 424,
+    "country": "CHE",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 75.747458,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 79.925
+  },
+  {
+    "": 425,
+    "country": "GBR",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.646949,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 426,
+    "country": "GBR",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.191936,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 427,
+    "country": "GBR",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.678707,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 428,
+    "country": "GBR",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.153849,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 429,
+    "country": "GBR",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.962457,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 430,
+    "country": "GBR",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.744929,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 431,
+    "country": "GBR",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.930369,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 432,
+    "country": "GBR",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.895351,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 433,
+    "country": "GBR",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.275363,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 434,
+    "country": "GBR",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.222817,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 435,
+    "country": "GBR",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.537425,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 436,
+    "country": "GBR",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.419078,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 437,
+    "country": "GBR",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.408328,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 438,
+    "country": "GBR",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.228799,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 439,
+    "country": "GBR",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.892383,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 440,
+    "country": "GBR",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.305072,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 441,
+    "country": "GBR",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.255577,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 442,
+    "country": "GBR",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.631631,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 443,
+    "country": "GBR",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.570571,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 444,
+    "country": "GBR",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.730214,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 445,
+    "country": "GBR",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.146779,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 446,
+    "country": "GBR",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.942504,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 447,
+    "country": "GBR",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.846252,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 448,
+    "country": "GBR",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.37788,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.425
+  },
+  {
+    "": 449,
+    "country": "GBR",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.440523,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.925
+  },
+  {
+    "": 450,
+    "country": "GBR",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.062549,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.55
+  },
+  {
+    "": 451,
+    "country": "GBR",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.728387,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.05
+  },
+  {
+    "": 452,
+    "country": "GBR",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.129354,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71
+  },
+  {
+    "": 453,
+    "country": "GBR",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 48.246228,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.45
+  },
+  {
+    "": 454,
+    "country": "GBR",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.286009,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.025
+  },
+  {
+    "": 455,
+    "country": "GBR",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.994353,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.475
+  },
+  {
+    "": 456,
+    "country": "GBR",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 51.457704,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.6
+  },
+  {
+    "": 457,
+    "country": "GBR",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 61.470395,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.425
+  },
+  {
+    "": 458,
+    "country": "USA",
+    "Year": 1970,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 33.708826,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.99263
+  },
+  {
+    "": 459,
+    "country": "USA",
+    "Year": 1971,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.972937,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.17525
+  },
+  {
+    "": 460,
+    "country": "USA",
+    "Year": 1972,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.823553,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.7738
+  },
+  {
+    "": 461,
+    "country": "USA",
+    "Year": 1973,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.673833,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.85249
+  },
+  {
+    "": 462,
+    "country": "USA",
+    "Year": 1974,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.342967,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.99554
+  },
+  {
+    "": 463,
+    "country": "USA",
+    "Year": 1975,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 37.337947,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.08882
+  },
+  {
+    "": 464,
+    "country": "USA",
+    "Year": 1976,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.242547,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.14752
+  },
+  {
+    "": 465,
+    "country": "USA",
+    "Year": 1977,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.650575,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.39526
+  },
+  {
+    "": 466,
+    "country": "USA",
+    "Year": 1978,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 38.956695,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.09882
+  },
+  {
+    "": 467,
+    "country": "USA",
+    "Year": 1979,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.131168,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.91239
+  },
+  {
+    "": 468,
+    "country": "USA",
+    "Year": 1980,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.139085,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.18594
+  },
+  {
+    "": 469,
+    "country": "USA",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 40.047014,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.07856
+  },
+  {
+    "": 470,
+    "country": "USA",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 39.918352,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 65.76852
+  },
+  {
+    "": 471,
+    "country": "USA",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.010658,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.00588
+  },
+  {
+    "": 472,
+    "country": "USA",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 41.86562,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.13399
+  },
+  {
+    "": 473,
+    "country": "USA",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 42.635509,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.00044
+  },
+  {
+    "": 474,
+    "country": "USA",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.599936,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.68153
+  },
+  {
+    "": 475,
+    "country": "USA",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.916782,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.74065
+  },
+  {
+    "": 476,
+    "country": "USA",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.424496,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.64634
+  },
+  {
+    "": 477,
+    "country": "USA",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 44.815883,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.4952
+  },
+  {
+    "": 478,
+    "country": "USA",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.583299,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.19167
+  },
+  {
+    "": 479,
+    "country": "USA",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 46.180488,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.96761
+  },
+  {
+    "": 480,
+    "country": "USA",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.766894,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.80585
+  },
+  {
+    "": 481,
+    "country": "USA",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 47.94876,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.20782
+  },
+  {
+    "": 482,
+    "country": "USA",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 48.354938,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.00175
+  },
+  {
+    "": 483,
+    "country": "USA",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 48.461331,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.5349
+  },
+  {
+    "": 484,
+    "country": "USA",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 49.666111,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 72.85875
+  },
+  {
+    "": 485,
+    "country": "USA",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 50.386032,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.50204
+  },
+  {
+    "": 486,
+    "country": "USA",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 51.519575,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.84345
+  },
+  {
+    "": 487,
+    "country": "USA",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 53.041436,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.94605
+  },
+  {
+    "": 488,
+    "country": "USA",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 54.498167,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.09456
+  },
+  {
+    "": 489,
+    "country": "USA",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 55.693841,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.13562
+  },
+  {
+    "": 490,
+    "country": "USA",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 57.234571,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.92931
+  },
+  {
+    "": 491,
+    "country": "USA",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 58.965218,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.22334
+  },
+  {
+    "": 492,
+    "country": "USA",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 60.508037,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.22248
+  },
+  {
+    "": 493,
+    "country": "USA",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 61.772075,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.53017
+  },
+  {
+    "": 494,
+    "country": "USA",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 62.356937,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.99708
+  },
+  {
+    "": 495,
+    "country": "USA",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 63.232583,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 71.78132
+  },
+  {
+    "": 496,
+    "country": "USA",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 64.042431,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 70.88825
+  },
+  {
+    "": 497,
+    "country": "USA",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 66.089234,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.62595
+  },
+  {
+    "": 498,
+    "country": "USA",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 67.835887,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.68977
+  },
+  {
+    "": 499,
+    "country": "USA",
+    "Year": 2011,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 67.86187,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.64754
+  },
+  {
+    "": 500,
+    "country": "USA",
+    "Year": 2012,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 68.118059,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.13661
+  },
+  {
+    "": 501,
+    "country": "USA",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 73.372162,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 67.06998
+  },
+  {
+    "": 502,
+    "country": "CHL",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.069454,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 503,
+    "country": "CHL",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.315776,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 504,
+    "country": "CHL",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.419699,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 505,
+    "country": "CHL",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 10.912878,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 506,
+    "country": "CHL",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 11.060251,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 507,
+    "country": "CHL",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 11.752908,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 508,
+    "country": "CHL",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 12.604096,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 509,
+    "country": "CHL",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 12.876484,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 510,
+    "country": "CHL",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 13.645014,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 511,
+    "country": "CHL",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 15.083241,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 512,
+    "country": "CHL",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 16.139833,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 513,
+    "country": "CHL",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 17.390536,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 514,
+    "country": "CHL",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 17.427867,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 515,
+    "country": "CHL",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 17.730971,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 516,
+    "country": "CHL",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 18.467844,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 517,
+    "country": "CHL",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.038438,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 518,
+    "country": "CHL",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.207287,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 519,
+    "country": "CHL",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 19.368865,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 520,
+    "country": "CHL",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 20.27626,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 521,
+    "country": "CHL",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 21.35841,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 54.44468
+  },
+  {
+    "": 522,
+    "country": "CHL",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 22.238491,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.5009
+  },
+  {
+    "": 523,
+    "country": "CHL",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.095855,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 56.3303
+  },
+  {
+    "": 524,
+    "country": "CHL",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 23.604695,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 57.2645
+  },
+  {
+    "": 525,
+    "country": "CHL",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 22.829274,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.1041
+  },
+  {
+    "": 526,
+    "country": "CHL",
+    "Year": 2012,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 24.354935,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.65226
+  },
+  {
+    "": 527,
+    "country": "CHL",
+    "Year": 2014,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.294293,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.23605
+  },
+  {
+    "": 528,
+    "country": "CHL",
+    "Year": 2016,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.852447,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.34484
+  },
+  {
+    "": 529,
+    "country": "CHL",
+    "Year": 2018,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.535949,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.0955
+  },
+  {
+    "": 530,
+    "country": "CHL",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.790848,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.09287
+  },
+  {
+    "": 531,
+    "country": "CHL",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.42683,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.84916
+  },
+  {
+    "": 532,
+    "country": "ISR",
+    "Year": 1981,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.39001,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 533,
+    "country": "ISR",
+    "Year": 1982,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.82947,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 534,
+    "country": "ISR",
+    "Year": 1983,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.970147,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 535,
+    "country": "ISR",
+    "Year": 1984,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 25.759185,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 536,
+    "country": "ISR",
+    "Year": 1985,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 26.639233,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 537,
+    "country": "ISR",
+    "Year": 1986,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 27.363131,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 538,
+    "country": "ISR",
+    "Year": 1987,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.497488,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 539,
+    "country": "ISR",
+    "Year": 1988,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.032001,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 540,
+    "country": "ISR",
+    "Year": 1989,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 28.662106,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 541,
+    "country": "ISR",
+    "Year": 1990,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.147089,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 542,
+    "country": "ISR",
+    "Year": 1991,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.898074,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 543,
+    "country": "ISR",
+    "Year": 1992,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.721755,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 544,
+    "country": "ISR",
+    "Year": 1993,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.518974,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 545,
+    "country": "ISR",
+    "Year": 1994,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.103571,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": "NaN"
+  },
+  {
+    "": 546,
+    "country": "ISR",
+    "Year": 1995,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 29.798146,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 56.51433
+  },
+  {
+    "": 547,
+    "country": "ISR",
+    "Year": 1996,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.086619,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 56.36247
+  },
+  {
+    "": 548,
+    "country": "ISR",
+    "Year": 1997,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 30.416938,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.70263
+  },
+  {
+    "": 549,
+    "country": "ISR",
+    "Year": 1998,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.275085,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.23224
+  },
+  {
+    "": 550,
+    "country": "ISR",
+    "Year": 1999,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 31.242432,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.46907
+  },
+  {
+    "": 551,
+    "country": "ISR",
+    "Year": 2000,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.523907,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 56.07549
+  },
+  {
+    "": 552,
+    "country": "ISR",
+    "Year": 2001,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.821269,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.56511
+  },
+  {
+    "": 553,
+    "country": "ISR",
+    "Year": 2002,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.220693,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 54.80782
+  },
+  {
+    "": 554,
+    "country": "ISR",
+    "Year": 2003,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 32.519022,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 54.97932
+  },
+  {
+    "": 555,
+    "country": "ISR",
+    "Year": 2004,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.010579,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 55.6702
+  },
+  {
+    "": 556,
+    "country": "ISR",
+    "Year": 2005,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 34.416048,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 56.70815
+  },
+  {
+    "": 557,
+    "country": "ISR",
+    "Year": 2006,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.681847,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 57.55732
+  },
+  {
+    "": 558,
+    "country": "ISR",
+    "Year": 2007,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.079381,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 58.94432
+  },
+  {
+    "": 559,
+    "country": "ISR",
+    "Year": 2008,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.12775,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 59.82737
+  },
+  {
+    "": 560,
+    "country": "ISR",
+    "Year": 2009,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 35.809679,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 59.21324
+  },
+  {
+    "": 561,
+    "country": "ISR",
+    "Year": 2010,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 36.852622,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.1636
+  },
+  {
+    "": 562,
+    "country": "ISR",
+    "Year": 2019,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 43.185969,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 68.94167
+  },
+  {
+    "": 563,
+    "country": "ISR",
+    "Year": 2020,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": 45.850704,
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.78333
+  },
+  {
+    "": 564,
+    "country": "AUS",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 74.97211
+  },
+  {
+    "": 565,
+    "country": "CAN",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 73.23333
+  },
+  {
+    "": 566,
+    "country": "ISL",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 79.75
+  },
+  {
+    "": 567,
+    "country": "KOR",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.52686
+  },
+  {
+    "": 568,
+    "country": "MEX",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.03192
+  },
+  {
+    "": 569,
+    "country": "NZL",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 78.33634
+  },
+  {
+    "": 570,
+    "country": "NOR",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 76.3
+  },
+  {
+    "": 571,
+    "country": "GBR",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 75.2
+  },
+  {
+    "": 572,
+    "country": "USA",
+    "Year": 1955,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.46822
+  },
+  {
+    "": 573,
+    "country": "USA",
+    "Year": 1956,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.4337
+  },
+  {
+    "": 574,
+    "country": "USA",
+    "Year": 1957,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.20108
+  },
+  {
+    "": 575,
+    "country": "USA",
+    "Year": 1958,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.5542
+  },
+  {
+    "": 576,
+    "country": "USA",
+    "Year": 1959,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.39219
+  },
+  {
+    "": 577,
+    "country": "USA",
+    "Year": 1960,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.52728
+  },
+  {
+    "": 578,
+    "country": "USA",
+    "Year": 1961,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 60.87849
+  },
+  {
+    "": 579,
+    "country": "USA",
+    "Year": 1962,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.47677
+  },
+  {
+    "": 580,
+    "country": "USA",
+    "Year": 1963,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.48097
+  },
+  {
+    "": 581,
+    "country": "USA",
+    "Year": 1964,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 61.79631
+  },
+  {
+    "": 582,
+    "country": "USA",
+    "Year": 1965,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 62.41243
+  },
+  {
+    "": 583,
+    "country": "USA",
+    "Year": 1966,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.37987
+  },
+  {
+    "": 584,
+    "country": "USA",
+    "Year": 1967,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 63.80169
+  },
+  {
+    "": 585,
+    "country": "USA",
+    "Year": 1968,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.08068
+  },
+  {
+    "": 586,
+    "country": "USA",
+    "Year": 1969,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 64.61467
+  },
+  {
+    "": 587,
+    "country": "USA",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 69.40365
+  },
+  {
+    "": 588,
+    "country": "CHL",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 58.47194
+  },
+  {
+    "": 589,
+    "country": "ISR",
+    "Year": 2021,
+    "Poverty rate (no unit)": "NaN",
+    "GDP per hours worked (USD/hour)": "NaN",
+    "Income Inequality (no unit)": "NaN",
+    "Employment Rate (no unit)": 66.6
+  }
+]
