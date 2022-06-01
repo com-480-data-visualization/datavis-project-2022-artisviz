@@ -167,6 +167,12 @@ section div{
 
 
 /*================================================TEXTE================================================*/
+hr{
+    height: 3px;
+    color: #22577E;
+    background-color: #22577E;
+    width :"100%"
+}
 
 .text_area {
     background-color: white;
@@ -290,7 +296,7 @@ section div{
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float: left;
-    width: 32%;
+    width: 45%;
   }
 
   

@@ -210,7 +210,7 @@ class MapPlot {
 				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
 				;
 */
-
+			this.makeColorbar(this.svg, color_scale, [-120, 30], [20, this.svg_height - 2*30]);
 		});
 	}
 }
