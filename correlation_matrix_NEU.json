@@ -1,40 +1,32 @@
 
 {  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/correlation_NEU.json"},
-  "transform": [
-    {
-      "aggregate": [{"op": "count", "as": "num_cars"}],
-      "groupby": ["Origin", "Cylinders"]
+"data": {"url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/correlation_NEU.csv"},
+"encoding": {
+  "y": {"field": "Field 2", "type": "ordinal"},
+  "x": {"field": "Field 1", "type": "ordinal"}
+},
+"width": 400,
+"height":400,
+"layer": [
+  {
+    "mark": "rect",
+    "encoding": {
+      "color": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Correlation coefficient",
+        "legend": {"direction": "vertical", "gradientLength": 120}
+      }
     }
-  ],
-  "encoding": {
-    "y": {"field": "Origin", "type": "ordinal"},
-    "x": {"field": "Cylinders", "type": "ordinal"}
   },
-  "layer": [
-    {
-      "mark": "rect",
-      "encoding": {
-        "color": {
-          "field": "num_cars",
-          "type": "quantitative",
-          "title": "Count of Records",
-          "legend": {"direction": "horizontal", "gradientLength": 120}
-        }
-      }
-    },
-    {
-      "mark": "text",
-      "encoding": {
-        "text": {"field": "num_cars", "type": "quantitative"},
-        "color": {
-          "condition": {"test": "datum['num_cars'] < 40", "value": "black"},
-          "value": "white"
-        }
-      }
+  {
+    "mark": "text",
+    "encoding": {
+      "text": {"field": "Value", "type": "quantitative"}
     }
-  ],
-  "config": {
-    "axis": {"grid": true, "tickBand": "extent"}
   }
+],
+"config": {
+  "axis": {"grid": true, "tickBand": "extent"}
+}
 }
