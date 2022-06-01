@@ -191,7 +191,7 @@ class MapPlot {
 				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
 				;
 */
-			this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);
+			this.makeColorbar(this.svg, color_scale, [30, 30], [20, this.svg_height - 2*30]);
 		});
 	}
 }

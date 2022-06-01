@@ -210,67 +210,94 @@
 
 	<div class="text_box" name="purchasing" id="purchasing">
 
-		<h2>Where people work the most, do people earn more money?</h2>
+		<h2>Where people work the most, do they earn more money?</h2>
 		<p>
-		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. 
-		This is a visualization of the income inequality and poverty rate as functions of the hours worked. 
+		Working more should result in a higher wage, right? As the saying goes : "make work pay". The following visualisations will put this 
+		statement to the test. Let's evaluate people's wealth according to the average hours worked in the country by plotting 
+		the average-wage and poverty rate as functions of the hours worked. 
+		</p>
+		<p>
+			To explore the visualisation, you can drag the "Year" cursor or click on it and use your keyboard arrow keys. You can also zoom in and out, 
+			select a data point to highlight the curve through the years and make the years appear. 
 		</p>
 
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation1"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation1.json";
-				vegaEmbed('#relation1', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
+		<div>
+			<div class="row">
+				<div class="column">
+					<div class = "visualisation" id="relation1"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation2.json";
+					vegaEmbed('#relation2', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
+		
+				<div class="column">
+					<div class = "visualisation" id="relation2"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation4.json";
+					vegaEmbed('#relation4', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
 			</div>
-	
-			<div class="column">
-				<div class = "visualisation" id="relation2"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation2.json";
-				vegaEmbed('#relation2', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
+			<div class="row">
+				<div class="column">
+					<div class = "visualisation" id="relation7"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation2.json";
+					vegaEmbed('#relation7', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
+		
+				<div class="column">
+					<div class = "visualisation" id="relation8"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation4.json";
+					vegaEmbed('#relation4', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation7"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation1.json";
-				vegaEmbed('#relation7', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-	
-			<div class="column">
-				<div class = "visualisation" id="relation8"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation2.json";
-				vegaEmbed('#relation8', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-		</div>
+		<div>
+			<p>
+				What do these visualisations tell us?  First, it appears that the poverty rate is barely dependant of the hours worked. Indeed, we observe 
+				limited variations along the x-axis despite the variations along the y-axis. This shows a weak correlation between the two variables. Moreover, 
+				the countries do not follow a common behaviour. 
+				What can we make from this ? A first interpretation is that the poverty rate is dependant on other major criteria. 
+				It would be as foolish to say that working less decreases poverty than to claim the contrary.
+				On the other hand, we observe a common behaviour for the average wages : an increase in average-wages is majorly 
+				correlated to a decrease in hours worked per year. That means that there exists factors, both in the EU and in other 
+				countries, that lead to this situation.
 
+				Note that there is a jump of all the points between year 2019 and 2020 : a large decrease in hours worked. 
+				This could be linked to the COVID-19 pandemic, since companies have had to adapte the way their employees work 
+				as weel as how to count the working hours.
+			</p>
+			<p>
+				The question now is, does the number of worked has a correlation with any other measure ? We test this hypothesis in the next part.
+			</p>
+		</div>
 	</div>
 
 	<hr>
 	<!-- ############################ WORK & PRODUCTIVITY ##############################################################-->
 	<div class="text_box" name="productivity" id="productivity">
-		<h2>Where people work the less, are they more productive ?</h2>
+		<h2>Productivity and worktime </h2>
 		<p>
-			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize the relation between the number of hours worked and the GDP per hour worked in the country.
+			Some say that working less increases your productivity, others claim that productivity comes from more efforts.
+			Let's visualize the relation between the number of hours worked and the GDP per hour worked in the country.
+			You can interact with these visualisations in the same way as the previous ones.
 		</p>
 		<div class="row">
 			<div class="column">
@@ -292,6 +319,18 @@
 				</script> 
 			</div>
 		</div>	
+		<div>
+			<p>
+				We observe a clear common behaviour among the countries. All seem to direct towards less hours of work for 
+				a more important GDP per hours worked. We warn, you, the OECD doesn't specify if their data is adjusted for inflation.
+				In this case, it is essential to cross-check the information with other data sources. In this case, we can have a look at
+				<a href="https://ourworldindata.org/grapher/gdp-world-regions-stacked-area?country=Sub-Sahara+Africa~Latin+America~Middle+East~South+and+South-East+Asia~East+Asia~Western+Offshoots~Eastern+Europe~Western+Europe"> "GDP, 1820 to 2018"</a> from our world in data.
+				There, it is clearly meantionned that the GDP is adjusted for inflation over time. The results are similar to those gotten with the OECD data. 
+				We can assure the scenario presented earlier.	
+				
+			</p>
+		</div>
+
 	</div>	
 
 
