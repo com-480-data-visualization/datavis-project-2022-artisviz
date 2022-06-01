@@ -15,6 +15,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,6 +66,8 @@
 		</div>
 		<div class = "navbar">
 			<a href="#home">Political context</a>
+			<a href="#theData"> The Data </a>
+
 			<a href="#workinghours">Where do people work the most?</a>
 			<a href="#purchasing">What about purchasing power? </a>
 			<a href="#productivity">What about productivity? </a>
@@ -89,20 +93,24 @@
 				Still, others think that income should be maintained but with less work, for example by advocating for a 4-day week. These questions are all linked to the same topic: how to increase the general well-being of the population while maintaining productivity and keeping a strong economy?
 			</p>
 			<p>
-				This project aims to document voters by answering the previously listed questions on the european level through concise but 
-				informative data analyses and visualisations. 
-				This will give them a factual understanding of the topic and allow a critical view of politicians' promises.
-				Some other questions that the study will help to answer concern the impact of working time on Gross Domestic Product (GDP), 
-				inequalities among workers, the productivity of the country, and living standards. 
-				To meet our goal, we consider key variables (further detailed in the following) through the past decades.
+				This project aims to document people by answering the previously listed questions on the international level, through concise but informative data analyses and visualisations. 
+				It delivers a factual understanding of the topic and allows a critical view of politicians' promises.
+				Some other questions that this study will help to answer concern the impact of working time on Gross Domestic Product (GDP), 
+				inequalities among workers, the productivity of the country, and living standards.
+				 The relation between these variables are presented through time and among a selection of countries to give a better of the correlations between them.
 			</p>
-			<h2>The data</h2>
+		</div>
+
+		<div class="text_box" name="theData" id="theData"> 
+
+			<h2>The Data and the visualisations</h2>
+			<h3> The Data </h3>
 			<p>
 				The data used to produce the next visualisations comes from the The Organisation for Economic Co-operation and Development 
 				( OECD; French: Organisation de Coopération et de Développement Économiques, OCDE), an intergovernmental economic organisation founded to stimulate economic progress and world trade.
 				
 				You can find all the raw data through the following links : 
-				<ul>
+				<ul style="padding-left: 2cm;" font-family: 'Poppins', sans-serif;>
 					<li><a href="https://data.oecd.org/earnwage/average-wages.htm">Average wages</a></li>
 					<li><a href="https://data.oecd.org/emp/hours-worked.htm">Hours worked</a></li>
 					<li><a href="https://data.oecd.org/benwage/working-hours-needed-to-exit-poverty.htm">Working hours needed to exit poverty</a></li>
@@ -116,14 +124,36 @@
 				</ul>
 			</p>
 			<p>
-				Some choices have been made to insure readability and generality. For example, only yearly data has been seleted when quarters or semesters were being suggested.
-				WHen several categories of people are possible (age or gender), we always chose to keep the "total" category, thus leading to less crowded visualisation. However, in the latter case,
-				the data has been isolated and can be rendered using the already existing code for the following visualisations. 
-
+				Some choices have been made to insure readability, generality and accuracy of the visualisations. We chose to divide all our visualisations into two parts. First, OECD countries which 
+			are part of the EU : Austria (AUT), Belgium (BE), Czech Republic (CZE) , Denmark (DNK) , Finland (FIN), France (FRA), Germany (DEU), Greece (GRC), Hungary (HUN), Ireland (IRL), Italy (ITA), Luxemburg (LUX), the Netherlands (NDL),
+				Poland (POL), Portugal (PRT), Slovakia (SVK), Spain (ESP), Sweden (SWE), Estonia (EST), Slovenia (SVN), Latvia (LVA) and Lituania (LTU). On the other hand, we kept non EU countries which are leading global 
+				economies : Australia (AUS), Canada (CAN), South Korea (KOR), Mexico (MEX), Norway (NOR), Switzerland (CHE), Great Britain (GBR), the USA (USA), Israel (ISR), New Zealand (NZL), Chile (CHI). These countries are 
+				This distinction was made to isolate economies of the same type. Indeed, the EU may not have the same dynamics as South Korea, Austalia or the US. 
+				It is thus interesting to verify if the EU has a "block" dynamic, if external countries follow this dynamic or if we observe different behaviors.
+			</p>
+			<p>
+				More down to earth choices were for example, only yearly data has been seleted when quarters or semesters were being suggested.
+				When several categories of people are possible (age or gender), we always chose to keep the "total" category, thus leading to less crowded visualisations.
+				However, in the latter case, the data has been isolated and can be rendered using the already existing code for the following visualisations. To acces the source 
+				code for the visualisations, just click on the top right button with three dots (···). Several options are listed and one can choose any freely. 
+				The corresponding data can be accessed on the <a href="https://github.com/com-480-data-visualization/datavis-project-2022-artisviz/tree/main/Milestone3/data"> github repository for this project</a>.
 			</p>
 
+			<h3> The visualisations </h3>
 
+			<p>
+				The visualisations are constructed using two tools : <a href="https://d3js.org/"> D3.js</a> (Data-Driven Documents) and <a href="https://vega.github.io/vega-lite/"> vega-lite</a>. D3 is a visualisation kernel 
+				based on javascript (javascript library), and Vega Lite a high-level grammar based on D3. 
+				As mentionned previously, Vega Lite allows to acces the source code, but it also grants acces to an online editor if one wants to tweak paramters.
+				The visualisations can also be saved with SVG or PNG format. For each visualisation, a quick "how to navigate" is presented to give 
+				all the power to the reader.
+			</p>
+
+			
 		</div>
+
+		<hr>
+	<!-- ############################################## MAP PLOT ##################################################################""-->
 
 		<div class="text_box" name="workinghours" id="workinghours"> 
 			<h2>Where do people work the most?</h2>
@@ -134,7 +164,6 @@
 		</div>
 
 
-	<!-- ############################################## MAP PLOT ##################################################################""-->
 	
 	<div class="text_area"> 
 		<svg class="MapPlot" id="map1" viewBox="0 0 1000 750" width="1000" height="750">
@@ -176,11 +205,15 @@
 		</p>
 	</div>
 
+	<hr>
+	<!-- ############################################## WORK TIME & MONEY ##################################################################""-->
+
 	<div class="text_box" name="purchasing" id="purchasing">
 
 		<h2>Where people work the most, do people earn more money?</h2>
 		<p>
-		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
+		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. 
+		This is a visualization of the income inequality and poverty rate as functions of the hours worked. 
 		</p>
 
 		<div class="row">
@@ -205,9 +238,6 @@
 				}).catch(console.error);
 				</script> 
 			</div>
-			<div class="column">
-				
-			</div>
 		</div>
 		<div class="row">
 			<div class="column">
@@ -231,20 +261,17 @@
 				}).catch(console.error);
 				</script> 
 			</div>
-			<div class="column">
-			</div>
 		</div>
 
 	</div>
 
-
-	<!-- ############################ PART II ##############################################################-->
+	<hr>
+	<!-- ############################ WORK & PRODUCTIVITY ##############################################################-->
 	<div class="text_box" name="productivity" id="productivity">
 		<h2>Where people work the less, are they more productive ?</h2>
 		<p>
-			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
+			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize the relation between the number of hours worked and the GDP per hour worked in the country.
 		</p>
-	</div>	
 		<div class="row">
 			<div class="column">
 				<div class = "visualisation" id="relation9"></div>
@@ -265,14 +292,20 @@
 				</script> 
 			</div>
 		</div>	
-	
+	</div>	
+
 
 	
-	<div class="text_box_attention" name="ATTENTION" id="ATTENTION">
+	<!-- <div class="text_box_attention" name="ATTENTION" id="ATTENTION">
 		<h2></h2>
 		Careful! These are <strong>correlations</strong>, not <strong>causalities</strong>!	
 		<p> <small><small>What happens when you look at these variables within one specific country?</small></small> </p>
-	</div>
+	</div> -->
+
+
+
+	<hr>
+	<!-- ########################################### VARIOUS RELATIONS ###############################################-->
 
 
 	<div  class = "text_box" name="interaction" id="interaction">
