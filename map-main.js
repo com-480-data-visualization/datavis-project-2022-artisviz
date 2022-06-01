@@ -159,6 +159,8 @@ class MapPlot {
 
 				})*/
 
+			this.makeColorbar(this.svg, color_scale, [-120, 30], [20, this.svg_height - 2*30]);	
+
 			//color the map according to the density of each canton
 			this.map_container.selectAll(".country")
 				.data(map_data)
@@ -166,18 +168,35 @@ class MapPlot {
 				.append("path")
 				.classed("country", true)
 				.attr("d", path_generator)
-				.style("fill", (d) => color_scale(d.properties.hours_worked));
+				.style("fill", (d) => d.properties.hours_worked ? color_scale(d.properties.hours_worked): "rgb(244, 244, 244)")
+				.on("mouseover", function(d, i) {
+					d3.select(this + d.properties.name).style("display", "block");
+				})
+				.on("mouseout", function(d, i) {
+					d3.select(this + d.properties.name).style("display", "none");
+				});
 
-				this.label_container.selectAll(".country-label")
+			this.label_container.selectAll(".country-label")
 			//this.label_container.selectAll(".canton-label")
 
 				.data(map_data)
 				.enter().append("text")
+				/* .text((d) => d.properties.hours_worked ? d.properties.name : "") */
 				.classed("country-label", true)
+				.attr("d", path_generator)
 				.attr("transform", (d) => "translate(" + path_generator.centroid(d) + ")")
 				//.translate((d) => path_generator.centroid(d))
 				.attr("dy", ".35em")
-				.text((d) => d.properties.name);
+				.on("mouseover", function(d, i) {
+					d3.select(this).style("display", "block");
+				})
+				.on("mouseout", function(d, i) {
+					d3.select(this).style("display", "none");
+				})
+				;
+
+				
+
 			const r = 3;
 
 			/*this.point_container.selectAll(".point")
@@ -191,7 +210,7 @@ class MapPlot {
 				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
 				;
 */
-			this.makeColorbar(this.svg, color_scale, [50, 30], [20, this.svg_height - 2*30]);
+
 		});
 	}
 }
