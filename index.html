@@ -58,7 +58,7 @@
 		<source src="ressources/images/video.mp4" type="video/mp4">
 		Any alternate text.
 	</video>
-	<header
+	<header>
 		<div> 
 			<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
 		</div>
@@ -133,13 +133,11 @@
 			
 		</div>
 
-	</div>
-
 
 	<!-- ############################################## MAP PLOT ##################################################################""-->
 	
 	<div class="text_area"> 
-		<svg class="MapPlot" id="map1" viewBox="0 0 1000 550" width="1000" height="550">
+		<svg class="MapPlot" id="map1" viewBox="0 0 1000 750" width="1000" height="750">
 			<!--view box permet de mettre des limites en x et en y pour l'image-->
 			<!-- id est facultatif id="map1"  -->
 			<!-- <g> transform </g> --> 
@@ -168,275 +166,273 @@
 		</svg>
 	</div> 
 
-	<div class="text_area" >
+	
 		
-		<div class="text_area" name="purchasing" id="purchasing">
-			<p>Working times are quite sparse: in some countries people work arounf 1400 hours per year. 
-				It is the case for Western and Northern Europe.
-				In Southern and Eastern Europe, as well as North America, Chile and Australia, working times are around 1700 hours per year per capita.
-				Extreme value of our dataset are Russia with around 1900 hours and Mexico with 2100 hours per year.
-			</p>
-		</div>
+	<div class="text_box" >
+		<p>Working times are quite sparse: in some countries people work arounf 1400 hours per year. 
+			It is the case for Western and Northern Europe.
+			In Southern and Eastern Europe, as well as North America, Chile and Australia, working times are around 1700 hours per year per capita.
+			Extreme value of our dataset are Russia with around 1900 hours and Mexico with 2100 hours per year.
+		</p>
+	</div>
 
-		<div class="text_area" name="purchasing" id="purchasing">
+	<div class="text_box" name="purchasing" id="purchasing">
 
-			<h2>Where people work the most, do people earn more money?</h2>
-			<p>
-			Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
-			</p>
+		<h2>Where people work the most, do people earn more money?</h2>
+		<p>
+		Working more should result in a higher wage, right? Let's evaluate people's wealth according to the average hours worked in the country. This is a visualization of the poverty rate as a function of the hours worked. 
+		</p>
+
+
+	</div>
+
+	<div class="text_box" name="productivity" id="productivity">
+		<h2>Where people work the less, are they more productive ?</h2>
+		<p>
+			Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
+		</p>
+
+	</div>
 
 	
-		</div>
-
-		<div class="text_box" name="productivity" id="productivity">
-			<h2>Where people work the less, are they more productive ?</h2>
-			<p>
-				Some say that working less increases your productivity. Are the countries with less hours worked more productive? Let's visualize GDP per hour worked as a function of the number of hours worked in the country.
-			</p>
-
-		</div>
-
-		
-		<div class="text_box_attention" name="ATTENTION" id="ATTENTION">
-			<h2></h2>
-			Careful! These are <strong>correlations</strong>, not <strong>causalities</strong>!	
-			<p> <small><small>What happens when you look at these variables within one specific country?</small></small> </p>
-		</div>
-
-
-		<div  class = "text_area" name="interaction" id="interaction">
-			<h2>Choose variables and see how they evolve across time...</h2>
-			<p>
-				In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
-			</p>
-			<p>
-				Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
-			</p>
-
-
-			<!-- First visualisation -->
-			<!-- <h3>Average Wage</h3>
-
-			<div class="text-box">
-				Here you can select and compare the average wages of 3 countries using the scrollable list.
-			</div>
-
-			<div class = "visualisation" id="vis" ></div>
-
-			<script type="text/javascript">
-			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/avg_wg.json";
-			vegaEmbed('#vis', spec).then(function(result) {
-			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-			}).catch(console.error);
-			</script>  -->
-			<!-- End of first visualisation -->
-
-
-			<!-- Comment on the visualisation -->
-			<div class = "text_box">
-				Interpretation and comments
-			</div>
-
-		</div>
-
-
-		<!-- ############################### DATA EXPLORATION ############################# -->
-
-		<h3> Exploring the variables</h3>
-
-		<div class="text_box">
-			Here you can select and compare the evolution of EU countries and non EU countries that are members of the OECD. You can zoom in and point your cursor on 
-			data points to get more information on the data point value. You can also select a country of interest and change the variable observed to make a quick comparison.
-		</div>
-
-		<div class = "visualisation" id="vis2"></div>
-
-		<script type="text/javascript">
-		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
-		vegaEmbed('#vis2', spec).then(function(result) {
-		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-		}).catch(console.error);
-		</script>  -->
-
-
-		<div class = "visualisation" id="vis3"></div>
-
-		<script type="text/javascript">
-		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
-		vegaEmbed('#vis3', spec).then(function(result) {
-		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-		}).catch(console.error);
-		</script> 
-		<!-- End of Second visualisation -->
-		
-
-		<h3> Understanding the relationship between the variables.</h3>
-
-		<div class="text_box">
-			In the following visualisations, you can explore the relationship between four variables through the years and for a selection of EU countries.
-			The frames are interactive, you can zoom in and out, change the year of interest and click on a data point to show the curve followed through the year by the selected country as well as a track of the years. 
-		</div>
-
-		<!--################################################## TABLE OF VIZ - EUROPE ######################################-->
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation1"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation1.json";
-				vegaEmbed('#relation1', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-
-			<div class="column">
-				<div class = "visualisation" id="relation2"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation2.json";
-				vegaEmbed('#relation2', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-			<div class="column">
-				<div class = "visualisation" id="relation3"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation3.json";
-				vegaEmbed('#relation3', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation6"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation6.json";
-				vegaEmbed('#relation6', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-
-			<div class="column">
-				<div class = "visualisation" id="relation4"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation4.json";
-				vegaEmbed('#relation4', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-			<div class="column">
-				<div class = "visualisation" id="relation5"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation5.json";
-				vegaEmbed('#relation5', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-
-			</div>
-		</div>
-
-		<div class="text_box">
-			Interpretation of the results.
-		</div>
-
-
-		<!-- ################################################ TABLE OF VIZ - NON EUROPE ###################################-->
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation7"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation1.json";
-				vegaEmbed('#relation7', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-
-			<div class="column">
-				<div class = "visualisation" id="relation8"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation2.json";
-				vegaEmbed('#relation8', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-			<div class="column">
-				<div class = "visualisation" id="relation9"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation3.json";
-				vegaEmbed('#relation9', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="relation10"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation6.json";
-				vegaEmbed('#relation10', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-
-			<div class="column">
-				<div class = "visualisation" id="relation11"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation4.json";
-				vegaEmbed('#relation11', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-			<div class="column">
-				<div class = "visualisation" id="relation12"></div>
-
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation5.json";
-				vegaEmbed('#relation12', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-
-			</div>
-		</div>
-
-		<div class="text_box">
-			Interpretation of the results.
-		</div>
-
-<!-- ##############################################CONCLUSION##########################################################-->
-
-		<div class="text_box" name="conclusion" id="conclusion">
-			<h2>Conclusion: Working time impacts are not so clear</h2>
-			<p>
-				Conclusion test, test
-			</p>
-		</div>
+	<div class="text_box_attention" name="ATTENTION" id="ATTENTION">
+		<h2></h2>
+		Careful! These are <strong>correlations</strong>, not <strong>causalities</strong>!	
+		<p> <small><small>What happens when you look at these variables within one specific country?</small></small> </p>
 	</div>
 
 
+	<div  class = "text_box" name="interaction" id="interaction">
+		<h2>Choose variables and see how they evolve across time...</h2>
+		<p>
+			In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
+		</p>
+		<p>
+			Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
+		</p>
+
+
+		<!-- First visualisation -->
+		<!-- <h3>Average Wage</h3>
+
+		<div class="text-box">
+			Here you can select and compare the average wages of 3 countries using the scrollable list.
+		</div>
+
+		<div class = "visualisation" id="vis" ></div>
+
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/avg_wg.json";
+		vegaEmbed('#vis', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script>  -->
+		<!-- End of first visualisation -->
+
+	</div>
+
+
+	<!-- Comment on the visualisation -->
+	<div class = "text_box">
+		Interpretation and comments
+	</div>	
+
+	<!-- ############################### DATA EXPLORATION ############################# -->
+
+	<h3> Exploring the variables</h3>
+
+	<div class="text_box">
+		Here you can select and compare the evolution of EU countries and non EU countries that are members of the OECD. You can zoom in and point your cursor on 
+		data points to get more information on the data point value. You can also select a country of interest and change the variable observed to make a quick comparison.
+	</div>
+
+	<div class = "visualisation" id="vis2"></div>
+
+	<script type="text/javascript">
+	var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
+	vegaEmbed('#vis2', spec).then(function(result) {
+	// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+	}).catch(console.error);
+	</script>  -->
+
+
+	<div class = "visualisation" id="vis3"></div>
+
+	<script type="text/javascript">
+	var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
+	vegaEmbed('#vis3', spec).then(function(result) {
+	// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+	}).catch(console.error);
+	</script> 
+	<!-- End of Second visualisation -->
+	
+
+	<h3> Understanding the relationship between the variables.</h3>
+
+	<div class="text_box">
+		In the following visualisations, you can explore the relationship between four variables through the years and for a selection of EU countries.
+		The frames are interactive, you can zoom in and out, change the year of interest and click on a data point to show the curve followed through the year by the selected country as well as a track of the years. 
+	</div>
+
+	<!--################################################## TABLE OF VIZ - EUROPE ######################################-->
+	<div class="row">
+		<div class="column">
+			<div class = "visualisation" id="relation1"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation1.json";
+			vegaEmbed('#relation1', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+
+		<div class="column">
+			<div class = "visualisation" id="relation2"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation2.json";
+			vegaEmbed('#relation2', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+		<div class="column">
+			<div class = "visualisation" id="relation3"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation3.json";
+			vegaEmbed('#relation3', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<div class = "visualisation" id="relation6"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation6.json";
+			vegaEmbed('#relation6', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+
+		<div class="column">
+			<div class = "visualisation" id="relation4"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation4.json";
+			vegaEmbed('#relation4', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+		<div class="column">
+			<div class = "visualisation" id="relation5"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_EU/relation5.json";
+			vegaEmbed('#relation5', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+
+		</div>
+	</div>
+
+	<div class="text_box">
+		Interpretation of the results.
+	</div>
+
+
+	<!-- ################################################ TABLE OF VIZ - NON EUROPE ###################################-->
+	<div class="row">
+		<div class="column">
+			<div class = "visualisation" id="relation7"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation1.json";
+			vegaEmbed('#relation7', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+
+		<div class="column">
+			<div class = "visualisation" id="relation8"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation2.json";
+			vegaEmbed('#relation8', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+		<div class="column">
+			<div class = "visualisation" id="relation9"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation3.json";
+			vegaEmbed('#relation9', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+
+		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<div class = "visualisation" id="relation10"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation6.json";
+			vegaEmbed('#relation10', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+
+		<div class="column">
+			<div class = "visualisation" id="relation11"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation4.json";
+			vegaEmbed('#relation11', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+		</div>
+		<div class="column">
+			<div class = "visualisation" id="relation12"></div>
+
+			<script type="text/javascript">
+			var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/vizCorrelation_NEU/relation5.json";
+			vegaEmbed('#relation12', spec).then(function(result) {
+			// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			}).catch(console.error);
+			</script> 
+
+		</div>
+	</div>
+
+	<div class="text_box">
+		Interpretation of the results.
+	</div>
+
+<!-- ##############################################CONCLUSION##########################################################-->
+
+	<div class="text_box" name="conclusion" id="conclusion">
+		<h2>Conclusion: Working time impacts are not so clear</h2>
+		<p>
+			Conclusion test, test
+		</p>
+	</div>
+
+</div>
 
 <footer></footer>
 

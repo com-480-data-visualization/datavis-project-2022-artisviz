@@ -116,7 +116,7 @@ header img{
 .navbar {
 	width: 100%;
 	background-color: white;
-    background-image: url("ressources/images/wallpaper.png");
+    /* background-image: url("ressources/images/wallpaper.png"); */
 
 	overflow: auto;
   }
@@ -129,7 +129,7 @@ header img{
 	text-decoration: none;
 	font-style: bold;
 	font-size: 17px;
-	width: 16.66%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+	width: 16.66%; /* Adjust manually to number of categories.. */
 	text-align: center; 
 	vertical-align: middle ;
 	/*height: 63.6px;*/
@@ -170,7 +170,7 @@ section div{
 
 .text_area {
     background-color: white;
-    background-image: url("ressources/images/wallpaper.png");
+    /* background-image: url("ressources/images/wallpaper.png"); */
 	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -213,7 +213,7 @@ section div{
     width :80vw;
     padding : 1vw;
     align-self: left;
-    font-size: 0.9vw;
+    font-size: 1.0vw;
 }
 
 .text_box_attention{
@@ -265,7 +265,7 @@ section div{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: rgb(0, 174, 255); /* Set a background color */
+    background-color: #9da6e6; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -316,7 +316,7 @@ svg {
 
 	/* background behind the plot */
 	/*background: rgb(40, 40, 40);*/
-	background: #aee1f5;
+	background: #e0f6ff;
 
 	/* default text */
 	font-family: sans-serif;
