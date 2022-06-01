@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Povevrty rate evolution in EU countries.",
-    "width": 500,
-    "height": 700,
+    "width": 300,
+    "height": 300,
     "data": {
         "url": "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/Milestone3/data/final_NEU.csv"
     },
@@ -72,7 +72,9 @@
                     "timeUnit": "year",
                     "scale": {
                         "zero": false
-                    }
+                    },
+                    "axis": {"grid": false}
+
                 },
                 "y": {
                     "field": "y",
@@ -80,7 +82,7 @@
                     "scale": {
                         "zero": false
                     },
-                    "axis": {"title":"measure"}
+                    "axis": {"title":"measure","grid": false}
 
                 },
                 "color": {

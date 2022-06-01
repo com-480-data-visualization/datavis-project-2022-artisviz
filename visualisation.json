@@ -85,7 +85,7 @@
               },
               "color": {
                   "condition": {
-                      "param": "Selection",
+                      "param": "Select",
                       "field": "country",
                       "type": "nominal",
                       "scale": {"scheme": "category20b"}
