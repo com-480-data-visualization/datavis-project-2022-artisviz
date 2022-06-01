@@ -179,6 +179,8 @@ class MapPlot {
 			this.label_container.selectAll(".country-label")
 			//this.label_container.selectAll(".canton-label")
 
+			
+
 				.data(map_data)
 				.enter().append("text")
 				/* .text((d) => d.properties.hours_worked ? d.properties.name : "") */
