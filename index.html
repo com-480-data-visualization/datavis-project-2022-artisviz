@@ -29,7 +29,7 @@
 <body>
 
 	<!-- Here we define the 'top' button -->
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 	<script>
 		//Get the button
 		var mybutton = document.getElementById("myBtn");
@@ -61,32 +61,29 @@
 		Any alternate text.
 	</video>
 	<header>
+		<div> 
 			<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
-
-		<div class = "navbar">
-			<a href="#home">Political context</a>
-			<a href="#theData"> The data and visualisations </a>
-	
-			<a href="#workinghours">Where do people work the most?</a>
-			<a href="#income">Work time and income</a>
-			<a href="#productivity">Work time and productivity</a>
-			<a href="#correlation"> Give me the numbers !</a>
-			<a href="#interaction">Exploring the variables</a>
-			<a href="#conclusion">Conclusion</a>
-	
 		</div>
 
 	</header> 
 	
 
 
-			
 
 
 	<div class="text_area" >
+		<div class = "navbar">
+			<a href="#home">Political context</a>
+			<a href="#theData"> The data and visualisations </a>
 
+			<a href="#workinghours">Where do people work the most?</a>
+			<a href="#income">Work time and income</a>
+			<a href="#productivity">Work time and productivity</a>
+			<a href="#correlation"> Give me the numbers !</a>
+			<a href="#interaction">Exploring the variables</a>
+			<a href="#conclusion">Conclusion</a>
 
-		
+		</div>
 			<div class="text_box" name="home" id="home"> 
 			<h2>Political context</h2>
 			<p>
@@ -156,7 +153,7 @@
 			
 		</div>
 
-		
+		<hr>
 	<!-- ############################################## MAP PLOT ##################################################################""-->
 
 		<div class="text_box" name="workinghours" id="workinghours"> 
@@ -209,7 +206,7 @@
 		</p>
 	</div>
 
-	
+	<hr>
 	<!-- ############################################## WORK TIME & MONEY ##################################################################""-->
 
 	<div class="text_box" name="income" id="income">
@@ -294,7 +291,7 @@
 		</div>
 	</div>
 
-	
+	<hr>
 	<!-- ############################ WORK & PRODUCTIVITY ##############################################################-->
 	<div class="text_box" name="productivity" id="productivity">
 		<h2>Work time and productivity</h2>
@@ -350,7 +347,7 @@
 
 
 
-	
+	<hr>
 	<!-- ########################################### CORRELATION ###############################################-->
 	<div  class = "text_box" name="correlation" id="correlation">
 		<h2> Give me the numbers ! </h2>
@@ -368,7 +365,7 @@
 					<div class = "visualisation" id="correlation_EU"></div>
 		
 					<script type="text/javascript">
-					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_EU.json";
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/matrices/correlation_matrix_EU.json";
 					vegaEmbed('#correlation_EU', spec).then(function(result) {
 					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 					}).catch(console.error);
@@ -379,7 +376,7 @@
 					<div class = "visualisation" id="correlation_NEU"></div>
 		
 					<script type="text/javascript">
-					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_NEU.json";
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/matrices/correlation_matrix_NEU.json";
 					vegaEmbed('#correlation_NEU', spec).then(function(result) {
 					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 					}).catch(console.error);
@@ -388,7 +385,7 @@
 			</div>
 		</div>
 		<p>
-			As discussed earlier in <a href="#income"> the first visualisations </a>
+			As discussed earlier in <a href="#income"> the first visualisations </a>, the poverty rate and the numbers of hours worked
 		</p>	
 	</div>
 

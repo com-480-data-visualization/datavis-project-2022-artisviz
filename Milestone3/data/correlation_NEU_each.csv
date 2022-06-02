@@ -1,0 +1,433 @@
+,Field 1,Field 2,Value,country
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,AUS
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.91,AUS
+2,Poverty rate (no unit),Income Inequality (no unit),-0.2,AUS
+3,Poverty rate (no unit),Employment Rate (no unit),-0.28,AUS
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.93,AUS
+5,Poverty rate (no unit),Average Wage (USD),0.5,AUS
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.91,AUS
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,AUS
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.16,AUS
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.93,AUS
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.95,AUS
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.98,AUS
+12,Income Inequality (no unit),Poverty rate (no unit),-0.2,AUS
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.16,AUS
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,AUS
+15,Income Inequality (no unit),Employment Rate (no unit),-0.82,AUS
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.13,AUS
+17,Income Inequality (no unit),Average Wage (USD),0.74,AUS
+18,Employment Rate (no unit),Poverty rate (no unit),-0.28,AUS
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.93,AUS
+20,Employment Rate (no unit),Income Inequality (no unit),-0.82,AUS
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,AUS
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.88,AUS
+23,Employment Rate (no unit),Average Wage (USD),0.93,AUS
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.93,AUS
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.95,AUS
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.13,AUS
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.88,AUS
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,AUS
+29,Hours worked per year (hours/year),Average Wage (USD),-0.93,AUS
+30,Average Wage (USD),Poverty rate (no unit),0.5,AUS
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.98,AUS
+32,Average Wage (USD),Income Inequality (no unit),0.74,AUS
+33,Average Wage (USD),Employment Rate (no unit),0.93,AUS
+34,Average Wage (USD),Hours worked per year (hours/year),-0.93,AUS
+35,Average Wage (USD),Average Wage (USD),1.0,AUS
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,CAN
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),0.06,CAN
+2,Poverty rate (no unit),Income Inequality (no unit),0.34,CAN
+3,Poverty rate (no unit),Employment Rate (no unit),-0.18,CAN
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.05,CAN
+5,Poverty rate (no unit),Average Wage (USD),0.48,CAN
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),0.06,CAN
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,CAN
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.79,CAN
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.85,CAN
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.94,CAN
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.96,CAN
+12,Income Inequality (no unit),Poverty rate (no unit),0.34,CAN
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.79,CAN
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,CAN
+15,Income Inequality (no unit),Employment Rate (no unit),0.67,CAN
+16,Income Inequality (no unit),Hours worked per year (hours/year),-0.66,CAN
+17,Income Inequality (no unit),Average Wage (USD),0.53,CAN
+18,Employment Rate (no unit),Poverty rate (no unit),-0.18,CAN
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.85,CAN
+20,Employment Rate (no unit),Income Inequality (no unit),0.67,CAN
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,CAN
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.75,CAN
+23,Employment Rate (no unit),Average Wage (USD),0.75,CAN
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.05,CAN
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.94,CAN
+26,Hours worked per year (hours/year),Income Inequality (no unit),-0.66,CAN
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.75,CAN
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,CAN
+29,Hours worked per year (hours/year),Average Wage (USD),-0.93,CAN
+30,Average Wage (USD),Poverty rate (no unit),0.48,CAN
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.96,CAN
+32,Average Wage (USD),Income Inequality (no unit),0.53,CAN
+33,Average Wage (USD),Employment Rate (no unit),0.75,CAN
+34,Average Wage (USD),Hours worked per year (hours/year),-0.93,CAN
+35,Average Wage (USD),Average Wage (USD),1.0,CAN
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,KOR
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.9,KOR
+2,Poverty rate (no unit),Income Inequality (no unit),0.93,KOR
+3,Poverty rate (no unit),Employment Rate (no unit),-0.74,KOR
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.89,KOR
+5,Poverty rate (no unit),Average Wage (USD),-0.89,KOR
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.9,KOR
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,KOR
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.68,KOR
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.89,KOR
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.99,KOR
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.98,KOR
+12,Income Inequality (no unit),Poverty rate (no unit),0.93,KOR
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.68,KOR
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,KOR
+15,Income Inequality (no unit),Employment Rate (no unit),-0.44,KOR
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.65,KOR
+17,Income Inequality (no unit),Average Wage (USD),-0.68,KOR
+18,Employment Rate (no unit),Poverty rate (no unit),-0.74,KOR
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.89,KOR
+20,Employment Rate (no unit),Income Inequality (no unit),-0.44,KOR
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,KOR
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.83,KOR
+23,Employment Rate (no unit),Average Wage (USD),0.93,KOR
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.89,KOR
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.99,KOR
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.65,KOR
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.83,KOR
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,KOR
+29,Hours worked per year (hours/year),Average Wage (USD),-0.95,KOR
+30,Average Wage (USD),Poverty rate (no unit),-0.89,KOR
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.98,KOR
+32,Average Wage (USD),Income Inequality (no unit),-0.68,KOR
+33,Average Wage (USD),Employment Rate (no unit),0.93,KOR
+34,Average Wage (USD),Hours worked per year (hours/year),-0.95,KOR
+35,Average Wage (USD),Average Wage (USD),1.0,KOR
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,MEX
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.97,MEX
+2,Poverty rate (no unit),Income Inequality (no unit),0.55,MEX
+3,Poverty rate (no unit),Employment Rate (no unit),-0.33,MEX
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.94,MEX
+5,Poverty rate (no unit),Average Wage (USD),-0.69,MEX
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.97,MEX
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,MEX
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.46,MEX
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.5,MEX
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.59,MEX
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.79,MEX
+12,Income Inequality (no unit),Poverty rate (no unit),0.55,MEX
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.46,MEX
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,MEX
+15,Income Inequality (no unit),Employment Rate (no unit),-0.82,MEX
+16,Income Inequality (no unit),Hours worked per year (hours/year),-0.58,MEX
+17,Income Inequality (no unit),Average Wage (USD),-0.98,MEX
+18,Employment Rate (no unit),Poverty rate (no unit),-0.33,MEX
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.5,MEX
+20,Employment Rate (no unit),Income Inequality (no unit),-0.82,MEX
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,MEX
+22,Employment Rate (no unit),Hours worked per year (hours/year),0.33,MEX
+23,Employment Rate (no unit),Average Wage (USD),-0.15,MEX
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.94,MEX
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.59,MEX
+26,Hours worked per year (hours/year),Income Inequality (no unit),-0.58,MEX
+27,Hours worked per year (hours/year),Employment Rate (no unit),0.33,MEX
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,MEX
+29,Hours worked per year (hours/year),Average Wage (USD),-0.61,MEX
+30,Average Wage (USD),Poverty rate (no unit),-0.69,MEX
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.79,MEX
+32,Average Wage (USD),Income Inequality (no unit),-0.98,MEX
+33,Average Wage (USD),Employment Rate (no unit),-0.15,MEX
+34,Average Wage (USD),Hours worked per year (hours/year),-0.61,MEX
+35,Average Wage (USD),Average Wage (USD),1.0,MEX
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,NOR
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),0.43,NOR
+2,Poverty rate (no unit),Income Inequality (no unit),-0.12,NOR
+3,Poverty rate (no unit),Employment Rate (no unit),-0.34,NOR
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.66,NOR
+5,Poverty rate (no unit),Average Wage (USD),0.89,NOR
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),0.43,NOR
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,NOR
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.72,NOR
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),-0.77,NOR
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.95,NOR
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.86,NOR
+12,Income Inequality (no unit),Poverty rate (no unit),-0.12,NOR
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.72,NOR
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,NOR
+15,Income Inequality (no unit),Employment Rate (no unit),-0.48,NOR
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.09,NOR
+17,Income Inequality (no unit),Average Wage (USD),-0.27,NOR
+18,Employment Rate (no unit),Poverty rate (no unit),-0.34,NOR
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),-0.77,NOR
+20,Employment Rate (no unit),Income Inequality (no unit),-0.48,NOR
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,NOR
+22,Employment Rate (no unit),Hours worked per year (hours/year),0.68,NOR
+23,Employment Rate (no unit),Average Wage (USD),-0.58,NOR
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.66,NOR
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.95,NOR
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.09,NOR
+27,Hours worked per year (hours/year),Employment Rate (no unit),0.68,NOR
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,NOR
+29,Hours worked per year (hours/year),Average Wage (USD),-0.92,NOR
+30,Average Wage (USD),Poverty rate (no unit),0.89,NOR
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.86,NOR
+32,Average Wage (USD),Income Inequality (no unit),-0.27,NOR
+33,Average Wage (USD),Employment Rate (no unit),-0.58,NOR
+34,Average Wage (USD),Hours worked per year (hours/year),-0.92,NOR
+35,Average Wage (USD),Average Wage (USD),1.0,NOR
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,CHE
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),0.21,CHE
+2,Poverty rate (no unit),Income Inequality (no unit),0.28,CHE
+3,Poverty rate (no unit),Employment Rate (no unit),0.29,CHE
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.06,CHE
+5,Poverty rate (no unit),Average Wage (USD),-0.08,CHE
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),0.21,CHE
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,CHE
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.05,CHE
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.78,CHE
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.93,CHE
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.97,CHE
+12,Income Inequality (no unit),Poverty rate (no unit),0.28,CHE
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.05,CHE
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,CHE
+15,Income Inequality (no unit),Employment Rate (no unit),0.34,CHE
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.3,CHE
+17,Income Inequality (no unit),Average Wage (USD),-0.38,CHE
+18,Employment Rate (no unit),Poverty rate (no unit),0.29,CHE
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.78,CHE
+20,Employment Rate (no unit),Income Inequality (no unit),0.34,CHE
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,CHE
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.65,CHE
+23,Employment Rate (no unit),Average Wage (USD),0.63,CHE
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.06,CHE
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.93,CHE
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.3,CHE
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.65,CHE
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,CHE
+29,Hours worked per year (hours/year),Average Wage (USD),-0.88,CHE
+30,Average Wage (USD),Poverty rate (no unit),-0.08,CHE
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.97,CHE
+32,Average Wage (USD),Income Inequality (no unit),-0.38,CHE
+33,Average Wage (USD),Employment Rate (no unit),0.63,CHE
+34,Average Wage (USD),Hours worked per year (hours/year),-0.88,CHE
+35,Average Wage (USD),Average Wage (USD),1.0,CHE
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,GBR
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.28,GBR
+2,Poverty rate (no unit),Income Inequality (no unit),0.49,GBR
+3,Poverty rate (no unit),Employment Rate (no unit),0.44,GBR
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.42,GBR
+5,Poverty rate (no unit),Average Wage (USD),-0.09,GBR
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.28,GBR
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,GBR
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.11,GBR
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.75,GBR
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.89,GBR
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.98,GBR
+12,Income Inequality (no unit),Poverty rate (no unit),0.49,GBR
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.11,GBR
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,GBR
+15,Income Inequality (no unit),Employment Rate (no unit),0.19,GBR
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.04,GBR
+17,Income Inequality (no unit),Average Wage (USD),0.42,GBR
+18,Employment Rate (no unit),Poverty rate (no unit),0.44,GBR
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.75,GBR
+20,Employment Rate (no unit),Income Inequality (no unit),0.19,GBR
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,GBR
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.48,GBR
+23,Employment Rate (no unit),Average Wage (USD),0.68,GBR
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.42,GBR
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.89,GBR
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.04,GBR
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.48,GBR
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,GBR
+29,Hours worked per year (hours/year),Average Wage (USD),-0.72,GBR
+30,Average Wage (USD),Poverty rate (no unit),-0.09,GBR
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.98,GBR
+32,Average Wage (USD),Income Inequality (no unit),0.42,GBR
+33,Average Wage (USD),Employment Rate (no unit),0.68,GBR
+34,Average Wage (USD),Hours worked per year (hours/year),-0.72,GBR
+35,Average Wage (USD),Average Wage (USD),1.0,GBR
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,USA
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),0.73,USA
+2,Poverty rate (no unit),Income Inequality (no unit),0.13,USA
+3,Poverty rate (no unit),Employment Rate (no unit),0.77,USA
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.54,USA
+5,Poverty rate (no unit),Average Wage (USD),0.64,USA
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),0.73,USA
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,USA
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.05,USA
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.36,USA
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.87,USA
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.99,USA
+12,Income Inequality (no unit),Poverty rate (no unit),0.13,USA
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.05,USA
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,USA
+15,Income Inequality (no unit),Employment Rate (no unit),-0.16,USA
+16,Income Inequality (no unit),Hours worked per year (hours/year),-0.09,USA
+17,Income Inequality (no unit),Average Wage (USD),-0.25,USA
+18,Employment Rate (no unit),Poverty rate (no unit),0.77,USA
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.36,USA
+20,Employment Rate (no unit),Income Inequality (no unit),-0.16,USA
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,USA
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.72,USA
+23,Employment Rate (no unit),Average Wage (USD),-0.61,USA
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.54,USA
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.87,USA
+26,Hours worked per year (hours/year),Income Inequality (no unit),-0.09,USA
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.72,USA
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,USA
+29,Hours worked per year (hours/year),Average Wage (USD),-0.9,USA
+30,Average Wage (USD),Poverty rate (no unit),0.64,USA
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.99,USA
+32,Average Wage (USD),Income Inequality (no unit),-0.25,USA
+33,Average Wage (USD),Employment Rate (no unit),-0.61,USA
+34,Average Wage (USD),Hours worked per year (hours/year),-0.9,USA
+35,Average Wage (USD),Average Wage (USD),1.0,USA
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,ISR
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.51,ISR
+2,Poverty rate (no unit),Income Inequality (no unit),0.53,ISR
+3,Poverty rate (no unit),Employment Rate (no unit),-0.1,ISR
+4,Poverty rate (no unit),Hours worked per year (hours/year),-0.41,ISR
+5,Poverty rate (no unit),Average Wage (USD),-0.64,ISR
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.51,ISR
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,ISR
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.85,ISR
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.91,ISR
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.4,ISR
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.71,ISR
+12,Income Inequality (no unit),Poverty rate (no unit),0.53,ISR
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.85,ISR
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,ISR
+15,Income Inequality (no unit),Employment Rate (no unit),-0.7,ISR
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.15,ISR
+17,Income Inequality (no unit),Average Wage (USD),-0.92,ISR
+18,Employment Rate (no unit),Poverty rate (no unit),-0.1,ISR
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.91,ISR
+20,Employment Rate (no unit),Income Inequality (no unit),-0.7,ISR
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,ISR
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.84,ISR
+23,Employment Rate (no unit),Average Wage (USD),0.57,ISR
+24,Hours worked per year (hours/year),Poverty rate (no unit),-0.41,ISR
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.4,ISR
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.15,ISR
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.84,ISR
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,ISR
+29,Hours worked per year (hours/year),Average Wage (USD),-0.59,ISR
+30,Average Wage (USD),Poverty rate (no unit),-0.64,ISR
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.71,ISR
+32,Average Wage (USD),Income Inequality (no unit),-0.92,ISR
+33,Average Wage (USD),Employment Rate (no unit),0.57,ISR
+34,Average Wage (USD),Hours worked per year (hours/year),-0.59,ISR
+35,Average Wage (USD),Average Wage (USD),1.0,ISR
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,ISL
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.29,ISL
+2,Poverty rate (no unit),Income Inequality (no unit),0.42,ISL
+3,Poverty rate (no unit),Employment Rate (no unit),-0.15,ISL
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.3,ISL
+5,Poverty rate (no unit),Average Wage (USD),-0.18,ISL
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.29,ISL
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,ISL
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.54,ISL
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),-0.01,ISL
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.92,ISL
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.81,ISL
+12,Income Inequality (no unit),Poverty rate (no unit),0.42,ISL
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.54,ISL
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,ISL
+15,Income Inequality (no unit),Employment Rate (no unit),0.38,ISL
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.74,ISL
+17,Income Inequality (no unit),Average Wage (USD),0.42,ISL
+18,Employment Rate (no unit),Poverty rate (no unit),-0.15,ISL
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),-0.01,ISL
+20,Employment Rate (no unit),Income Inequality (no unit),0.38,ISL
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,ISL
+22,Employment Rate (no unit),Hours worked per year (hours/year),0.17,ISL
+23,Employment Rate (no unit),Average Wage (USD),0.69,ISL
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.3,ISL
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.92,ISL
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.74,ISL
+27,Hours worked per year (hours/year),Employment Rate (no unit),0.17,ISL
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,ISL
+29,Hours worked per year (hours/year),Average Wage (USD),-0.63,ISL
+30,Average Wage (USD),Poverty rate (no unit),-0.18,ISL
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.81,ISL
+32,Average Wage (USD),Income Inequality (no unit),0.42,ISL
+33,Average Wage (USD),Employment Rate (no unit),0.69,ISL
+34,Average Wage (USD),Hours worked per year (hours/year),-0.63,ISL
+35,Average Wage (USD),Average Wage (USD),1.0,ISL
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,NZL
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.02,NZL
+2,Poverty rate (no unit),Income Inequality (no unit),0.95,NZL
+3,Poverty rate (no unit),Employment Rate (no unit),0.95,NZL
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.82,NZL
+5,Poverty rate (no unit),Average Wage (USD),0.19,NZL
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.02,NZL
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,NZL
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),0.29,NZL
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.74,NZL
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.79,NZL
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.97,NZL
+12,Income Inequality (no unit),Poverty rate (no unit),0.95,NZL
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),0.29,NZL
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,NZL
+15,Income Inequality (no unit),Employment Rate (no unit),0.81,NZL
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.61,NZL
+17,Income Inequality (no unit),Average Wage (USD),0.48,NZL
+18,Employment Rate (no unit),Poverty rate (no unit),0.95,NZL
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.74,NZL
+20,Employment Rate (no unit),Income Inequality (no unit),0.81,NZL
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,NZL
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.58,NZL
+23,Employment Rate (no unit),Average Wage (USD),0.9,NZL
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.82,NZL
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.79,NZL
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.61,NZL
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.58,NZL
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,NZL
+29,Hours worked per year (hours/year),Average Wage (USD),-0.81,NZL
+30,Average Wage (USD),Poverty rate (no unit),0.19,NZL
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.97,NZL
+32,Average Wage (USD),Income Inequality (no unit),0.48,NZL
+33,Average Wage (USD),Employment Rate (no unit),0.9,NZL
+34,Average Wage (USD),Hours worked per year (hours/year),-0.81,NZL
+35,Average Wage (USD),Average Wage (USD),1.0,NZL
+0,Poverty rate (no unit),Poverty rate (no unit),1.0,CHL
+1,Poverty rate (no unit),GDP per hours worked (USD/hour),-0.96,CHL
+2,Poverty rate (no unit),Income Inequality (no unit),0.84,CHL
+3,Poverty rate (no unit),Employment Rate (no unit),-0.57,CHL
+4,Poverty rate (no unit),Hours worked per year (hours/year),0.82,CHL
+5,Poverty rate (no unit),Average Wage (USD),-0.69,CHL
+6,GDP per hours worked (USD/hour),Poverty rate (no unit),-0.96,CHL
+7,GDP per hours worked (USD/hour),GDP per hours worked (USD/hour),1.0,CHL
+8,GDP per hours worked (USD/hour),Income Inequality (no unit),-0.85,CHL
+9,GDP per hours worked (USD/hour),Employment Rate (no unit),0.37,CHL
+10,GDP per hours worked (USD/hour),Hours worked per year (hours/year),-0.98,CHL
+11,GDP per hours worked (USD/hour),Average Wage (USD),0.89,CHL
+12,Income Inequality (no unit),Poverty rate (no unit),0.84,CHL
+13,Income Inequality (no unit),GDP per hours worked (USD/hour),-0.85,CHL
+14,Income Inequality (no unit),Income Inequality (no unit),1.0,CHL
+15,Income Inequality (no unit),Employment Rate (no unit),-0.87,CHL
+16,Income Inequality (no unit),Hours worked per year (hours/year),0.88,CHL
+17,Income Inequality (no unit),Average Wage (USD),-0.91,CHL
+18,Employment Rate (no unit),Poverty rate (no unit),-0.57,CHL
+19,Employment Rate (no unit),GDP per hours worked (USD/hour),0.37,CHL
+20,Employment Rate (no unit),Income Inequality (no unit),-0.87,CHL
+21,Employment Rate (no unit),Employment Rate (no unit),1.0,CHL
+22,Employment Rate (no unit),Hours worked per year (hours/year),-0.51,CHL
+23,Employment Rate (no unit),Average Wage (USD),0.87,CHL
+24,Hours worked per year (hours/year),Poverty rate (no unit),0.82,CHL
+25,Hours worked per year (hours/year),GDP per hours worked (USD/hour),-0.98,CHL
+26,Hours worked per year (hours/year),Income Inequality (no unit),0.88,CHL
+27,Hours worked per year (hours/year),Employment Rate (no unit),-0.51,CHL
+28,Hours worked per year (hours/year),Hours worked per year (hours/year),1.0,CHL
+29,Hours worked per year (hours/year),Average Wage (USD),-0.93,CHL
+30,Average Wage (USD),Poverty rate (no unit),-0.69,CHL
+31,Average Wage (USD),GDP per hours worked (USD/hour),0.89,CHL
+32,Average Wage (USD),Income Inequality (no unit),-0.91,CHL
+33,Average Wage (USD),Employment Rate (no unit),0.87,CHL
+34,Average Wage (USD),Hours worked per year (hours/year),-0.93,CHL
+35,Average Wage (USD),Average Wage (USD),1.0,CHL
