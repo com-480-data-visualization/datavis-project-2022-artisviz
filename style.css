@@ -83,6 +83,7 @@ header img{
     z-index: auto;
 	height: auto;	
 	padding: 1em;
+    line-height : 80px;
 
 }
 
@@ -118,6 +119,8 @@ header img{
     /* background-image: url("ressources/images/wallpaper.png"); */
     font-family: 'Poppins', sans-serif;
 	overflow: auto;
+    background-color: #ffffff;
+
   }
   
   /* Navigation links */
@@ -128,12 +131,11 @@ header img{
     background-color: #9da6e6;
 	text-decoration: none;
 	font-style: bold;
-	font-size: 14px;
-	width: 14.28%; /* Adjust manually to number of categories.. */
+	font-size: 12px;
+	width: 12.5%; /* Adjust manually to number of categories.. */
 	text-align: center; 
 	vertical-align: middle ;
-    border-radius: 5px;
-    height: 70px;
+    height: 60px;
     font-family: 'Poppins', sans-serif;
   }
   
