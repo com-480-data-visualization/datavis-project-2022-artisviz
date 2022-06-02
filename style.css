@@ -131,11 +131,11 @@ header img{
     background-color: #9da6e6;
 	text-decoration: none;
 	font-style: bold;
-	font-size: 14px;
+	font-size: 12px;
 	width: 12.5%; /* Adjust manually to number of categories.. */
 	text-align: center; 
 	vertical-align: middle ;
-    height: 70px;
+    height: 60px;
     font-family: 'Poppins', sans-serif;
   }
   
