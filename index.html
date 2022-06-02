@@ -349,12 +349,13 @@
 
 	<hr>
 	<!-- ########################################### CORRELATION ###############################################-->
-	<div  class = "text_box" name="interaction" id="interaction">
+	<div  class = "text_box" name="correlation" id="correlation">
 		<h2> Give me the numbers ! </h2>
 
 		<p>
 			We have observed the behaviour of countries through the years, but having some numbers to rely on is always a plus 
-			in an argument. For that purpose, here are two correlation matrices presenting <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"> Pearson's correlation coefficient</a>.
+			in an argument. For that purpose, here are two correlation matrices presenting <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"> Pearson's correlation coefficient</a> 
+			between all the variables.
 
 		</p>
 
@@ -384,7 +385,7 @@
 			</div>
 		</div>
 		<p>
-			The 
+			As discussed earlier in <a href="#income"> the first visualisations </a>
 		</p>	
 	</div>
 
@@ -409,17 +410,13 @@
 		}).catch(console.error);
 		</script>
 
-
 		<div class = "visualisation" id="vis3"></div>
-
 		<script type="text/javascript">
 		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
 		vegaEmbed('#vis3', spec).then(function(result) {
 		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 		}).catch(console.error);
 		</script> 
-	
-
 
 		<div class="text_box">
 			<h3> Understanding the relationship between the variables.</h3>
