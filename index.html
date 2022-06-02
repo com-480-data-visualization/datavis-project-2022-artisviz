@@ -64,17 +64,7 @@
 		<div> 
 			<h1 class="mainTitle"> Working time and its socio-economical impacts </h1> 
 		</div>
-		<div class = "navbar">
-			<a href="#home">Political context</a>
-			<a href="#theData"> The data </a>
 
-			<a href="#workinghours">Where do people work the most?</a>
-			<a href="#purchasing">What about purchasing power? </a>
-			<a href="#productivity">What about productivity? </a>
-			<a href="#interaction">How does it interact?</a>
-			<a href="#conclusion">Conclusion</a>
-
-		</div>
 	</header> 
 	
 
@@ -82,8 +72,19 @@
 
 
 	<div class="text_area" >
-		<!--blabla-->
-		<div class="text_box" name="home" id="home"> 
+		<div class = "navbar">
+			<a href="#home">Political context</a>
+			<a href="#theData"> The data and visualisations </a>
+
+			<a href="#workinghours">Where do people work the most?</a>
+			<a href="#income">Work time and income</a>
+			<a href="#productivity">Work time and productivity</a>
+			<a href="#correlation"> Give me the numbers !</a>
+			<a href="#interaction">Exploring the variables</a>
+			<a href="#conclusion">Conclusion</a>
+
+		</div>
+			<div class="text_box" name="home" id="home"> 
 			<h2>Political context</h2>
 			<p>
 				In the context of the 2022 French presidential election, the subject of minimum wages and working hours has been brought back to the centre of the public debate by candidates and their parties.
@@ -208,9 +209,9 @@
 	<hr>
 	<!-- ############################################## WORK TIME & MONEY ##################################################################""-->
 
-	<div class="text_box" name="purchasing" id="purchasing">
+	<div class="text_box" name="income" id="income">
 
-		<h2>Where people work the most, do they earn more money?</h2>
+		<h2> Work time and income</h2>
 		<p>
 		Working more should result in a higher wage, right? As the saying goes : "make work pay". The following visualisations will put this 
 		statement to the test. Let's evaluate people's wealth according to the average hours worked in the country by plotting 
@@ -293,7 +294,7 @@
 	<hr>
 	<!-- ############################ WORK & PRODUCTIVITY ##############################################################-->
 	<div class="text_box" name="productivity" id="productivity">
-		<h2>Productivity and worktime </h2>
+		<h2>Work time and productivity</h2>
 		<p>
 			Some say that working less increases your productivity, others claim that productivity comes from more efforts.
 			Let's visualize the relation between the number of hours worked and the GDP per hour worked in the country.
@@ -329,6 +330,9 @@
 				We can assure the scenario presented earlier.	
 				
 			</p>
+			<p>
+				These observations let us think that there is a golabl trend where each hour worked produces more and more wealth as time passes.
+			</p>
 		</div>
 
 	</div>	
@@ -344,67 +348,85 @@
 
 
 	<hr>
-	<!-- ########################################### VARIOUS RELATIONS ###############################################-->
-
-
+	<!-- ########################################### CORRELATION ###############################################-->
 	<div  class = "text_box" name="interaction" id="interaction">
-		<h2>Choose variables and see how they evolve across time...</h2>
+		<h2> Give me the numbers ! </h2>
+
 		<p>
-			In this section you can see how variables related to working time can evolve across time. And their evolution is not as simple as the correlations found in the first place!
+			We have observed the behaviour of countries through the years, but having some numbers to rely on is always a plus 
+			in an argument. For that purpose, here are two correlation matrices presenting <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"> Pearson's correlation coefficient</a>.
+
 		</p>
+
+		<div>
+			<div class="row">
+				<div class="column">
+					<div class = "visualisation" id="correlation_EU"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_EU.json";
+					vegaEmbed('#correlation_EU', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
+		
+				<div class="column">
+					<div class = "visualisation" id="correlation_NEU"></div>
+		
+					<script type="text/javascript">
+					var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_NEU.json";
+					vegaEmbed('#correlation_NEU', spec).then(function(result) {
+					// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+					}).catch(console.error);
+					</script> 
+				</div>
+			</div>
+		</div>
 		<p>
-			Choose how many variable you want within GDP, GDP/hour, poverty rate, employment rate and income inequalities.
-		</p>
-
-
-
+			The 
+		</p>	
 	</div>
 
 
-	<!-- Comment on the visualisation -->
-	<div class = "text_box">
-		Interpretation and comments
-	</div>	
 
 	<!-- ############################### DATA EXPLORATION ############################# -->
+	<div  class = "text_box" name="interaction" id="interaction">
+		<h2> Exploring the variables</h2>
 
+
+		<div class="text_box">
+			Here you can select and compare the evolution of EU countries and non EU countries that are members of the OECD. You can zoom in and point your cursor on 
+			data points to get more information on the data point value. You can also select a country of interest and change the variable observed to make a quick comparison.
+		</div>
+
+		<div class = "visualisation" id="vis2"></div>
+
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
+		vegaEmbed('#vis2', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script>
+
+
+		<div class = "visualisation" id="vis3"></div>
+
+		<script type="text/javascript">
+		var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
+		vegaEmbed('#vis3', spec).then(function(result) {
+		// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+		}).catch(console.error);
+		</script> 
 	
 
-	<div class="text_box">
 
-		<h3> Exploring the variables</h3>
-		Here you can select and compare the evolution of EU countries and non EU countries that are members of the OECD. You can zoom in and point your cursor on 
-		data points to get more information on the data point value. You can also select a country of interest and change the variable observed to make a quick comparison.
-	</div>
+		<div class="text_box">
+			<h3> Understanding the relationship between the variables.</h3>
 
-	<div class = "visualisation" id="vis2"></div>
-
-	<script type="text/javascript">
-	var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation.json";
-	vegaEmbed('#vis2', spec).then(function(result) {
-	// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-	}).catch(console.error);
-	</script>
-
-
-	<div class = "visualisation" id="vis3"></div>
-
-	<script type="text/javascript">
-	var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/visualisation_notEU.json";
-	vegaEmbed('#vis3', spec).then(function(result) {
-	// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-	}).catch(console.error);
-	</script> 
-	<!-- End of Second visualisation -->
-	
-
-
-	<div class="text_box">
-		<h3> Understanding the relationship between the variables.</h3>
-
-		In the following visualisations, you can explore the relationship between four variables through the years and for a selection of EU countries.
-		The frames are interactive, you can zoom in and out, change the year of interest and click on a data point to show the curve followed through the year by the selected country as well as a track of the years. 
-	</div>
+			In the following visualisations, you can explore the relationship between four variables through the years and for a selection of EU countries.
+			The frames are interactive, you can zoom in and out, change the year of interest and click on a data point to show the curve followed through the year by the selected country as well as a track of the years. 
+		</div>
 
 	<!--################################################## TABLE OF VIZ - EUROPE ######################################-->
 
@@ -489,31 +511,7 @@
 		Interpretation of the results.
 	</div>
 
-	<div>
-		<div class="row">
-			<div class="column">
-				<div class = "visualisation" id="correlation_EU"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_EU.json";
-				vegaEmbed('#correlation_EU', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-	
-			<div class="column">
-				<div class = "visualisation" id="correlation_NEU"></div>
-	
-				<script type="text/javascript">
-				var spec = "https://raw.githubusercontent.com/com-480-data-visualization/datavis-project-2022-artisviz/main/correlation_matrix_NEU.json";
-				vegaEmbed('#correlation_NEU', spec).then(function(result) {
-				// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-				}).catch(console.error);
-				</script> 
-			</div>
-		</div>
-	</div>
+
 
 <!-- ##############################################CONCLUSION##########################################################-->
 

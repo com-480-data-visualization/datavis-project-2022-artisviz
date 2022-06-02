@@ -22,7 +22,11 @@
   {
     "mark": "text",
     "encoding": {
-      "text": {"field": "Value", "type": "quantitative"}
+      "text": {"field": "Value", "type": "quantitative"},
+      "color": {
+        "condition": {"test": "datum['Value'] < 0.5", "value": "black"},
+        "value": "white"
+      }
     }
   }
 ],
