@@ -5,8 +5,8 @@
   "y": {"field": "Field 2", "type": "ordinal","axis": {"title": ""}},
   "x": {"field": "Field 1", "type": "ordinal","axis": {"title": ""}}
 },
-"width": 300,
-"height":300,
+"width": 200,
+"height":200,
 "layer": [
   {
     "mark": "rect",
