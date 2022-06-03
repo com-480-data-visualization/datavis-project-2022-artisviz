@@ -1,10 +1,6 @@
 class MapPlot {
-
-	
-
-    
 	makeColorbar(svg, color_scale, top_left, colorbar_size, scaleClass=d3.scaleLinear) {
-		//affichage
+		// Affichage color bar
 		const value_to_svg = scaleClass()
 			.domain(color_scale.domain())
 			.range([colorbar_size[1], 0]);
@@ -55,28 +51,11 @@ class MapPlot {
 			.style('stroke', 'black')
 			.style('stroke-width', '1px')
 	}
-	//constructeur, l'input doit être un truc SVG
 	constructor(svg_element_id) {
-		//il y a peut-être un problème avec la ligne suivante : 
-		// je crois que d3 ne trouve pas # + svg_element_id
-		//est-ce qu'il faut utiliser un id particulier ?
 		this.svg = d3.select('#' + svg_element_id);
-		// may be useful for calculating scales
 		const svg_viewbox = this.svg.node().viewBox.animVal;
 		this.svg_width = svg_viewbox.width;
 		this.svg_height = svg_viewbox.height;
-		//test zoom:
-		/*var mapFeatures = svg.append('g')
-			.attr('class', 'features YlGnBu');
-		mapFeatures.selectAll('path')
-			//.data.features.features
-		// D3 Projection
-		// similar to scales
-
-			var zoom = d3.behavior.zoom()
-		.scaleExtent([1, 10])
-		.on('zoom', doZoom);
-		svg.call(zoom);*/
 		const projection = d3.geoMercator()
 			.rotate([0, 0])
 			.center([8.3, 46.8]) // WorldSpace: Latitude and longitude of center of switzerland
@@ -88,7 +67,7 @@ class MapPlot {
 		const path_generator = d3.geoPath()
 			.projection(projection);
 
-		//colormap for population density
+		//colormap for number of working hours
 		const color_scale = d3.scaleLog()
 			.range(["hsl(60,100%,92%)", "hsl(0,100%,50%)"])
 			.interpolate(d3.interpolateHcl);
@@ -105,63 +84,30 @@ class MapPlot {
 
 		const map_promise = d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then((topojson_raw) => {
 			console.log(topojson_raw.objects.countries)
-			//const cantons_paths = topojson.feature(topojson_raw, topojson_raw.objects.cantons);
 			const country_paths = topojson.feature(topojson_raw, topojson_raw.objects.countries);
 			return country_paths.features;
 		});
             
-		//const point_promise = d3.csv("data/locations.csv").then((data) => {
-		//	let new_data = [];
-
-		//	for(let idx = 0; idx < data.length; idx += 10) {
-				//new_data.push(data[idx]);
-		//	}
-
-		//	return new_data;
-		//});
-		//console.log(map_promise)
 		Promise.all([population_promise, map_promise]).then((results) => {
-			//Promise.all([population_promise, map_promise]).then((results) => {
-			// ai remplacé population par hours
-			//ai enleve dernier argu point_promise
-            let countryId_to_hours = results[0];
-			//remplacé cantonId_to_jsp
-			let map_data = results[1];
-			//let point_data = results[2];
-			
-            
-            
+	        let countryId_to_hours = results[0];
+			let map_data = results[1];			
+
 			map_data.forEach(country => {
 				country.properties.hours_worked = countryId_to_hours[country.properties.name];
 			});
 
 			const densities = Object.values(countryId_to_hours);
-
-			// color_scale.domain([d3.quantile(densities, .01), d3.quantile(densities, .99)]);
-			//color_scale.domain([d3.min(densities), d3.max(densities)]);
 			color_scale.domain([d3.quantile(densities, .01), d3.quantile(densities, .99)]);
 			color_scale.domain([d3.min(densities), d3.max(densities)]);
 
 			// Order of creating groups decides what is on top
 			this.map_container = this.svg.append('g');
 			this.point_container = this.svg.append('g');
-			this.label_container = this.svg.append('g'); // <- is on top
-			/*this.svg.append('g')
-				.attr('class','country')
-				.data(map_data)
-				.enter()
-				.append('path_generator')
-				.attrs({
-					'd' : path_generator,
-					'class': 'grey',
-					'stroke-width': 0.3,
-					'cursor': 'pointer'
-
-				})*/
+			this.label_container = this.svg.append('g');
 
 			this.makeColorbar(this.svg, color_scale, [-120, 30], [20, this.svg_height - 2*30]);	
 
-			//color the map according to the density of each canton
+			//color the map according to the average number of working hours per capita of each country
 			this.map_container.selectAll(".country")
 				.data(map_data)
 				.enter()
@@ -177,17 +123,11 @@ class MapPlot {
 				});
 
 			this.label_container.selectAll(".country-label")
-			//this.label_container.selectAll(".canton-label")
-
-			
-
 				.data(map_data)
 				.enter().append("text")
-				/* .text((d) => d.properties.hours_worked ? d.properties.name : "") */
 				.classed("country-label", true)
 				.attr("d", path_generator)
 				.attr("transform", (d) => "translate(" + path_generator.centroid(d) + ")")
-				//.translate((d) => path_generator.centroid(d))
 				.attr("dy", ".35em")
 				.on("mouseover", function(d, i) {
 					d3.select(this).style("display", "block");
@@ -196,22 +136,7 @@ class MapPlot {
 					d3.select(this).style("display", "none");
 				})
 				;
-
-				
-
 			const r = 3;
-
-			/*this.point_container.selectAll(".point")
-				//.data(point_data)
-				.enter()
-				.append("circle")
-				.classed("point", true)
-				.attr("r", r)
-				.attr("cx", -r)	
-				.attr("cy", -r)
-				.attr("transform", (d) => "translate(" + projection([d.lon, d.lat]) + ")")
-				;
-*/
 			this.makeColorbar(this.svg, color_scale, [-120, 30], [20, this.svg_height - 2*30]);
 		});
 	}
@@ -228,10 +153,6 @@ function whenDocumentLoaded(action) {
 
 whenDocumentLoaded(() => {
 	plot_object = new MapPlot('map1');
-	// constructor(svg_element_id) -> map-plot doit être svg
-	// En fait non: // path generator to convert JSON to SVG paths
-	// const path_generator = d3.geoPath()
-	// plot object is global, you can inspect it in the dev-console
 });
 
 
