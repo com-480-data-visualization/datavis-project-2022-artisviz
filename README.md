@@ -1,7 +1,7 @@
 # Working Time and its socio-economical impacts.
 
 
-## :book: Abstract
+## :pen: Abstract
 
 This repository contains the code for the project of Data Visualisation COM-380 of EPFL by team ArtisViz :fireworks:.
 
@@ -21,8 +21,12 @@ The website compiling our data story and the visualisations is accessible [here]
 
 If you prefer a guided tour of the website, here is a short screen cast describing all you need to know.
 
+
 https://user-images.githubusercontent.com/44549540/171841570-b062dbe4-6457-4cae-a788-7241b78aa942.mp4
 
+## :book: Process Book
+
+[Here](https://github.com/com-480-data-visualization/datavis-project-2022-artisviz/blob/main/Milestone3/Process-book-artisviz.pdf) is the process book of our project.
 
 
 ## :raised_hands: Team 
