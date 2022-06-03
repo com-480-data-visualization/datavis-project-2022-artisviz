@@ -308,23 +308,23 @@ hr{
     background-color: white;
     align-self: center;
     align-items: center;
-    padding-left: -1cm;
 }
 
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-    float: left;
+    float: center;
     width: 45%;
+    text-align: center;
   }
-
+#row {
+    margin:0 auto;
+    text-align: center;
+ 
+  }
   
   /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 
 /*=======================================MAP====================================================*/
 svg {
